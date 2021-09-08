@@ -9,7 +9,7 @@ params:
   author: Calin Tataru
   backgroundColor: white
   description: Ministerio del Interior
-  font: Raleway
+  font: Encode Sans Semi Condensed
   githubUsername: '#'
   highlight: yes
   highlightLanguages:
@@ -44,9 +44,15 @@ menu:
     - name: About
       url: /about/
       weight: 2
-    - name: Posts
-      url: /post/
+    - name: Resultados
+      url: /totales/
       weight: 3
-    - name: Projects
-      url: /project/
+    - name: Slope
+      url: /slope/
       weight: 4
+    - name: Bancas
+      url: /bancas/
+      weight: 5
+    - name: Post
+      url: /post/
+      weight: 6

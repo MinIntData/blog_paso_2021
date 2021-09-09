@@ -1,0 +1,19 @@
+---
+description: ¿Cómo usar el sitio?
+title: Sobre el sitio
+---
+
+Presentamos diferentes visualizaciones electorales.
+
+En la pestaña **resultados** podrán observar los totales para las paso 2021, 2019, y 2017 a nivel nacional y provincial.
+
+En **slope** se observa la evolución del desempeño electoral del FDT + aliados para las primarias 2017, 2019 y 2021 a nivel departamento y provincia.
+
+En **proyecciones** habrá un conteo actualizado de la distribución de bancas en ambas cámaras del Congreso según los resultados obtenidos..
+
+En **situación provincial** se muestra el desempeño relativo de los oficialismo provinciales y los resultados obtenidos por el FDT + aliados para las paso 2017, 2019 y 2021.
+
+En **medidor de apatía** se construye un "índice de apatía" a partir del nivel de votos no afirmativos válidos (voto blanco) y votos nulos. Los resultados se encuentran desagregados hasta el nivel de departamento.  
+
+
+

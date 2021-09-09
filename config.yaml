@@ -1,14 +1,22 @@
 baseURL: http://example.com/
-languageCode: en-us
+languageCode: es-AR
 title: Elecciones 2021
 theme: minimal
 disqusShortname: username
 googleAnalytics: ''
 params:
-  accent: lightblue
+  accent: black
   author: Calin Tataru
-  backgroundColor: white
-  description: Ministerio del Interior
+  backgroundColor: lightblue
+  description: | 
+    **PASO - 12 de Septiembre**
+    
+    **Ministerio del Interior**
+    
+    **Unidad de datos**
+    
+    
+    ![](/min_interior.png)
   font: Encode Sans Semi Condensed
   githubUsername: '#'
   highlight: yes
@@ -26,33 +34,30 @@ menu:
       url: mailto:me@example.com
       weight: 1
     - name: fab fa-github
-      url: https://github.com/username/
+      url: https://github.com/MinIntData/blog_paso_2021
       weight: 2
     - name: fab fa-twitter
       url: https://twitter.com/username/
       weight: 3
-    - name: fab fa-linkedin
-      url: https://www.linkedin.com/in/username/
-      weight: 4
-    - name: fab fa-stack-overflow
-      url: https://www.stackoverflow.com/username/
-      weight: 5
   main:
-    - name: Home
+    - name: Portada
       url: /
       weight: 1
-    - name: About
+    - name: Guía
       url: /about/
       weight: 2
-    - name: Resultados
+    - name: Resultados Totales
       url: /totales/
       weight: 3
     - name: Slope
       url: /slope/
       weight: 4
-    - name: Bancas
+    - name: Proyecciones
       url: /bancas/
       weight: 5
-    - name: Post
+    - name: Situación Provincial
       url: /post/
       weight: 6
+    - name: Apatía Electoral
+      url: /post/
+      weight: 7

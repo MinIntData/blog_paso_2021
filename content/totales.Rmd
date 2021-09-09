@@ -1,0 +1,27 @@
+---
+title: Totales
+author: Datos.MInt
+date: '2021-09-09'
+slug: []
+categories: []
+tags: []
+description: ''
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+pacman::p_load(tidyverse)
+
+```
+Todo lo que pongamos en este Rmarkdown sale directo desde la pestaña. 
+No queda como posts individuales. 
+Se actualizaría solo este Rmarkdown
+
+
+Por ejemplo: un plot:
+
+```{r, echo=FALSE}
+ggplot(mtcars)+
+  geom_col(aes(cyl, hp))
+```
+

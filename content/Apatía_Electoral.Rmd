@@ -10,7 +10,25 @@ description: ''
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, error = FALSE)
+
+library(flexdashboard)
+library(tidyverse)
+library(sf)
+library(leaflet)
+
+# Diputados x depto ####
+base_diputados <- read_sf("../content/data/apatia/base_diputados_apatia.geojson") %>%
+  print()
+
+paleta_dip <- colorNumeric(palette = "viridis", domain = base_diputados$diferencia_apatia, reverse = T)
+
+
+#Diputados x prov ####
+base_diputados_prov <- read_sf("../content/data/apatia/base_diputados_apatiaProv.geojson") %>%
+  print()
+
+paleta_dip_prov <- colorNumeric(palette = "viridis", domain = base_diputados_prov$diferencia_apatia, reverse = T)
 ```
 
 
@@ -18,4 +36,43 @@ knitr::opts_chunk$set(echo = TRUE)
 
  
 [Acceso al Mapa](https://paso2021.netlify.app/Apatia_files/)  
+
+
+```{r, include=FALSE}
+leaflet(base_diputados_prov) %>%
+  addTiles() %>%
+  addProviderTiles(providers$CartoDB.DarkMatter) %>%
+  addPolygons(popup = ~paste("Provincia: ", base_diputados_prov$id,
+                             "</br>Promedio histórico de participacion: ", as.character(promedio_participacion),
+                             "</br>Participación 2021: ", as.character(participacion),
+                             "</br>Prom. histórico apatía: ", as.character(promedio_apatia),
+                             "</br>Apatía 2021 : ", as.character(apatia)),
+              fillColor = ~paleta_dip_prov(diferencia_apatia),
+              weight = 0,
+              fillOpacity = 0.9) %>%
+  addPolylines(color = "white", weight = 0.6) %>%
+  addLegend(pal = paleta_dip_prov, values = base_diputados_prov$diferencia_apatia,
+            title = "Diferencia de apatía con respecto al promedio histórico",
+            opacity = 0.1)
+
+```
+
+```{r, include=FALSE}
+leaflet(base_diputados) %>%
+  addTiles() %>%
+  addProviderTiles(providers$CartoDB.DarkMatter) %>%
+  addPolygons(popup = ~paste("Provincia: ", base_diputados$id,
+                             "</br>Departamento: ", nomdepto_censo,
+                             "</br>Promedio histórico de participacion: ", as.character(promedio_participacion),
+                             "</br>Participación 2021: ", as.character(participacion),
+                             "</br>Prom. histórico apatía: ", as.character(promedio_apatia),
+                             "</br>Apatía 2021 : ", as.character(apatia)),
+              fillColor = ~paleta_dip(diferencia_apatia),
+              weight = 0,
+              fillOpacity = 0.9) %>%
+  addPolylines(color = "white", weight = 0.6) %>%
+  addLegend(pal = paleta_dip, values = base_diputados$diferencia_apatia,
+            title = "Diferencia de apatía con respecto al promedio histórico",
+            opacity = 0.1)
+```
 

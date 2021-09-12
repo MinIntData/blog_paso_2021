@@ -3,7 +3,6 @@ title: "Promedio por departamento y provincia"
 output: 
   flexdashboard::flex_dashboard:
     vertical_layout: fill
-    orientation: rows
 ---
 
 ```{r setup, include=FALSE}
@@ -30,12 +29,11 @@ paleta_dip_prov <- colorNumeric(palette = "viridis", domain = base_diputados_pro
 ```
 
 
-Row {data-width=500}
+Row {data-width=600}
 -------------------------------------
 ### Promedio por Provincia
 
 ```{r}
-
 leaflet(base_diputados_prov) %>%
   addTiles() %>%
   addProviderTiles(providers$CartoDB.DarkMatter) %>%

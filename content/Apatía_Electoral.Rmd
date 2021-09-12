@@ -38,7 +38,7 @@ paleta_dip_prov <- colorNumeric(palette = "viridis", domain = base_diputados_pro
 [Acceso al Mapa](https://paso2021.netlify.app/Apatia_files/)  
 
 
-```{r, include=FALSE}
+```{r}
 leaflet(base_diputados_prov) %>%
   addTiles() %>%
   addProviderTiles(providers$CartoDB.DarkMatter) %>%
@@ -57,7 +57,7 @@ leaflet(base_diputados_prov) %>%
 
 ```
 
-```{r, include=FALSE}
+```{r}
 leaflet(base_diputados) %>%
   addTiles() %>%
   addProviderTiles(providers$CartoDB.DarkMatter) %>%

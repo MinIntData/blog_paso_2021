@@ -60,5 +60,5 @@ menu:
       url: /post/
       weight: 6
     - name: Apatía Electoral
-      url: /post/
+      url: /apatia/
       weight: 7

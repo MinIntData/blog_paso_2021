@@ -53,6 +53,7 @@ leaflet(base_diputados_prov) %>%
 ```
 
 
+
 ## Promedio por departamento
 
 ```{r}

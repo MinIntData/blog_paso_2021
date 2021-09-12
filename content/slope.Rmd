@@ -10,5 +10,3 @@ tags: []
 ```{=html}
 <div class="flourish-embed flourish-chart" data-src="visualisation/7245260"><script src="https://public.flourish.studio/resources/embed.js"></script> style = "height: 1280px; width: 1280px"></div>
 ```
-
-

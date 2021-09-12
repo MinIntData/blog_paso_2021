@@ -31,12 +31,9 @@ base_diputados_prov <- read_sf("../content/data/apatia/base_diputados_apatiaProv
 paleta_dip_prov <- colorNumeric(palette = "viridis", domain = base_diputados_prov$diferencia_apatia, reverse = T)
 ```
 
+**Las siguientes visualizaciones captan, a partir de las categorías de voto blanco, voto nulo y participación electoral un índice promedio histórico de "apatía" o descontento en el sufragio.**
 
-**Las siguientes visualizaciones captan, a partir de las categorías de voto blanco, voto nulo y participación electoral un índice promedio histórico de “apatía” o descontento en el sufragio.**
-
- 
-
-**Índice por provincia**
+-   **Índice por provincia**
 
 ```{r}
 leaflet(base_diputados_prov) %>%
@@ -57,10 +54,7 @@ leaflet(base_diputados_prov) %>%
 
 ```
 
-
-
-
-**Índice por departamento**
+-   **Índice por departamento**
 
 ```{r}
 leaflet(base_diputados) %>%
@@ -80,4 +74,3 @@ leaflet(base_diputados) %>%
             title = "Diferencia de apatía con respecto al promedio histórico",
             opacity = 0.1)
 ```
-

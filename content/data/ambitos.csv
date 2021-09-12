@@ -1,0 +1,1755 @@
+id_eleccion,id_distrito,id_seccion,id_municipio,name_ambito
+02,99,999,999,Argentina
+02,03,999,999,Catamarca
+02,07,999,999,Chubut
+02,05,999,999,Corrientes
+02,04,999,999,Córdoba
+02,11,999,999,La Pampa
+02,13,999,999,Mendoza
+02,21,999,999,Santa Fe
+02,23,999,999,Tucumán
+02,21,012,999,9 de Julio
+02,03,010,999,Ambato
+02,03,004,999,Ancasti
+02,03,012,999,Andalgalá
+02,03,014,999,Antofagasta de la Sierra
+02,11,001,999,Atreucó
+02,21,001,999,Belgrano
+02,05,011,999,Bella Vista
+02,03,013,999,Belén
+02,05,025,999,Berón de Astrada
+02,07,002,999,Biedma
+02,23,013,999,Burruyacú
+02,04,002,999,Calamuchita
+02,11,003,999,Caleu Caleu
+02,03,002,999,Capayán
+02,03,001,999,Capital
+02,04,001,999,Capital
+02,05,001,999,Capital
+02,11,002,999,Capital
+02,13,001,999,Capital
+02,23,001,999,Capital
+02,21,002,999,Caseros
+02,21,003,999,Castellanos
+02,11,004,999,Catriló
+02,11,005,999,Chalileo
+02,11,006,999,Chapaleufú
+02,11,007,999,Chical Có
+02,23,005,999,Chicligasta
+02,04,003,999,Colón
+02,05,017,999,Concepción
+02,11,008,999,Conhelo
+02,23,012,999,Cruz Alta
+02,04,004,999,Cruz del Eje
+02,11,009,999,Curacó
+02,05,003,999,Curuzú Cuatiá
+02,07,005,999,Cushamen
+02,03,005,999,El Alto
+02,05,012,999,Empedrado
+02,07,015,999,Escalante
+02,05,005,999,Esquina
+02,23,003,999,Famaillá
+02,07,011,999,Florentino Ameghino
+02,03,009,999,Fray Mamerto Esquiú
+02,07,006,999,Futaleufú
+02,07,012,999,Gaiman
+02,21,005,999,Garay
+02,07,004,999,Gastre
+02,05,022,999,General Alvear
+02,13,018,999,General Alvear
+02,21,006,999,General López
+02,21,007,999,General Obligado
+02,05,014,999,General Paz
+02,04,005,999,General Roca
+02,04,006,999,General San Martín
+02,13,002,999,Godoy Cruz
+02,05,002,999,Goya
+02,23,009,999,Graneros
+02,11,010,999,Guatraché
+02,13,003,999,Guaymallén
+02,11,011,999,Hucal
+02,21,008,999,Iriondo
+02,04,007,999,Ischilín
+02,05,024,999,Itatí
+02,05,019,999,Ituzaingó
+02,23,007,999,Juan Bautista Alberdi
+02,13,010,999,Junín
+02,04,008,999,Juárez Celman
+02,21,009,999,La Capital
+02,23,008,999,La Cocha
+02,03,003,999,La Paz
+02,13,015,999,La Paz
+02,07,007,999,Languiñeo
+02,21,011,999,Las Colonias
+02,13,004,999,Las Heras
+02,05,006,999,Lavalle
+02,13,005,999,Lavalle
+02,23,011,999,Leales
+02,11,013,999,Lihuel Calel
+02,11,014,999,Limay Mahuida
+02,11,012,999,Loventué
+02,13,007,999,Luján de Cuyo
+02,23,002,999,Lules
+02,13,006,999,Maipú
+02,13,017,999,Malargüe
+02,11,015,999,Maracó
+02,04,009,999,Marcos Juárez
+02,05,018,999,Mburucuyá
+02,05,004,999,Mercedes
+02,04,010,999,Minas
+02,05,009,999,Monte Caseros
+02,23,004,999,Monteros
+02,07,010,999,Mártires
+02,03,007,999,Paclín
+02,07,009,999,Paso de Indios
+02,05,008,999,Paso de los Libres
+02,04,011,999,Pocho
+02,03,011,999,Pomán
+02,04,017,999,Presidente Roque Sáenz Peña
+02,11,016,999,Puelén
+02,04,012,999,Punilla
+02,11,017,999,Quemú Quemú
+02,11,018,999,Rancul
+02,07,001,999,Rawson
+02,11,019,999,Realicó
+02,13,011,999,Rivadavia
+02,21,013,999,Rosario
+02,23,006,999,Río Chico
+02,04,013,999,Río Cuarto
+02,04,014,999,Río Primero
+02,04,015,999,Río Seco
+02,04,016,999,Río Segundo
+02,07,013,999,Río Senguer
+02,05,015,999,Saladas
+02,04,018,999,San Alberto
+02,13,013,999,San Carlos
+02,05,021,999,San Cosme
+02,21,016,999,San Cristóbal
+02,04,019,999,San Javier
+02,21,017,999,San Javier
+02,21,018,999,San Jerónimo
+02,04,020,999,San Justo
+02,21,019,999,San Justo
+02,21,020,999,San Lorenzo
+02,05,010,999,San Luis del Palmar
+02,05,016,999,San Martín
+02,13,009,999,San Martín
+02,21,021,999,San Martín
+02,05,023,999,San Miguel
+02,13,016,999,San Rafael
+02,05,013,999,San Roque
+02,03,016,999,Santa María
+02,04,021,999,Santa María
+02,03,006,999,Santa Rosa
+02,13,014,999,Santa Rosa
+02,05,007,999,Santo Tomé
+02,07,014,999,Sarmiento
+02,05,020,999,Sauce
+02,23,010,999,Simoca
+02,04,022,999,Sobremonte
+02,23,016,999,Tafí Viejo
+02,23,017,999,Tafí del Valle
+02,07,008,999,Tehuelches
+02,07,003,999,Telsen
+02,04,023,999,Tercero Arriba
+02,03,015,999,Tinogasta
+02,11,020,999,Toay
+02,04,024,999,Totoral
+02,23,014,999,Trancas
+02,11,021,999,Trenel
+02,04,025,999,Tulumba
+02,13,012,999,Tunuyán
+02,13,008,999,Tupungato
+02,04,026,999,Unión
+02,11,022,999,Utracán
+02,03,008,999,Valle Viejo
+02,21,022,999,Vera
+02,21,004,999,Villa Constitución
+02,23,015,999,Yerba Buena
+02,03,012,001,Aconquija
+02,07,013,001,Aldea Beleiro
+02,03,004,001,Ancasti
+02,03,012,002,Andalgala
+02,03,014,001,Antofagasta de la Sierra
+02,03,013,001,Belén
+02,03,002,001,Capayan
+02,07,008,001,Doctor Atilio O. Viglione
+02,03,005,002,El Alto
+02,03,015,001,Fiambala
+02,03,009,001,Fray Mamerto Esquiu (Centro)
+02,03,009,002,Fray Mamerto Esquiu (Norte)
+02,03,009,003,Fray Mamerto Esquiu (Sur)
+02,13,018,001,General Alvear
+02,13,002,002,Godoy Cruz
+02,13,003,003,Guaymallén
+02,03,002,002,Huillapima
+02,03,003,001,Icaño
+02,13,010,004,Junín
+02,13,015,005,La Paz
+02,13,004,006,Las Heras
+02,13,005,007,Lavalle
+02,03,013,005,Londres
+02,03,006,001,Los Altos
+02,13,007,008,Luján de Cuyo
+02,13,006,009,Maipú
+02,13,017,010,Malargüe
+02,13,001,011,Mendoza
+02,03,011,001,Mutquin
+02,03,007,001,Paclin
+02,03,011,002,Poman
+02,03,003,002,Recreo
+02,13,011,012,Rivadavia
+02,13,013,013,San Carlos
+02,03,001,001,San Fernando del Valle de Catamarca
+02,03,016,001,San Jose
+02,13,009,014,San Martín
+02,13,016,015,San Rafael
+02,03,016,002,Santa Maria
+02,03,006,002,Santa Rosa
+02,13,014,016,Santa Rosa
+02,03,011,003,Saujil
+02,03,015,002,Tinogasta
+02,13,012,017,Tunuyán
+02,13,008,018,Tupungato
+02,03,008,001,Valle Viejo
+03,99,999,999,Argentina
+03,02,999,999,Buenos Aires
+03,03,999,999,Catamarca
+03,06,999,999,Chaco
+03,07,999,999,Chubut
+03,01,999,999,Ciudad Autónoma de Buenos Aires
+03,05,999,999,Corrientes
+03,04,999,999,Córdoba
+03,08,999,999,Entre Ríos
+03,09,999,999,Formosa
+03,10,999,999,Jujuy
+03,11,999,999,La Pampa
+03,12,999,999,La Rioja
+03,13,999,999,Mendoza
+03,14,999,999,Misiones
+03,15,999,999,Neuquén
+03,16,999,999,Río Negro
+03,17,999,999,Salta
+03,18,999,999,San Juan
+03,19,999,999,San Luis
+03,20,999,999,Santa Cruz
+03,21,999,999,Santa Fe
+03,22,999,999,Santiago del Estero
+03,24,999,999,Tierra del Fuego
+03,23,999,999,Tucumán
+03,06,021,999,12 de Octubre
+03,06,002,999,1º de Mayo
+03,06,022,999,2 de Abril
+03,02,121,999,25 de Mayo
+03,06,015,999,25 de Mayo
+03,14,011,999,25 de Mayo
+03,16,006,999,25 de Mayo
+03,18,014,999,25 de Mayo
+03,02,083,999,9 de Julio
+03,06,019,999,9 de Julio
+03,16,005,999,9 de Julio
+03,18,007,999,9 de Julio
+03,21,012,999,9 de Julio
+03,02,001,999,Adolfo Alsina
+03,16,001,999,Adolfo Alsina
+03,02,056,999,Adolfo Gonzales Chaves
+03,22,003,999,Aguirre
+03,18,010,999,Albardón
+03,22,004,999,Alberdi
+03,02,002,999,Alberti
+03,02,003,999,Almirante Brown
+03,06,024,999,Almirante Brown
+03,15,010,999,Aluminé
+03,03,010,999,Ambato
+03,03,004,999,Ancasti
+03,03,012,999,Andalgalá
+03,18,009,999,Angaco
+03,17,005,999,Anta
+03,03,014,999,Antofagasta de la Sierra
+03,14,002,999,Apóstoles
+03,12,004,999,Arauco
+03,02,010,999,Arrecifes
+03,22,005,999,Atamisqui
+03,11,001,999,Atreucó
+03,02,004,999,Avellaneda
+03,16,011,999,Avellaneda
+03,22,002,999,Avellaneda
+03,02,005,999,Ayacucho
+03,19,007,999,Ayacucho
+03,02,006,999,Azul
+03,15,003,999,Añelo
+03,02,007,999,Bahía Blanca
+03,02,008,999,Balcarce
+03,22,006,999,Banda
+03,02,009,999,Baradero
+03,16,009,999,Bariloche
+03,19,008,999,Belgrano
+03,21,001,999,Belgrano
+03,22,007,999,Belgrano
+03,05,011,999,Bella Vista
+03,03,013,999,Belén
+03,02,059,999,Benito Juárez
+03,02,011,999,Berazategui
+03,02,012,999,Berisso
+03,06,007,999,Bermejo
+03,09,007,999,Bermejo
+03,05,025,999,Berón de Astrada
+03,07,002,999,Biedma
+03,02,013,999,Bolívar
+03,02,014,999,Bragado
+03,02,015,999,Brandsen
+03,23,013,999,Burruyacú
+03,17,020,999,Cachi
+03,17,017,999,Cafayate
+03,14,010,999,Cainguás
+03,04,002,999,Calamuchita
+03,11,003,999,Caleu Caleu
+03,18,019,999,Calingasta
+03,02,016,999,Campana
+03,14,003,999,Candelaria
+03,03,002,999,Capayán
+03,03,001,999,Capital
+03,04,001,999,Capital
+03,05,001,999,Capital
+03,11,002,999,Capital
+03,12,001,999,Capital
+03,13,001,999,Capital
+03,14,001,999,Capital
+03,17,001,999,Capital
+03,18,001,999,Capital
+03,22,001,999,Capital
+03,23,001,999,Capital
+03,02,018,999,Capitán Sarmiento
+03,02,019,999,Carlos Casares
+03,02,020,999,Carlos Tejedor
+03,02,021,999,Carmen de Areco
+03,21,002,999,Caseros
+03,21,003,999,Castellanos
+03,02,023,999,Castelli
+03,12,003,999,Castro Barros
+03,11,004,999,Catriló
+03,15,011,999,Catán Lil
+03,18,015,999,Caucete
+03,02,017,999,Cañuelas
+03,17,011,999,Cerrillos
+03,02,029,999,Chacabuco
+03,06,020,999,Chacabuco
+03,19,004,999,Chacabuco
+03,11,005,999,Chalileo
+03,12,012,999,Chamical
+03,11,006,999,Chapaleufú
+03,02,030,999,Chascomús
+03,11,007,999,Chical Có
+03,23,005,999,Chicligasta
+03,17,012,999,Chicoana
+03,12,006,999,Chilecito
+03,18,003,999,Chimbas
+03,02,031,999,Chivilcoy
+03,15,005,999,Chos Malal
+03,22,009,999,Choya
+03,10,012,999,Cochinoca
+03,15,013,999,Collón Curá
+03,02,024,999,Colón
+03,04,003,999,Colón
+03,08,015,999,Colón
+03,06,013,999,Comandante Fernández
+03,01,001,999,Comuna 1
+03,01,010,999,Comuna 10
+03,01,011,999,Comuna 11
+03,01,012,999,Comuna 12
+03,01,013,999,Comuna 13
+03,01,014,999,Comuna 14
+03,01,015,999,Comuna 15
+03,01,002,999,Comuna 2
+03,01,003,999,Comuna 3
+03,01,004,999,Comuna 4
+03,01,005,999,Comuna 5
+03,01,006,999,Comuna 6
+03,01,007,999,Comuna 7
+03,01,008,999,Comuna 8
+03,01,009,999,Comuna 9
+03,05,017,999,Concepción
+03,14,005,999,Concepción
+03,08,013,999,Concordia
+03,16,002,999,Conesa
+03,15,001,999,Confluencia
+03,11,008,999,Conhelo
+03,22,008,999,Copo
+03,02,025,999,Coronel Dorrego
+03,12,008,999,Coronel Felipe Varela
+03,02,026,999,Coronel Pringles
+03,19,002,999,Coronel Pringles
+03,02,028,999,Coronel Suárez
+03,02,027,999,Coronel de Marina L. Rosales
+03,20,005,999,Corpen Aike
+03,23,012,999,Cruz Alta
+03,04,004,999,Cruz del Eje
+03,11,009,999,Curacó
+03,05,003,999,Curuzú Cuatiá
+03,07,005,999,Cushamen
+03,02,032,999,Daireaux
+03,20,001,999,Deseado
+03,08,004,999,Diamante
+03,02,033,999,Dolores
+03,10,001,999,Dr. Manuel Belgrano
+03,03,005,999,El Alto
+03,10,004,999,El Carmen
+03,16,013,999,El Cuy
+03,14,014,999,Eldorado
+03,05,012,999,Empedrado
+03,02,034,999,Ensenada
+03,07,015,999,Escalante
+03,02,035,999,Escobar
+03,05,005,999,Esquina
+03,02,036,999,Esteban Echeverría
+03,02,037,999,Exaltación de la Cruz
+03,02,132,999,Ezeiza
+03,23,003,999,Famaillá
+03,12,007,999,Famatina
+03,08,017,999,Federación
+03,08,014,999,Federal
+03,08,016,999,Feliciano
+03,22,010,999,Figueroa
+03,02,038,999,Florencio Varela
+03,02,127,999,Florentino Ameghino
+03,07,011,999,Florentino Ameghino
+03,09,001,999,Formosa
+03,06,023,999,Fray Justo Santa María de Oro
+03,03,009,999,Fray Mamerto Esquiú
+03,07,006,999,Futaleufú
+03,07,012,999,Gaiman
+03,21,005,999,Garay
+03,07,004,999,Gastre
+03,02,039,999,General Alvarado
+03,02,040,999,General Alvear
+03,05,022,999,General Alvear
+03,13,018,999,General Alvear
+03,02,041,999,General Arenales
+03,02,042,999,General Belgrano
+03,06,018,999,General Belgrano
+03,12,014,999,General Belgrano
+03,06,004,999,General Donovan
+03,02,043,999,General Guido
+03,06,025,999,General Güemes
+03,17,003,999,General Güemes
+03,17,008,999,General José de San Martín
+03,12,015,999,General Juan Facundo Quiroga
+03,02,047,999,General Juan Madariaga
+03,02,044,999,General La Madrid
+03,12,009,999,General Lamadrid
+03,02,045,999,General Las Heras
+03,02,046,999,General Lavalle
+03,21,006,999,General López
+03,14,017,999,General Manuel Belgrano
+03,21,007,999,General Obligado
+03,12,016,999,General Ortiz de Ocampo
+03,02,048,999,General Paz
+03,05,014,999,General Paz
+03,19,003,999,General Pedernera
+03,02,049,999,General Pinto
+03,02,050,999,General Pueyrredón
+03,04,005,999,General Roca
+03,16,012,999,General Roca
+03,02,051,999,General Rodríguez
+03,02,052,999,General San Martín
+03,04,006,999,General San Martín
+03,12,018,999,General San Martín
+03,22,027,999,General Taboada
+03,02,054,999,General Viamonte
+03,02,055,999,General Villegas
+03,19,009,999,Gobernador Dupuy
+03,13,002,999,Godoy Cruz
+03,05,002,999,Goya
+03,23,009,999,Graneros
+03,17,014,999,Guachipas
+03,08,007,999,Gualeguay
+03,08,010,999,Gualeguaychú
+03,02,057,999,Guaminí
+03,14,013,999,Guaraní
+03,22,011,999,Guasayán
+03,11,010,999,Guatraché
+03,13,003,999,Guaymallén
+03,20,007,999,Güer Aike
+03,02,058,999,Hipólito Yrigoyen
+03,11,011,999,Hucal
+03,15,014,999,Huiliches
+03,10,011,999,Humahuaca
+03,02,134,999,Hurlingham
+03,18,018,999,Iglesia
+03,14,016,999,Iguazú
+03,06,017,999,Independencia
+03,12,011,999,Independencia
+03,21,008,999,Iriondo
+03,17,009,999,Iruya
+03,04,007,999,Ischilín
+03,08,011,999,Islas del Ibicuy
+03,05,024,999,Itatí
+03,02,133,999,Ituzaingó
+03,05,019,999,Ituzaingó
+03,22,012,999,Jiménez
+03,02,129,999,José C. Paz
+03,23,007,999,Juan Bautista Alberdi
+03,22,014,999,Juan F. Ibarra
+03,19,001,999,Juan Martín de Pueyrredón
+03,02,060,999,Junín
+03,13,010,999,Junín
+03,19,006,999,Junín
+03,04,008,999,Juárez Celman
+03,18,017,999,Jáchal
+03,17,002,999,La Caldera
+03,17,016,999,La Candelaria
+03,21,009,999,La Capital
+03,23,008,999,La Cocha
+03,02,119,999,La Costa
+03,02,061,999,La Matanza
+03,03,003,999,La Paz
+03,08,003,999,La Paz
+03,13,015,999,La Paz
+03,02,063,999,La Plata
+03,17,022,999,La Poma
+03,17,013,999,La Viña
+03,20,006,999,Lago Argentino
+03,20,002,999,Lago Buenos Aires
+03,09,002,999,Laishí
+03,07,007,999,Languiñeo
+03,02,062,999,Lanús
+03,02,064,999,Laprida
+03,21,011,999,Las Colonias
+03,02,065,999,Las Flores
+03,13,004,999,Las Heras
+03,05,006,999,Lavalle
+03,13,005,999,Lavalle
+03,23,011,999,Leales
+03,02,066,999,Leandro N. Alem
+03,14,004,999,Leandro N. Alem
+03,10,007,999,Ledesma
+03,02,135,999,Lezama
+03,06,003,999,Libertad
+03,06,008,999,Libertador General San Martín
+03,14,009,999,Libertador General San Martín
+03,19,005,999,Libertador General San Martín
+03,11,013,999,Lihuel Calel
+03,11,014,999,Limay Mahuida
+03,02,067,999,Lincoln
+03,02,068,999,Lobería
+03,02,069,999,Lobos
+03,02,070,999,Lomas de Zamora
+03,15,008,999,Loncopué
+03,22,013,999,Loreto
+03,17,023,999,Los Andes
+03,15,016,999,Los Lagos
+03,11,012,999,Loventué
+03,02,071,999,Luján
+03,13,007,999,Luján de Cuyo
+03,23,002,999,Lules
+03,15,015,999,Lácar
+03,20,003,999,Magallanes
+03,02,072,999,Magdalena
+03,02,073,999,Maipú
+03,06,016,999,Maipú
+03,13,006,999,Maipú
+03,13,017,999,Malargüe
+03,02,130,999,Malvinas Argentinas
+03,02,074,999,Mar Chiquita
+03,11,015,999,Maracó
+03,04,009,999,Marcos Juárez
+03,02,075,999,Marcos Paz
+03,09,008,999,Matacos
+03,06,011,999,Mayor Luis J. Fontana
+03,05,018,999,Mburucuyá
+03,02,076,999,Mercedes
+03,05,004,999,Mercedes
+03,02,077,999,Merlo
+03,17,004,999,Metán
+03,04,010,999,Minas
+03,15,006,999,Minas
+03,22,015,999,Mitre
+03,17,019,999,Molinos
+03,02,078,999,Monte
+03,05,009,999,Monte Caseros
+03,02,120,999,Monte Hermoso
+03,14,012,999,Montecarlo
+03,23,004,999,Monteros
+03,02,079,999,Moreno
+03,22,016,999,Moreno
+03,02,080,999,Morón
+03,07,010,999,Mártires
+03,02,081,999,Navarro
+03,02,082,999,Necochea
+03,08,006,999,Nogoyá
+03,06,012,999,O'Higgins
+03,14,008,999,Oberá
+03,22,017,999,Ojo de Agua
+03,02,084,999,Olavarría
+03,17,007,999,Orán
+03,03,007,999,Paclín
+03,10,002,999,Palpalá
+03,08,001,999,Paraná
+03,07,009,999,Paso de Indios
+03,05,008,999,Paso de los Libres
+03,02,022,999,Patagones
+03,09,006,999,Patiño
+03,02,085,999,Pehuajó
+03,15,004,999,Pehuenches
+03,02,086,999,Pellegrini
+03,22,018,999,Pellegrini
+03,02,087,999,Pergamino
+03,16,010,999,Pichi Mahuida
+03,15,009,999,Picunches
+03,15,012,999,Picún Leufú
+03,02,088,999,Pila
+03,09,005,999,Pilagás
+03,02,089,999,Pilar
+03,16,008,999,Pilcaniyeu
+03,09,003,999,Pilcomayo
+03,02,090,999,Pinamar
+03,09,004,999,Pirané
+03,04,011,999,Pocho
+03,18,012,999,Pocito
+03,03,011,999,Pomán
+03,06,006,999,Presidencia de la Plaza
+03,02,128,999,Presidente Perón
+03,04,017,999,Presidente Roque Sáenz Peña
+03,02,091,999,Puan
+03,11,016,999,Puelén
+03,04,012,999,Punilla
+03,02,131,999,Punta Indio
+03,22,019,999,Quebrachos
+03,11,017,999,Quemú Quemú
+03,02,092,999,Quilmes
+03,06,014,999,Quitilipi
+03,02,093,999,Ramallo
+03,09,009,999,Ramón Lista
+03,11,018,999,Rancul
+03,02,094,999,Rauch
+03,07,001,999,Rawson
+03,18,006,999,Rawson
+03,11,019,999,Realicó
+03,10,013,999,Rinconada
+03,02,095,999,Rivadavia
+03,13,011,999,Rivadavia
+03,17,006,999,Rivadavia
+03,18,004,999,Rivadavia
+03,22,020,999,Rivadavia
+03,22,021,999,Robles
+03,02,096,999,Rojas
+03,02,097,999,Roque Pérez
+03,21,013,999,Rosario
+03,12,017,999,Rosario Vera Peñaloza
+03,17,021,999,Rosario de Lerma
+03,17,015,999,Rosario de la Frontera
+03,20,004,999,Río Chico
+03,23,006,999,Río Chico
+03,04,013,999,Río Cuarto
+03,24,002,999,Río Grande
+03,22,022,999,Río Hondo
+03,04,014,999,Río Primero
+03,04,015,999,Río Seco
+03,04,016,999,Río Segundo
+03,07,013,999,Río Senguer
+03,02,098,999,Saavedra
+03,05,015,999,Saladas
+03,02,099,999,Saladillo
+03,22,025,999,Salavina
+03,02,100,999,Salliqueló
+03,02,101,999,Salto
+03,04,018,999,San Alberto
+03,02,102,999,San Andrés de Giles
+03,10,003,999,San Antonio
+03,16,003,999,San Antonio
+03,02,103,999,San Antonio de Areco
+03,12,005,999,San Blas de los Sauces
+03,13,013,999,San Carlos
+03,17,018,999,San Carlos
+03,02,104,999,San Cayetano
+03,05,021,999,San Cosme
+03,21,016,999,San Cristóbal
+03,02,105,999,San Fernando
+03,06,001,999,San Fernando
+03,14,007,999,San Ignacio
+03,02,106,999,San Isidro
+03,04,019,999,San Javier
+03,14,006,999,San Javier
+03,21,017,999,San Javier
+03,21,018,999,San Jerónimo
+03,04,020,999,San Justo
+03,21,019,999,San Justo
+03,06,010,999,San Lorenzo
+03,21,020,999,San Lorenzo
+03,05,010,999,San Luis del Palmar
+03,05,016,999,San Martín
+03,13,009,999,San Martín
+03,18,008,999,San Martín
+03,21,021,999,San Martín
+03,22,024,999,San Martín
+03,02,053,999,San Miguel
+03,05,023,999,San Miguel
+03,02,107,999,San Nicolás
+03,02,108,999,San Pedro
+03,10,005,999,San Pedro
+03,14,015,999,San Pedro
+03,13,016,999,San Rafael
+03,05,013,999,San Roque
+03,08,018,999,San Salvador
+03,02,109,999,San Vicente
+03,12,002,999,Sanagasta
+03,10,006,999,Santa Bárbara
+03,10,014,999,Santa Catalina
+03,18,002,999,Santa Lucía
+03,03,016,999,Santa María
+03,04,021,999,Santa María
+03,03,006,999,Santa Rosa
+03,13,014,999,Santa Rosa
+03,17,010,999,Santa Victoria
+03,05,007,999,Santo Tomé
+03,06,005,999,Sargento Cabral
+03,07,014,999,Sarmiento
+03,18,013,999,Sarmiento
+03,22,026,999,Sarmiento
+03,05,020,999,Sauce
+03,22,023,999,Silípica
+03,23,010,999,Simoca
+03,04,022,999,Sobremonte
+03,02,110,999,Suipacha
+03,10,016,999,Susques
+03,23,016,999,Tafí Viejo
+03,23,017,999,Tafí del Valle
+03,08,008,999,Tala
+03,02,111,999,Tandil
+03,02,112,999,Tapalqué
+03,06,009,999,Tapenagá
+03,07,008,999,Tehuelches
+03,07,003,999,Telsen
+03,04,023,999,Tercero Arriba
+03,02,113,999,Tigre
+03,10,010,999,Tilcara
+03,03,015,999,Tinogasta
+03,11,020,999,Toay
+03,24,005,999,Tolhuin
+03,02,116,999,Tordillo
+03,02,114,999,Tornquist
+03,04,024,999,Totoral
+03,23,014,999,Trancas
+03,11,021,999,Trenel
+03,02,115,999,Trenque Lauquen
+03,02,117,999,Tres Arroyos
+03,02,126,999,Tres Lomas
+03,02,118,999,Tres de Febrero
+03,04,025,999,Tulumba
+03,10,009,999,Tumbaya
+03,13,012,999,Tunuyán
+03,13,008,999,Tupungato
+03,18,011,999,Ullum
+03,04,026,999,Unión
+03,08,009,999,Uruguay
+03,24,001,999,Ushuaia
+03,11,022,999,Utracán
+03,16,004,999,Valcheta
+03,18,016,999,Valle Fértil
+03,10,008,999,Valle Grande
+03,03,008,999,Valle Viejo
+03,21,022,999,Vera
+03,02,122,999,Vicente López
+03,08,005,999,Victoria
+03,21,004,999,Villa Constitución
+03,02,123,999,Villa Gesell
+03,08,012,999,Villaguay
+03,02,124,999,Villarino
+03,12,010,999,Vinchina
+03,10,015,999,Yavi
+03,23,015,999,Yerba Buena
+03,15,002,999,Zapala
+03,18,005,999,Zonda
+03,02,125,999,Zárate
+03,12,013,999,Ángel Vicente Peñaloza
+03,16,007,999,Ñorquinco
+03,15,007,999,Ñorquín
+03,02,121,121,25 de Mayo
+03,02,083,083,9 de Julio
+03,03,012,001,Aconquija
+03,02,001,001,Adolfo Alsina
+03,02,056,056,Adolfo Gonzales Chaves
+03,02,002,002,Alberti
+03,07,013,001,Aldea Beleiro
+03,02,003,003,Almirante Brown
+03,03,004,001,Ancasti
+03,03,012,002,Andalgala
+03,03,014,001,Antofagasta de la Sierra
+03,02,010,010,Arrecifes
+03,02,004,004,Avellaneda
+03,02,005,005,Ayacucho
+03,02,006,006,Azul
+03,02,007,007,Bahía Blanca
+03,02,008,008,Balcarce
+03,02,009,009,Baradero
+03,03,013,001,Belén
+03,02,059,059,Benito Juárez
+03,02,011,011,Berazategui
+03,02,012,012,Berisso
+03,02,013,013,Bolívar
+03,02,014,014,Bragado
+03,02,015,015,Brandsen
+03,02,016,016,Campana
+03,03,002,001,Capayan
+03,02,018,018,Capitán Sarmiento
+03,02,019,019,Carlos Casares
+03,02,020,020,Carlos Tejedor
+03,02,021,021,Carmen de Areco
+03,02,023,023,Castelli
+03,02,017,017,Cañuelas
+03,02,029,029,Chacabuco
+03,02,030,030,Chascomús
+03,02,031,031,Chivilcoy
+03,02,024,024,Colón
+03,02,025,025,Coronel Dorrego
+03,02,026,026,Coronel Pringles
+03,02,027,027,Coronel Rosales
+03,02,028,028,Coronel Suárez
+03,02,032,032,Daireaux
+03,07,008,001,Doctor Atilio O. Viglione
+03,02,033,033,Dolores
+03,03,005,002,El Alto
+03,02,034,034,Ensenada
+03,02,035,035,Escobar
+03,02,036,036,Esteban Echeverría
+03,02,037,037,Exaltación de la Cruz
+03,02,132,132,Ezeiza
+03,03,015,001,Fiambala
+03,02,038,038,Florencio Varela
+03,02,127,127,Florentino Ameghino
+03,03,009,001,Fray Mamerto Esquiu (Centro)
+03,03,009,002,Fray Mamerto Esquiu (Norte)
+03,03,009,003,Fray Mamerto Esquiu (Sur)
+03,02,039,039,General Alvarado
+03,02,040,040,General Alvear
+03,13,018,001,General Alvear
+03,02,041,041,General Arenales
+03,02,042,042,General Belgrano
+03,02,043,043,General Guido
+03,02,044,044,General La Madrid
+03,02,045,045,General Las Heras
+03,02,046,046,General Lavalle
+03,02,047,047,General Madariaga
+03,02,048,048,General Paz
+03,02,049,049,General Pinto
+03,02,050,050,General Pueyrredón
+03,02,051,051,General Rodríguez
+03,02,052,052,General San Martín
+03,02,054,054,General Viamonte
+03,02,055,055,General Villegas
+03,13,002,002,Godoy Cruz
+03,02,057,057,Guamini
+03,13,003,003,Guaymallén
+03,02,058,058,Hipólito Yrigoyen
+03,03,002,002,Huillapima
+03,02,134,134,Hurlingham
+03,03,003,001,Icaño
+03,02,133,133,Ituzaingo
+03,02,129,129,José C. Paz
+03,02,060,060,Junín
+03,13,010,004,Junín
+03,02,119,119,La Costa
+03,02,061,061,La Matanza
+03,13,015,005,La Paz
+03,02,063,063,La Plata
+03,02,062,062,Lanús
+03,02,064,064,Laprida
+03,02,065,065,Las Flores
+03,13,004,006,Las Heras
+03,13,005,007,Lavalle
+03,02,066,066,Leandro N. Alem
+03,02,135,135,Lezama
+03,02,067,067,Lincoln
+03,02,068,068,Loberia
+03,02,069,069,Lobos
+03,02,070,070,Lomas de Zamora
+03,03,013,005,Londres
+03,03,006,001,Los Altos
+03,02,071,071,Luján
+03,13,007,008,Luján de Cuyo
+03,02,072,072,Magdalena
+03,02,073,073,Maipú
+03,13,006,009,Maipú
+03,13,017,010,Malargüe
+03,02,130,130,Malvinas Argentinas
+03,02,074,074,Mar Chiquita
+03,02,075,075,Marcos Paz
+03,13,001,011,Mendoza
+03,02,076,076,Mercedes
+03,02,077,077,Merlo
+03,02,078,078,Monte
+03,02,120,120,Monte Hermoso
+03,02,079,079,Moreno
+03,02,080,080,Morón
+03,03,011,001,Mutquin
+03,02,081,081,Navarro
+03,02,082,082,Necochea
+03,02,084,084,Olavarría
+03,03,007,001,Paclin
+03,02,022,022,Patagones
+03,02,085,085,Pehuajó
+03,02,086,086,Pellegrini
+03,02,087,087,Pergamino
+03,02,088,088,Pila
+03,02,089,089,Pilar
+03,02,090,090,Pinamar
+03,03,011,002,Poman
+03,02,128,128,Presidente Perón
+03,02,091,091,Puan
+03,02,131,131,Punta Indio
+03,02,092,092,Quilmes
+03,02,093,093,Ramallo
+03,02,094,094,Rauch
+03,03,003,002,Recreo
+03,02,095,095,Rivadavia
+03,13,011,012,Rivadavia
+03,02,096,096,Rojas
+03,02,097,097,Roque Pérez
+03,02,098,098,Saavedra
+03,02,099,099,Saladillo
+03,02,100,100,Salliqueló
+03,02,101,101,Salto
+03,02,102,102,San Andrés de Giles
+03,02,103,103,San Antonio de Areco
+03,13,013,013,San Carlos
+03,02,104,104,San Cayetano
+03,02,105,105,San Fernando
+03,03,001,001,San Fernando del Valle de Catamarca
+03,02,106,106,San Isidro
+03,03,016,001,San Jose
+03,13,009,014,San Martín
+03,02,053,053,San Miguel
+03,02,107,107,San Nicolás
+03,02,108,108,San Pedro
+03,13,016,015,San Rafael
+03,02,109,109,San Vicente
+03,03,016,002,Santa Maria
+03,03,006,002,Santa Rosa
+03,13,014,016,Santa Rosa
+03,03,011,003,Saujil
+03,02,110,110,Suipacha
+03,02,111,111,Tandil
+03,02,112,112,Tapalqué
+03,02,113,113,Tigre
+03,03,015,002,Tinogasta
+03,02,116,116,Tordillo
+03,02,114,114,Tornquist
+03,02,115,115,Trenque Lauquén
+03,02,117,117,Tres Arroyos
+03,02,126,126,Tres Lomas
+03,02,118,118,Tres de Febrero
+03,13,012,017,Tunuyán
+03,13,008,018,Tupungato
+03,03,008,001,Valle Viejo
+03,02,122,122,Vicente López
+03,02,123,123,Villa Gesell
+03,02,124,124,Villarino
+03,02,125,125,Zárate
+05,99,999,999,Argentina
+05,02,999,999,Buenos Aires
+05,03,999,999,Catamarca
+05,13,999,999,Mendoza
+05,02,121,999,25 de Mayo
+05,02,083,999,9 de Julio
+05,02,002,999,Alberti
+05,03,004,999,Ancasti
+05,03,014,999,Antofagasta de la Sierra
+05,02,005,999,Ayacucho
+05,02,006,999,Azul
+05,02,008,999,Balcarce
+05,02,013,999,Bolívar
+05,02,014,999,Bragado
+05,02,016,999,Campana
+05,03,002,999,Capayán
+05,13,001,999,Capital
+05,02,019,999,Carlos Casares
+05,02,020,999,Carlos Tejedor
+05,02,023,999,Castelli
+05,02,029,999,Chacabuco
+05,02,030,999,Chascomús
+05,02,031,999,Chivilcoy
+05,02,033,999,Dolores
+05,03,005,999,El Alto
+05,02,035,999,Escobar
+05,02,127,999,Florentino Ameghino
+05,02,039,999,General Alvarado
+05,02,040,999,General Alvear
+05,13,018,999,General Alvear
+05,02,041,999,General Arenales
+05,02,042,999,General Belgrano
+05,02,043,999,General Guido
+05,02,047,999,General Juan Madariaga
+05,02,045,999,General Las Heras
+05,02,046,999,General Lavalle
+05,02,048,999,General Paz
+05,02,049,999,General Pinto
+05,02,050,999,General Pueyrredón
+05,02,051,999,General Rodríguez
+05,02,052,999,General San Martín
+05,02,054,999,General Viamonte
+05,02,055,999,General Villegas
+05,13,002,999,Godoy Cruz
+05,13,003,999,Guaymallén
+05,02,058,999,Hipólito Yrigoyen
+05,02,134,999,Hurlingham
+05,02,133,999,Ituzaingó
+05,02,129,999,José C. Paz
+05,02,060,999,Junín
+05,13,010,999,Junín
+05,02,119,999,La Costa
+05,03,003,999,La Paz
+05,13,015,999,La Paz
+05,02,065,999,Las Flores
+05,13,004,999,Las Heras
+05,13,005,999,Lavalle
+05,02,066,999,Leandro N. Alem
+05,02,135,999,Lezama
+05,02,067,999,Lincoln
+05,02,068,999,Lobería
+05,02,071,999,Luján
+05,13,007,999,Luján de Cuyo
+05,02,073,999,Maipú
+05,13,006,999,Maipú
+05,13,017,999,Malargüe
+05,02,130,999,Malvinas Argentinas
+05,02,074,999,Mar Chiquita
+05,02,075,999,Marcos Paz
+05,02,076,999,Mercedes
+05,02,077,999,Merlo
+05,02,078,999,Monte
+05,02,079,999,Moreno
+05,02,080,999,Morón
+05,02,081,999,Navarro
+05,02,082,999,Necochea
+05,02,084,999,Olavarría
+05,03,007,999,Paclín
+05,02,085,999,Pehuajó
+05,02,088,999,Pila
+05,02,089,999,Pilar
+05,02,090,999,Pinamar
+05,02,094,999,Rauch
+05,02,095,999,Rivadavia
+05,13,011,999,Rivadavia
+05,02,097,999,Roque Pérez
+05,02,099,999,Saladillo
+05,13,013,999,San Carlos
+05,02,104,999,San Cayetano
+05,02,105,999,San Fernando
+05,02,106,999,San Isidro
+05,13,009,999,San Martín
+05,02,053,999,San Miguel
+05,13,016,999,San Rafael
+05,03,016,999,Santa María
+05,13,014,999,Santa Rosa
+05,02,110,999,Suipacha
+05,02,111,999,Tandil
+05,02,112,999,Tapalqué
+05,02,113,999,Tigre
+05,03,015,999,Tinogasta
+05,02,116,999,Tordillo
+05,02,115,999,Trenque Lauquen
+05,02,118,999,Tres de Febrero
+05,13,012,999,Tunuyán
+05,13,008,999,Tupungato
+05,02,122,999,Vicente López
+05,02,123,999,Villa Gesell
+05,02,121,121,25 de Mayo
+05,02,083,083,9 de Julio
+05,02,002,002,Alberti
+05,03,004,001,Ancasti
+05,03,014,001,Antofagasta de la Sierra
+05,02,005,005,Ayacucho
+05,02,006,006,Azul
+05,02,008,008,Balcarce
+05,02,013,013,Bolívar
+05,02,014,014,Bragado
+05,02,016,016,Campana
+05,03,002,001,Capayan
+05,02,019,019,Carlos Casares
+05,02,020,020,Carlos Tejedor
+05,02,023,023,Castelli
+05,02,029,029,Chacabuco
+05,02,030,030,Chascomús
+05,02,031,031,Chivilcoy
+05,02,033,033,Dolores
+05,03,005,002,El Alto
+05,02,035,035,Escobar
+05,03,015,001,Fiambala
+05,02,127,127,Florentino Ameghino
+05,02,039,039,General Alvarado
+05,02,040,040,General Alvear
+05,13,018,001,General Alvear
+05,02,041,041,General Arenales
+05,02,042,042,General Belgrano
+05,02,043,043,General Guido
+05,02,045,045,General Las Heras
+05,02,046,046,General Lavalle
+05,02,047,047,General Madariaga
+05,02,048,048,General Paz
+05,02,049,049,General Pinto
+05,02,050,050,General Pueyrredón
+05,02,051,051,General Rodríguez
+05,02,052,052,General San Martín
+05,02,054,054,General Viamonte
+05,02,055,055,General Villegas
+05,13,002,002,Godoy Cruz
+05,13,003,003,Guaymallén
+05,02,058,058,Hipólito Yrigoyen
+05,03,002,002,Huillapima
+05,02,134,134,Hurlingham
+05,03,003,001,Icaño
+05,02,133,133,Ituzaingo
+05,02,129,129,José C. Paz
+05,02,060,060,Junín
+05,13,010,004,Junín
+05,02,119,119,La Costa
+05,13,015,005,La Paz
+05,02,065,065,Las Flores
+05,13,004,006,Las Heras
+05,13,005,007,Lavalle
+05,02,066,066,Leandro N. Alem
+05,02,135,135,Lezama
+05,02,067,067,Lincoln
+05,02,068,068,Loberia
+05,02,071,071,Luján
+05,13,007,008,Luján de Cuyo
+05,02,073,073,Maipú
+05,13,006,009,Maipú
+05,13,017,010,Malargüe
+05,02,130,130,Malvinas Argentinas
+05,02,074,074,Mar Chiquita
+05,02,075,075,Marcos Paz
+05,13,001,011,Mendoza
+05,02,076,076,Mercedes
+05,02,077,077,Merlo
+05,02,078,078,Monte
+05,02,079,079,Moreno
+05,02,080,080,Morón
+05,02,081,081,Navarro
+05,02,082,082,Necochea
+05,02,084,084,Olavarría
+05,03,007,001,Paclin
+05,02,085,085,Pehuajó
+05,02,088,088,Pila
+05,02,089,089,Pilar
+05,02,090,090,Pinamar
+05,02,094,094,Rauch
+05,03,003,002,Recreo
+05,02,095,095,Rivadavia
+05,13,011,012,Rivadavia
+05,02,097,097,Roque Pérez
+05,02,099,099,Saladillo
+05,13,013,013,San Carlos
+05,02,104,104,San Cayetano
+05,02,105,105,San Fernando
+05,02,106,106,San Isidro
+05,03,016,001,San Jose
+05,13,009,014,San Martín
+05,02,053,053,San Miguel
+05,13,016,015,San Rafael
+05,03,016,002,Santa Maria
+05,13,014,016,Santa Rosa
+05,02,110,110,Suipacha
+05,02,111,111,Tandil
+05,02,112,112,Tapalqué
+05,02,113,113,Tigre
+05,03,015,002,Tinogasta
+05,02,116,116,Tordillo
+05,02,115,115,Trenque Lauquén
+05,02,118,118,Tres de Febrero
+05,13,012,017,Tunuyán
+05,13,008,018,Tupungato
+05,02,122,122,Vicente López
+05,02,123,123,Villa Gesell
+06,99,999,999,Argentina
+06,02,999,999,Buenos Aires
+06,03,999,999,Catamarca
+06,06,999,999,Chaco
+06,01,999,999,Ciudad Autónoma de Buenos Aires
+06,13,999,999,Mendoza
+06,06,021,999,12 de Octubre
+06,06,002,999,1º de Mayo
+06,06,022,999,2 de Abril
+06,06,015,999,25 de Mayo
+06,06,019,999,9 de Julio
+06,02,001,999,Adolfo Alsina
+06,02,056,999,Adolfo Gonzales Chaves
+06,02,003,999,Almirante Brown
+06,06,024,999,Almirante Brown
+06,03,010,999,Ambato
+06,03,004,999,Ancasti
+06,03,012,999,Andalgalá
+06,03,014,999,Antofagasta de la Sierra
+06,02,010,999,Arrecifes
+06,02,004,999,Avellaneda
+06,02,007,999,Bahía Blanca
+06,02,009,999,Baradero
+06,03,013,999,Belén
+06,02,059,999,Benito Juárez
+06,02,011,999,Berazategui
+06,02,012,999,Berisso
+06,06,007,999,Bermejo
+06,02,015,999,Brandsen
+06,03,002,999,Capayán
+06,03,001,999,Capital
+06,13,001,999,Capital
+06,02,018,999,Capitán Sarmiento
+06,02,021,999,Carmen de Areco
+06,02,017,999,Cañuelas
+06,06,020,999,Chacabuco
+06,02,024,999,Colón
+06,06,013,999,Comandante Fernández
+06,01,001,999,Comuna 1
+06,01,010,999,Comuna 10
+06,01,011,999,Comuna 11
+06,01,012,999,Comuna 12
+06,01,013,999,Comuna 13
+06,01,014,999,Comuna 14
+06,01,015,999,Comuna 15
+06,01,002,999,Comuna 2
+06,01,003,999,Comuna 3
+06,01,004,999,Comuna 4
+06,01,005,999,Comuna 5
+06,01,006,999,Comuna 6
+06,01,007,999,Comuna 7
+06,01,008,999,Comuna 8
+06,01,009,999,Comuna 9
+06,02,025,999,Coronel Dorrego
+06,02,026,999,Coronel Pringles
+06,02,028,999,Coronel Suárez
+06,02,027,999,Coronel de Marina L. Rosales
+06,02,032,999,Daireaux
+06,03,005,999,El Alto
+06,02,034,999,Ensenada
+06,02,036,999,Esteban Echeverría
+06,02,037,999,Exaltación de la Cruz
+06,02,132,999,Ezeiza
+06,02,038,999,Florencio Varela
+06,06,023,999,Fray Justo Santa María de Oro
+06,03,009,999,Fray Mamerto Esquiú
+06,13,018,999,General Alvear
+06,06,018,999,General Belgrano
+06,06,004,999,General Donovan
+06,06,025,999,General Güemes
+06,02,044,999,General La Madrid
+06,13,002,999,Godoy Cruz
+06,02,057,999,Guaminí
+06,13,003,999,Guaymallén
+06,06,017,999,Independencia
+06,13,010,999,Junín
+06,02,061,999,La Matanza
+06,03,003,999,La Paz
+06,13,015,999,La Paz
+06,02,063,999,La Plata
+06,02,062,999,Lanús
+06,02,064,999,Laprida
+06,13,004,999,Las Heras
+06,13,005,999,Lavalle
+06,06,003,999,Libertad
+06,06,008,999,Libertador General San Martín
+06,02,069,999,Lobos
+06,02,070,999,Lomas de Zamora
+06,13,007,999,Luján de Cuyo
+06,02,072,999,Magdalena
+06,06,016,999,Maipú
+06,13,006,999,Maipú
+06,13,017,999,Malargüe
+06,06,011,999,Mayor Luis J. Fontana
+06,02,120,999,Monte Hermoso
+06,06,012,999,O'Higgins
+06,03,007,999,Paclín
+06,02,022,999,Patagones
+06,02,086,999,Pellegrini
+06,02,087,999,Pergamino
+06,03,011,999,Pomán
+06,06,006,999,Presidencia de la Plaza
+06,02,128,999,Presidente Perón
+06,02,091,999,Puan
+06,02,131,999,Punta Indio
+06,02,092,999,Quilmes
+06,06,014,999,Quitilipi
+06,02,093,999,Ramallo
+06,13,011,999,Rivadavia
+06,02,096,999,Rojas
+06,02,098,999,Saavedra
+06,02,100,999,Salliqueló
+06,02,101,999,Salto
+06,02,102,999,San Andrés de Giles
+06,02,103,999,San Antonio de Areco
+06,13,013,999,San Carlos
+06,06,001,999,San Fernando
+06,06,010,999,San Lorenzo
+06,13,009,999,San Martín
+06,02,107,999,San Nicolás
+06,02,108,999,San Pedro
+06,13,016,999,San Rafael
+06,02,109,999,San Vicente
+06,03,016,999,Santa María
+06,03,006,999,Santa Rosa
+06,13,014,999,Santa Rosa
+06,06,005,999,Sargento Cabral
+06,06,009,999,Tapenagá
+06,03,015,999,Tinogasta
+06,02,114,999,Tornquist
+06,02,117,999,Tres Arroyos
+06,02,126,999,Tres Lomas
+06,13,012,999,Tunuyán
+06,13,008,999,Tupungato
+06,03,008,999,Valle Viejo
+06,02,124,999,Villarino
+06,02,125,999,Zárate
+06,03,012,001,Aconquija
+06,02,001,001,Adolfo Alsina
+06,02,056,056,Adolfo Gonzales Chaves
+06,02,003,003,Almirante Brown
+06,03,004,001,Ancasti
+06,03,012,002,Andalgala
+06,03,014,001,Antofagasta de la Sierra
+06,02,010,010,Arrecifes
+06,02,004,004,Avellaneda
+06,02,007,007,Bahía Blanca
+06,02,009,009,Baradero
+06,03,013,001,Belén
+06,02,059,059,Benito Juárez
+06,02,011,011,Berazategui
+06,02,012,012,Berisso
+06,02,015,015,Brandsen
+06,03,002,001,Capayan
+06,02,018,018,Capitán Sarmiento
+06,02,021,021,Carmen de Areco
+06,02,017,017,Cañuelas
+06,02,024,024,Colón
+06,02,025,025,Coronel Dorrego
+06,02,026,026,Coronel Pringles
+06,02,027,027,Coronel Rosales
+06,02,028,028,Coronel Suárez
+06,02,032,032,Daireaux
+06,03,005,002,El Alto
+06,02,034,034,Ensenada
+06,02,036,036,Esteban Echeverría
+06,02,037,037,Exaltación de la Cruz
+06,02,132,132,Ezeiza
+06,03,015,001,Fiambala
+06,02,038,038,Florencio Varela
+06,03,009,001,Fray Mamerto Esquiu (Centro)
+06,03,009,002,Fray Mamerto Esquiu (Norte)
+06,03,009,003,Fray Mamerto Esquiu (Sur)
+06,13,018,001,General Alvear
+06,02,044,044,General La Madrid
+06,13,002,002,Godoy Cruz
+06,02,057,057,Guamini
+06,13,003,003,Guaymallén
+06,03,002,002,Huillapima
+06,03,003,001,Icaño
+06,13,010,004,Junín
+06,02,061,061,La Matanza
+06,13,015,005,La Paz
+06,02,063,063,La Plata
+06,02,062,062,Lanús
+06,02,064,064,Laprida
+06,13,004,006,Las Heras
+06,13,005,007,Lavalle
+06,02,069,069,Lobos
+06,02,070,070,Lomas de Zamora
+06,03,013,005,Londres
+06,03,006,001,Los Altos
+06,13,007,008,Luján de Cuyo
+06,02,072,072,Magdalena
+06,13,006,009,Maipú
+06,13,017,010,Malargüe
+06,13,001,011,Mendoza
+06,02,120,120,Monte Hermoso
+06,03,011,001,Mutquin
+06,03,007,001,Paclin
+06,02,022,022,Patagones
+06,02,086,086,Pellegrini
+06,02,087,087,Pergamino
+06,03,011,002,Poman
+06,02,128,128,Presidente Perón
+06,02,091,091,Puan
+06,02,131,131,Punta Indio
+06,02,092,092,Quilmes
+06,02,093,093,Ramallo
+06,03,003,002,Recreo
+06,13,011,012,Rivadavia
+06,02,096,096,Rojas
+06,02,098,098,Saavedra
+06,02,100,100,Salliqueló
+06,02,101,101,Salto
+06,02,102,102,San Andrés de Giles
+06,02,103,103,San Antonio de Areco
+06,13,013,013,San Carlos
+06,03,001,001,San Fernando del Valle de Catamarca
+06,03,016,001,San Jose
+06,13,009,014,San Martín
+06,02,107,107,San Nicolás
+06,02,108,108,San Pedro
+06,13,016,015,San Rafael
+06,02,109,109,San Vicente
+06,03,016,002,Santa Maria
+06,03,006,002,Santa Rosa
+06,13,014,016,Santa Rosa
+06,03,011,003,Saujil
+06,03,015,002,Tinogasta
+06,02,114,114,Tornquist
+06,02,117,117,Tres Arroyos
+06,02,126,126,Tres Lomas
+06,13,012,017,Tunuyán
+06,13,008,018,Tupungato
+06,03,008,001,Valle Viejo
+06,02,124,124,Villarino
+06,02,125,125,Zárate
+07,99,999,999,Argentina
+07,02,999,999,Buenos Aires
+07,03,999,999,Catamarca
+07,13,999,999,Mendoza
+07,02,121,999,25 de Mayo
+07,02,083,999,9 de Julio
+07,02,001,999,Adolfo Alsina
+07,02,056,999,Adolfo Gonzales Chaves
+07,02,002,999,Alberti
+07,02,003,999,Almirante Brown
+07,03,004,999,Ancasti
+07,03,012,999,Andalgalá
+07,02,010,999,Arrecifes
+07,02,004,999,Avellaneda
+07,02,005,999,Ayacucho
+07,02,006,999,Azul
+07,02,007,999,Bahía Blanca
+07,02,008,999,Balcarce
+07,02,009,999,Baradero
+07,03,013,999,Belén
+07,02,059,999,Benito Juárez
+07,02,011,999,Berazategui
+07,02,012,999,Berisso
+07,02,013,999,Bolívar
+07,02,014,999,Bragado
+07,02,015,999,Brandsen
+07,02,016,999,Campana
+07,03,002,999,Capayán
+07,03,001,999,Capital
+07,13,001,999,Capital
+07,02,018,999,Capitán Sarmiento
+07,02,019,999,Carlos Casares
+07,02,020,999,Carlos Tejedor
+07,02,021,999,Carmen de Areco
+07,02,023,999,Castelli
+07,02,017,999,Cañuelas
+07,02,029,999,Chacabuco
+07,02,030,999,Chascomús
+07,02,031,999,Chivilcoy
+07,02,024,999,Colón
+07,02,025,999,Coronel Dorrego
+07,02,026,999,Coronel Pringles
+07,02,028,999,Coronel Suárez
+07,02,027,999,Coronel de Marina L. Rosales
+07,02,032,999,Daireaux
+07,02,033,999,Dolores
+07,03,005,999,El Alto
+07,02,034,999,Ensenada
+07,02,035,999,Escobar
+07,02,036,999,Esteban Echeverría
+07,02,037,999,Exaltación de la Cruz
+07,02,132,999,Ezeiza
+07,02,038,999,Florencio Varela
+07,02,127,999,Florentino Ameghino
+07,03,009,999,Fray Mamerto Esquiú
+07,02,039,999,General Alvarado
+07,02,040,999,General Alvear
+07,13,018,999,General Alvear
+07,02,041,999,General Arenales
+07,02,042,999,General Belgrano
+07,02,043,999,General Guido
+07,02,047,999,General Juan Madariaga
+07,02,044,999,General La Madrid
+07,02,045,999,General Las Heras
+07,02,046,999,General Lavalle
+07,02,048,999,General Paz
+07,02,049,999,General Pinto
+07,02,050,999,General Pueyrredón
+07,02,051,999,General Rodríguez
+07,02,052,999,General San Martín
+07,02,054,999,General Viamonte
+07,02,055,999,General Villegas
+07,13,002,999,Godoy Cruz
+07,02,057,999,Guaminí
+07,13,003,999,Guaymallén
+07,02,058,999,Hipólito Yrigoyen
+07,02,134,999,Hurlingham
+07,02,133,999,Ituzaingó
+07,02,129,999,José C. Paz
+07,02,060,999,Junín
+07,13,010,999,Junín
+07,02,119,999,La Costa
+07,02,061,999,La Matanza
+07,03,003,999,La Paz
+07,13,015,999,La Paz
+07,02,063,999,La Plata
+07,02,062,999,Lanús
+07,02,064,999,Laprida
+07,02,065,999,Las Flores
+07,13,004,999,Las Heras
+07,13,005,999,Lavalle
+07,02,066,999,Leandro N. Alem
+07,02,135,999,Lezama
+07,02,067,999,Lincoln
+07,02,068,999,Lobería
+07,02,069,999,Lobos
+07,02,070,999,Lomas de Zamora
+07,02,071,999,Luján
+07,13,007,999,Luján de Cuyo
+07,02,072,999,Magdalena
+07,02,073,999,Maipú
+07,13,006,999,Maipú
+07,13,017,999,Malargüe
+07,02,130,999,Malvinas Argentinas
+07,02,074,999,Mar Chiquita
+07,02,075,999,Marcos Paz
+07,02,076,999,Mercedes
+07,02,077,999,Merlo
+07,02,078,999,Monte
+07,02,120,999,Monte Hermoso
+07,02,079,999,Moreno
+07,02,080,999,Morón
+07,02,081,999,Navarro
+07,02,082,999,Necochea
+07,02,084,999,Olavarría
+07,03,007,999,Paclín
+07,02,022,999,Patagones
+07,02,085,999,Pehuajó
+07,02,086,999,Pellegrini
+07,02,087,999,Pergamino
+07,02,088,999,Pila
+07,02,089,999,Pilar
+07,02,090,999,Pinamar
+07,03,011,999,Pomán
+07,02,128,999,Presidente Perón
+07,02,091,999,Puan
+07,02,131,999,Punta Indio
+07,02,092,999,Quilmes
+07,02,093,999,Ramallo
+07,02,094,999,Rauch
+07,02,095,999,Rivadavia
+07,13,011,999,Rivadavia
+07,02,096,999,Rojas
+07,02,097,999,Roque Pérez
+07,02,098,999,Saavedra
+07,02,099,999,Saladillo
+07,02,100,999,Salliqueló
+07,02,101,999,Salto
+07,02,102,999,San Andrés de Giles
+07,02,103,999,San Antonio de Areco
+07,13,013,999,San Carlos
+07,02,104,999,San Cayetano
+07,02,105,999,San Fernando
+07,02,106,999,San Isidro
+07,13,009,999,San Martín
+07,02,053,999,San Miguel
+07,02,107,999,San Nicolás
+07,02,108,999,San Pedro
+07,13,016,999,San Rafael
+07,02,109,999,San Vicente
+07,03,016,999,Santa María
+07,03,006,999,Santa Rosa
+07,13,014,999,Santa Rosa
+07,02,110,999,Suipacha
+07,02,111,999,Tandil
+07,02,112,999,Tapalqué
+07,02,113,999,Tigre
+07,03,015,999,Tinogasta
+07,02,116,999,Tordillo
+07,02,114,999,Tornquist
+07,02,115,999,Trenque Lauquen
+07,02,117,999,Tres Arroyos
+07,02,126,999,Tres Lomas
+07,02,118,999,Tres de Febrero
+07,13,012,999,Tunuyán
+07,13,008,999,Tupungato
+07,03,008,999,Valle Viejo
+07,02,122,999,Vicente López
+07,02,123,999,Villa Gesell
+07,02,124,999,Villarino
+07,02,125,999,Zárate
+07,02,121,121,25 de Mayo
+07,02,083,083,9 de Julio
+07,03,012,001,Aconquija
+07,02,001,001,Adolfo Alsina
+07,02,056,056,Adolfo Gonzales Chaves
+07,02,002,002,Alberti
+07,02,003,003,Almirante Brown
+07,03,004,001,Ancasti
+07,03,012,002,Andalgala
+07,02,010,010,Arrecifes
+07,02,004,004,Avellaneda
+07,02,005,005,Ayacucho
+07,02,006,006,Azul
+07,02,007,007,Bahía Blanca
+07,02,008,008,Balcarce
+07,02,009,009,Baradero
+07,03,013,001,Belén
+07,02,059,059,Benito Juárez
+07,02,011,011,Berazategui
+07,02,012,012,Berisso
+07,02,013,013,Bolívar
+07,02,014,014,Bragado
+07,02,015,015,Brandsen
+07,02,016,016,Campana
+07,03,002,001,Capayan
+07,02,018,018,Capitán Sarmiento
+07,02,019,019,Carlos Casares
+07,02,020,020,Carlos Tejedor
+07,02,021,021,Carmen de Areco
+07,02,023,023,Castelli
+07,02,017,017,Cañuelas
+07,02,029,029,Chacabuco
+07,02,030,030,Chascomús
+07,02,031,031,Chivilcoy
+07,02,024,024,Colón
+07,02,025,025,Coronel Dorrego
+07,02,026,026,Coronel Pringles
+07,02,027,027,Coronel Rosales
+07,02,028,028,Coronel Suárez
+07,02,032,032,Daireaux
+07,02,033,033,Dolores
+07,03,005,002,El Alto
+07,02,034,034,Ensenada
+07,02,035,035,Escobar
+07,02,036,036,Esteban Echeverría
+07,02,037,037,Exaltación de la Cruz
+07,02,132,132,Ezeiza
+07,03,015,001,Fiambala
+07,02,038,038,Florencio Varela
+07,02,127,127,Florentino Ameghino
+07,03,009,001,Fray Mamerto Esquiu (Centro)
+07,03,009,002,Fray Mamerto Esquiu (Norte)
+07,03,009,003,Fray Mamerto Esquiu (Sur)
+07,02,039,039,General Alvarado
+07,02,040,040,General Alvear
+07,13,018,001,General Alvear
+07,02,041,041,General Arenales
+07,02,042,042,General Belgrano
+07,02,043,043,General Guido
+07,02,044,044,General La Madrid
+07,02,045,045,General Las Heras
+07,02,046,046,General Lavalle
+07,02,047,047,General Madariaga
+07,02,048,048,General Paz
+07,02,049,049,General Pinto
+07,02,050,050,General Pueyrredón
+07,02,051,051,General Rodríguez
+07,02,052,052,General San Martín
+07,02,054,054,General Viamonte
+07,02,055,055,General Villegas
+07,13,002,002,Godoy Cruz
+07,02,057,057,Guamini
+07,13,003,003,Guaymallén
+07,02,058,058,Hipólito Yrigoyen
+07,03,002,002,Huillapima
+07,02,134,134,Hurlingham
+07,03,003,001,Icaño
+07,02,133,133,Ituzaingo
+07,02,129,129,José C. Paz
+07,02,060,060,Junín
+07,13,010,004,Junín
+07,02,119,119,La Costa
+07,02,061,061,La Matanza
+07,13,015,005,La Paz
+07,02,063,063,La Plata
+07,02,062,062,Lanús
+07,02,064,064,Laprida
+07,02,065,065,Las Flores
+07,13,004,006,Las Heras
+07,13,005,007,Lavalle
+07,02,066,066,Leandro N. Alem
+07,02,135,135,Lezama
+07,02,067,067,Lincoln
+07,02,068,068,Loberia
+07,02,069,069,Lobos
+07,02,070,070,Lomas de Zamora
+07,03,013,005,Londres
+07,03,006,001,Los Altos
+07,02,071,071,Luján
+07,13,007,008,Luján de Cuyo
+07,02,072,072,Magdalena
+07,02,073,073,Maipú
+07,13,006,009,Maipú
+07,13,017,010,Malargüe
+07,02,130,130,Malvinas Argentinas
+07,02,074,074,Mar Chiquita
+07,02,075,075,Marcos Paz
+07,13,001,011,Mendoza
+07,02,076,076,Mercedes
+07,02,077,077,Merlo
+07,02,078,078,Monte
+07,02,120,120,Monte Hermoso
+07,02,079,079,Moreno
+07,02,080,080,Morón
+07,02,081,081,Navarro
+07,02,082,082,Necochea
+07,02,084,084,Olavarría
+07,03,007,001,Paclin
+07,02,022,022,Patagones
+07,02,085,085,Pehuajó
+07,02,086,086,Pellegrini
+07,02,087,087,Pergamino
+07,02,088,088,Pila
+07,02,089,089,Pilar
+07,02,090,090,Pinamar
+07,03,011,002,Poman
+07,02,128,128,Presidente Perón
+07,02,091,091,Puan
+07,02,131,131,Punta Indio
+07,02,092,092,Quilmes
+07,02,093,093,Ramallo
+07,02,094,094,Rauch
+07,03,003,002,Recreo
+07,02,095,095,Rivadavia
+07,13,011,012,Rivadavia
+07,02,096,096,Rojas
+07,02,097,097,Roque Pérez
+07,02,098,098,Saavedra
+07,02,099,099,Saladillo
+07,02,100,100,Salliqueló
+07,02,101,101,Salto
+07,02,102,102,San Andrés de Giles
+07,02,103,103,San Antonio de Areco
+07,13,013,013,San Carlos
+07,02,104,104,San Cayetano
+07,02,105,105,San Fernando
+07,03,001,001,San Fernando del Valle de Catamarca
+07,02,106,106,San Isidro
+07,03,016,001,San Jose
+07,13,009,014,San Martín
+07,02,053,053,San Miguel
+07,02,107,107,San Nicolás
+07,02,108,108,San Pedro
+07,13,016,015,San Rafael
+07,02,109,109,San Vicente
+07,03,016,002,Santa Maria
+07,03,006,002,Santa Rosa
+07,13,014,016,Santa Rosa
+07,03,011,003,Saujil
+07,02,110,110,Suipacha
+07,02,111,111,Tandil
+07,02,112,112,Tapalqué
+07,02,113,113,Tigre
+07,03,015,002,Tinogasta
+07,02,116,116,Tordillo
+07,02,114,114,Tornquist
+07,02,115,115,Trenque Lauquén
+07,02,117,117,Tres Arroyos
+07,02,126,126,Tres Lomas
+07,02,118,118,Tres de Febrero
+07,13,012,017,Tunuyán
+07,13,008,018,Tupungato
+07,03,008,001,Valle Viejo
+07,02,122,122,Vicente López
+07,02,123,123,Villa Gesell
+07,02,124,124,Villarino
+07,02,125,125,Zárate
+10,99,999,999,Argentina
+10,03,999,999,Catamarca
+10,03,011,999,Pomán
+10,03,006,999,Santa Rosa
+10,03,006,001,Los Altos
+10,03,011,001,Mutquin

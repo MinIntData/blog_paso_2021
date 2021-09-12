@@ -24,7 +24,7 @@ paleta_dip <- colorNumeric(palette = "viridis", domain = base_diputados$diferenc
 Row
 -----------------------------------------------------------------------
 
-### Apatia por departamento
+### Mapa de apatía electoral por departamento
 
 ```{r}
 leaflet(base_diputados) %>%

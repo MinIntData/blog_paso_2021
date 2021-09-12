@@ -1,4 +1,13 @@
 ---
+title: Apatia
+author: ''
+date: '2021-09-12'
+slug: []
+categories: []
+tags: []
+description: ''
+---
+---
 title: "Índice de Apatía Electoral"
 author: Datos.MInt
 date: '2021-09-09'

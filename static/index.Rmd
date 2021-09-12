@@ -58,7 +58,7 @@ Row {data-width=500}
 -------------------------------------
 ## Promedio por departamento
 
-```{r width}
+```{r}
 leaflet(base_diputados) %>%
   addTiles() %>%
   addProviderTiles(providers$CartoDB.DarkMatter) %>%

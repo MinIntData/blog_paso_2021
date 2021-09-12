@@ -54,6 +54,10 @@ leaflet(base_diputados_prov) %>%
 
 ```
 
+
+
+
+
 -   **Índice por departamento**
 
 ```{r}

@@ -26,7 +26,7 @@ paleta_dip_prov <- colorNumeric(palette = "viridis", domain = base_diputados_pro
 
 ```
 
-Column
+Row
 -----------------------------------------------------------------------
 ## Promedio por Provincia
 
@@ -50,6 +50,8 @@ leaflet(base_diputados_prov) %>%
 
 ```
 
+Row
+-------------------------------------
 ## Promedio por departamento
 
 ```{r}

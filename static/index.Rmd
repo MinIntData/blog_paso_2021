@@ -2,6 +2,7 @@
 title: "Promedio por departamento y provincia"
 output: 
   flexdashboard::flex_dashboard:
+    vertical_layout: fill
     orientation: rows
 ---
 
@@ -19,20 +20,21 @@ base_diputados <- read_sf("../content/data/apatia/base_diputados_apatia.geojson"
 
 paleta_dip <- colorNumeric(palette = "viridis", domain = base_diputados$diferencia_apatia, reverse = T)
 
+
 #Diputados x prov ####
 base_diputados_prov <- read_sf("../content/data/apatia/base_diputados_apatiaProv.geojson") %>%
   print()
 
 paleta_dip_prov <- colorNumeric(palette = "viridis", domain = base_diputados_prov$diferencia_apatia, reverse = T)
 
-
 ```
 
-Row
------------------------------------------------------------------------
-## Promedio por Provincia
 
-```{rs}
+Row {data-width=500}
+-------------------------------------
+### Promedio por Provincia
+
+```{r}
 
 leaflet(base_diputados_prov) %>%
   addTiles() %>%
@@ -52,11 +54,11 @@ leaflet(base_diputados_prov) %>%
 
 ```
 
-Row
+Row {data-width=500}
 -------------------------------------
 ## Promedio por departamento
 
-```{r}
+```{r width}
 leaflet(base_diputados) %>%
   addTiles() %>%
   addProviderTiles(providers$CartoDB.DarkMatter) %>%
@@ -74,4 +76,3 @@ leaflet(base_diputados) %>%
             title = "Diferencia de apatía con respecto al promedio histórico",
             opacity = 0.1)
 ```
-

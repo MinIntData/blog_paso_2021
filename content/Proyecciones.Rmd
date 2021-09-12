@@ -11,11 +11,30 @@ tags: []
 
 
 
+**Cámara de Diputados**
+
+
 ```{=html}
 <div class="flourish-embed flourish-parliament" data-src="visualisation/7244617"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ```
 
+
+
+
+**Cámara de Senadores**
+
 ```{=html }
 
-<div class="flourish-embed flourish-parliament" data-src="visualisation/7244757"><script src="https://public.flourish.studio/resources/embed.js"></script>style = "height: 1280px; width: 720px"></div>
+<div class="flourish-embed flourish-parliament" data-src="visualisation/7244757"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
+
+
+
+
+**Bancas en disputa**
+
+**y proyecciones por distrito **
+
+```{=html }
+<div class="flourish-embed flourish-table" data-src="visualisation/7244821"><script src="https://public.flourish.studio/resources/embed.js"></script>style = "height: 1280px; width: 720px"></div>
 ```

@@ -1,11 +1,14 @@
 ---
-title: "slopes"
-date: "12/9/2021"
-output: html_document
+title: "Slopes"
+author: ''
+date: '2021-09-12'
+slug: []
+categories: []
+tags: []
 ---
 
 ```{=html}
-<div class="flourish-embed flourish-chart" data-src="visualisation/7245260"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-chart" data-src="visualisation/7245260"><script src="https://public.flourish.studio/resources/embed.js"></script>style = "height: 1280px; width: 860px"></div>
 ```
 
 

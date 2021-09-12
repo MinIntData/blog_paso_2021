@@ -1,8 +1,7 @@
 ---
 title: "Promedio por departamento y provincia"
 output: 
-  flexdashboard::flex_dashboard:
-    vertical_layout: fill
+  flexdashboard::flex_dashboard
 ---
 
 ```{r setup, include=FALSE}
@@ -31,6 +30,7 @@ paleta_dip_prov <- colorNumeric(palette = "viridis", domain = base_diputados_pro
 
 Row {data-width=600}
 -------------------------------------
+
 ### Promedio por Provincia
 
 ```{r}

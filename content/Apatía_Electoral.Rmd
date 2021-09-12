@@ -35,8 +35,8 @@ paleta_dip_prov <- colorNumeric(palette = "viridis", domain = base_diputados_pro
 **Las siguientes visualizaciones captan, a partir de las categorías de voto blanco, voto nulo y participación electoral un índice promedio histórico de “apatía” o descontento en el sufragio.**
 
  
-[Acceso al Mapa](https://paso2021.netlify.app/Apatia_files/)  
 
+**Índice por provincia**
 
 ```{r}
 leaflet(base_diputados_prov) %>%
@@ -56,6 +56,11 @@ leaflet(base_diputados_prov) %>%
             opacity = 0.1)
 
 ```
+
+
+
+
+**Índice por departamento**
 
 ```{r}
 leaflet(base_diputados) %>%

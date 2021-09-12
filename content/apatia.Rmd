@@ -18,5 +18,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ```{=html}
+<<<<<<< HEAD
 <iframe class="flexdashboard" src="https://paso2021.netlify.app/apatia/index.html" style = "height: 1070px; width: 720px"> </iframe>
+=======
+<iframe class="flexdashboard" src="https://paso2021.netlify.app/apatia/" style = "height: 1070px; width: 720px"> </iframe>
+>>>>>>> 010c87f56f2fd51a460ba73c57042a72d2bbdfcc
 ```

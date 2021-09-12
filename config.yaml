@@ -53,12 +53,9 @@ menu:
     - name: Slope
       url: /slope/
       weight: 4
-    - name: Proyecciones
-      url: /bancas/
+    - name: Proyección de Bancas
+      url: /Proyecciones/
       weight: 5
-    - name: Situación Provincial
-      url: /post/
-      weight: 6
     - name: Apatía Electoral
-      url: /apatia/
+      url: /Apatía_Electoral/
       weight: 7

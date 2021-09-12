@@ -1,6 +1,8 @@
 ---
 title: "Promedio por departamento y provincia"
-output: flexdashboard::flex_dashboard
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
 ---
 
 ```{r setup, include=FALSE}

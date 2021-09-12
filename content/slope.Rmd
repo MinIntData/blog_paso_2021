@@ -7,6 +7,71 @@ categories: []
 tags: []
 ---
 
-```{=html}
-<div class="flourish-embed flourish-chart" data-src="visualisation/7245260"><script src="https://public.flourish.studio/resources/embed.js"></script> style = "height: 1280px; width: 1280px"></div>
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, error = FALSE)
+
+library(tidyverse)
+library(geofacet)
+library(stringi)
+
+
+slope_diputados <- read_csv("../content/data/slope/base_slopeDip_201719.csv") %>%
+  print()
+
+
+test_2021 <- slope_diputados %>% filter(year == 2017) %>%
+  select(-year) %>%
+  mutate(year = 2021) %>%
+  select(id_distrito, year, everything()) %>%
+  print()
+
+solo_electores <- slope_diputados %>% filter(year == 2019) %>%
+  select(id_distrito, electores) %>%
+  mutate(size_linea = electores /1000000 )
+
+slope_actualizado <- bind_rows(slope_diputados, test_2021) %>%
+  select(-electores) %>%
+  left_join(solo_electores) %>%
+  rename(name_es = name_prov) %>%
+  print()
+
+#GEOFACET
+argentina_grid <-  data.frame(
+  col = c(1, 3, 5, 1, 2, 1, 3, 4, 2, 2, 4, 1, 3, 3, 4, 1, 2, 2, 1, 1, 2, 1, 1, 1),
+  row = c(1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 7, 7, 8, 9, 10),
+  code = c("AR-Y", "AR-P", "AR-N", "AR-A", "AR-T", "AR-K", "AR-H", "AR-W", "AR-G", "AR-X", "AR-E", "AR-F", "AR-S", "AR-B", "AR-C", "AR-J", "AR-D", "AR-L", "AR-M", "AR-Q", "AR-R", "AR-U", "AR-Z", "AR-V"),
+  name_es = c("Jujuy", "Formosa", "Misiones", "Salta", "Tucuman", "Catamarca", "Chaco", "Corrientes", "Santiago del Estero", "Cordoba", "Entre Rios", "La Rioja", "Santa Fe", "Buenos Aires", "CABA", "San Juan", "San Luis", "La Pampa", "Mendoza", "Neuquen", "Rio Negro", "Chubut", "Santa Cruz", "Tierra del Fuego"),
+  stringsAsFactors = FALSE) %>%
+  mutate(name_es = str_to_upper(name_es)) %>%
+  #depto = str_to_upper(depto)) %>%
+  mutate(name_es = stri_trans_general(str = name_es, id = "Latin-ASCII")) %>%
+  print()
+
 ```
+
+
+
+
+
+-   **Provincia de Buenos Aires**
+
+
+```{r fig1, fig.height = 15, fig.width = 15}
+# PBA
+
+slope_actualizado %>%
+  ggplot(aes(x = as.character(year), y = porc_FDT, group = id_distrito))+
+  geom_line(size = 1, colour = "blue") +
+  geom_point(aes(alpha = .1), size = 1.2, colour = "blue") +
+  geom_line(aes(x = as.character(year), y = porc_CAMBIEMOS, group = id_distrito),size = 1, colour = "yellow2") +
+  geom_point(aes(x = as.character(year), y = porc_CAMBIEMOS, group = id_distrito,alpha = .1), size = 1.2, colour = "yellow2") +
+  geofacet::facet_geo(~ name_es, grid = argentina_grid) +
+  hrbrthemes::theme_ipsum_rc(base_family = "Encode Sans Normal" ) +
+  theme_minimal() +
+  theme(legend.position = "none",
+        text = element_text(family =  "Encode Sans Normal")) +
+  labs(title = paste0("Evolución del voto por provincia en PASO - Diputados Nacionales"),
+       y = "Porcentaje de votos",
+       x = "")
+```
+

@@ -1,5 +1,6 @@
 ---
-title: "apatia"
+title: "Apatía Electoral"
+subtitle: "índices a nivel departamental y provincial"
 author: ''
 date: '2021-09-12'
 slug: []
@@ -13,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-##Las siguientes visualizaciones captan, a partir de datos de voto blanco, voto nulo y participación electoral un índice promedio histórico de "apatía" o descontento en el sufragio.
+## Las siguientes visualizaciones captan, a partir de datos de voto blanco, voto nulo y participación electoral un índice promedio histórico de “apatía” o descontento en el sufragio.
 
 
 

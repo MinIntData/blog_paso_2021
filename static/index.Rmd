@@ -19,12 +19,19 @@ base_diputados <- read_sf("../content/data/apatia/base_diputados_apatia.geojson"
 
 paleta_dip <- colorNumeric(palette = "viridis", domain = base_diputados$diferencia_apatia, reverse = T)
 
+# Senadores x depto ####
+base_senadores <- read_sf("../content/data/apatia/base_senadores_apatia.geojson") %>%
+  print()
+
+paleta_senadores <- colorNumeric(palette = "viridis", domain = base_senadores$diferencia_apatia, reverse = T)
+
+
 ```
 
-Row
+Column
 -----------------------------------------------------------------------
 
-### Mapa de apatía electoral por departamento
+## Elección de Diputados Nacionales 
 
 ```{r}
 leaflet(base_diputados) %>%
@@ -45,3 +52,24 @@ leaflet(base_diputados) %>%
             opacity = 0.1)
 ```
 
+## Elección de Senadores Nacionales
+
+```{r}
+
+leaflet(base_senadores) %>%
+  addTiles() %>%
+  addProviderTiles(providers$CartoDB.DarkMatter) %>%
+  addPolygons(popup = ~paste("Provincia: ", base_senadores$id,
+                             "</br>Departamento: ", nomdepto_censo,
+                             "</br>Promedio histórico de participacion: ", as.character(promedio_participacion),
+                             "</br>Participación 2021: ", as.character(participacion),
+                             "</br>Prom. histórico apatía: ", as.character(promedio_apatia),
+                             "</br>Apatía 2021 : ", as.character(apatia)),
+              fillColor = ~paleta_senadores(diferencia_apatia),
+              weight = 0,
+              fillOpacity = 0.9) %>%
+  addPolylines(color = "white", weight = 0.6) %>%
+  addLegend(pal = paleta_senadores, values = base_senadores$diferencia_apatia,
+            title = "Diferencia de apatía con respecto al promedio histórico",
+            opacity = 0.1)
+```

@@ -21,7 +21,11 @@ bsselect(resultados, type = "img", selected = "CABA",
 ```
 
 
-![CABA]("../CABA.png)
+ ![CABA](/CABA.png)
+
+![Catamarca](/Catamarca.png)
+
+![Chaco](/Chaco.png)
 
 
-
+![Chubut](/Chubut.png)

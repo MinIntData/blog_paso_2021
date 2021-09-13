@@ -8,7 +8,7 @@ tags: []
 description: ''
 ---
 
-![](/./totales_files/CABA.png)
+**Resultados de elecciones PASO 2017 vs 2019 por agrupación política (%)**
 
 Buenos Aires
 ![PBA.png](/PBA.png)

@@ -59,4 +59,7 @@ menu:
     - name: Apatía Electoral
       url: /Apatía_Electoral/
       weight: 6
+    - name: Mapas
+      url: /Mapas/
+      weight: 7
 

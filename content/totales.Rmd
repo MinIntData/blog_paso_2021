@@ -8,12 +8,60 @@ tags: []
 description: ''
 ---
 
+![](/./totales_files/CABA.png)
 
-  | ![CABA](/CABA.png)
+Buenos Aires
+![PBA.png](/PBA.png)
 
+CABA
+![CABA](/CABA.png)
+
+Catamarca
 ![Catamarca](/Catamarca.png)
-
+Chaco
 ![Chaco](/Chaco.png)
 
 
+Chubut
 ![Chubut](/Chubut.png)
+
+Córdoba
+![Córdoba](/Cordoba.png)
+
+Corrientes
+![Corrientes](/Corrientes.png)
+
+Entre Rios
+![Entre Rios](/Entre_Rios.png)
+
+Formosa
+![Formosa](/Formosa.png)
+
+Jujuy
+![Jujuy](/Jujuy.png)
+
+La Pampa
+![La Pampa](/La_Pampa.png)
+
+La Rioja
+![La Rioja](/La_Rioja.png)
+
+Mendoza
+![Mendoza](/Mendoza.png)
+
+Misiones
+![Misiones](/Misiones.png)
+
+Neuquen
+![Neuquen](/Neuquen.png)
+
+Rio Negro
+![Rio_Negro](/Rio_Negro.png)
+Salta
+![Salta](/Salta.png)
+San Juan
+![San_Juan](/San_Juan.png)
+San Luis
+![San Luis](/San_Luis.png)
+Santa Cruz
+![Santa Cruz](/Santa_Cruz.png)

@@ -1,0 +1,21 @@
+---
+title: "Mapas_Senadores"
+author: ''
+date: '2021-09-12'
+slug: []
+categories: []
+tags: []
+description: ''
+---
+
+
+Santa Fe - Senadores - JxC
+```{=html}
+<div class="flourish-embed flourish-map" data-src="visualisation/7245547"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
+
+Santa Fe - Senadores - FT
+```{=html}
+
+<div class="flourish-embed flourish-map" data-src="visualisation/7245587"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```

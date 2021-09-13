@@ -7,7 +7,7 @@ categories: []
 tags: []
 description: ''
 ---
-```{r}
+```{r, setup, include=FALSE}
 library(stringr)
 library(bsselectR)
 
@@ -18,12 +18,10 @@ names(resultados) <- str_replace_all(resultados,
 
 bsselect(resultados, type = "img", selected = "CABA", 
          live_search = TRUE, show_tick = TRUE)
-bsse
 ```
 
 
-```{=html}
-<iframe height="800" width="100%" frameborder="no" src="https://paso2021.netlify.app/static/index.html"> </iframe>
-```
+![CABA]("/CABA.png)
 
+![](/min_interior.png)
 

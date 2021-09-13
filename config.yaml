@@ -59,10 +59,5 @@ menu:
     - name: Apatía Electoral
       url: /Apatía_Electoral/
       weight: 6
-    - name: Mapas Diputados
-      url: /Mapas_Diputados/
-      weight: 7
-    - name: Mapas Senadores
-      url: /Mapas_Senadores/
-      weight: 8
+
 

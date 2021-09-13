@@ -30,49 +30,7 @@ description: ''
 <script src="/rmarkdown-libs/bsselect-binding/bsselect.js"></script>
 
 
-<pre class="r"><code>library(stringr)
-library(bsselectR)
-
-resultados &lt;- paste0(list.files(&quot;totalespng&quot;, full.names = TRUE))
-names(resultados) &lt;- str_replace_all(resultados, 
-                                      c(&quot;\\.png&quot; = &quot;&quot;, 
-                                        &quot;totalespng/&quot; = &quot;&quot;))
-
-bsselect(resultados, type = &quot;img&quot;, selected = &quot;CABA&quot;, 
-         live_search = TRUE, show_tick = TRUE)</code></pre>
-
-<html>
-<select id="uewT3qYIlc" class="selectpicker" data-dropdown-align-right="false" data-dropup-auto="true" data-header="false" data-live-search="true" data-live-search-style="contains" data-show-tick="true" data-width="false" data-size="auto"><option value="totalespng/CABA.png" selected>CABA</option>
-<option value="totalespng/Catamarca.png">Catamarca</option>
-<option value="totalespng/Chaco.png">Chaco</option>
-<option value="totalespng/Chubut.png">Chubut</option>
-<option value="totalespng/Cordoba.png">Cordoba</option>
-<option value="totalespng/Corrientes.png">Corrientes</option>
-<option value="totalespng/Entre_Rios.png">Entre_Rios</option>
-<option value="totalespng/Formosa.png">Formosa</option>
-<option value="totalespng/Jujuy.png">Jujuy</option>
-<option value="totalespng/La_Pampa.png">La_Pampa</option>
-<option value="totalespng/La_Rioja.png">La_Rioja</option>
-<option value="totalespng/Mendoza.png">Mendoza</option>
-<option value="totalespng/Misiones.png">Misiones</option>
-<option value="totalespng/Neuquen.png">Neuquen</option>
-<option value="totalespng/PBA.png">PBA</option>
-<option value="totalespng/Rio_Negro.png">Rio_Negro</option>
-<option value="totalespng/Salta.png">Salta</option>
-<option value="totalespng/San_Juan.png">San_Juan</option>
-<option value="totalespng/San_Luis.png">San_Luis</option>
-<option value="totalespng/Santa_Cruz.png">Santa_Cruz</option>
-<option value="totalespng/Santa_Fe.png">Santa_Fe</option>
-<option value="totalespng/Santiago.png">Santiago</option></select>
-<img src="totalespng/CABA.png" name="MmrgxKsEdO" height="500" width="100%"/>
-<script>$(document).ready(function(){
-                 $("#uewT3qYIlc").change(function(){
-                 $("img[name=MmrgxKsEdO]").attr("src",$(this).val());
-
-                 });
-
-  });</script>
-</html>
-<div id="htmlwidget-1" style="width:672px;height:480px;" class="bsselect html-widget" width="672" height="480"></div>
-<script type="application/json" data-for="htmlwidget-1">{"x":[],"evals":[],"jsHooks":[]}</script>
-<iframe height="800" width="100%" frameborder="no" src="https://paso2021.netlify.app/static/index.html"> </iframe>
+<div class="figure">
+<img src="%22../CABA.png" alt="" />
+<p class="caption">CABA</p>
+</div>

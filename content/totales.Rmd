@@ -7,7 +7,7 @@ categories: []
 tags: []
 description: ''
 ---
-```{r, setup, include=FALSE}
+```{r, setup, include=FALSE, echo=FALSE}
 library(stringr)
 library(bsselectR)
 
@@ -21,7 +21,7 @@ bsselect(resultados, type = "img", selected = "CABA",
 ```
 
 
-![CABA]("/CABA.png)
+![CABA]("../CABA.png)
 
-![](/min_interior.png)
+
 

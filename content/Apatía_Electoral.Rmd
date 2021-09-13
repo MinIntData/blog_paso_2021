@@ -16,23 +16,30 @@ library(flexdashboard)
 library(tidyverse)
 library(sf)
 library(leaflet)
-
-# Diputados x depto ####
-base_diputados <- read_sf("data/apatia/base_diputados_apatia.geojson") %>%
-  print()
-
-paleta_dip <- colorNumeric(palette = "viridis", domain = base_diputados$diferencia_apatia, reverse = T)
-
+library(leaflegend)
 
 #Diputados x pcia ####
 base_diputados_prov <- read_sf("data/apatia/base_diputados_apatiaProv.geojson") %>%
+  print(n=24)
+
+
+paleta_dip_prov <- colorFactor('Blues',base_diputados_prov$apatia)
+
+# Diputados x depto ####
+base_diputados <- read_sf("../content/data/apatia/base_diputados_apatia.geojson") %>%
   print()
 
-paleta_dip_prov <- colorNumeric(palette = "viridis", domain = base_diputados_prov$diferencia_apatia, reverse = T)
+paleta_dip <- colorFactor('Blues',base_diputados$apatia)
 
 ```
 
 #### **Las siguientes visualizaciones captan, a partir de las categorías de voto blanco, voto nulo y participación electoral un índice promedio histórico de "apatía" o descontento en el sufragio.**
+
+-----------
+
+```{=html }
+<div class="flourish-embed flourish-table" data-src="visualisation/7252127"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
 
 ------------
 
@@ -40,6 +47,7 @@ paleta_dip_prov <- colorNumeric(palette = "viridis", domain = base_diputados_pro
 
 
 ```{r}
+
 leaflet(base_diputados_prov) %>%
   addTiles() %>%
   addProviderTiles(providers$CartoDB.DarkMatter) %>%
@@ -48,16 +56,21 @@ leaflet(base_diputados_prov) %>%
                              "</br>Participación 2021: ", as.character(participacion),
                              "</br>Prom. histórico apatía: ", as.character(promedio_apatia),
                              "</br>Apatía 2021 : ", as.character(apatia)),
-              fillColor = ~paleta_dip_prov(diferencia_apatia),
+              fillColor = ~paleta_dip_prov(apatia),
               weight = 0,
               fillOpacity = 0.9) %>%
   addPolylines(color = "white", weight = 0.6) %>%
-  addLegend(pal = paleta_dip_prov, values = base_diputados_prov$diferencia_apatia,
-            title = "Diferencia de apatía con respecto al promedio histórico",
-            opacity = 0.1)
+  addLegendFactor(pal = paleta_dip_prov,
+                  values = base_diputados_prov$apatia,
+                  title = "Apatía 2021 por provincia",
+                  opacity = 0.4,
+                  position = "bottomright",
+                  orientation = "horizontal")
 
 
 ```
+
+ ***Al clickear en cada distrito podrá visualizar información detallada sobre el mismo** 
 
 
 
@@ -67,20 +80,20 @@ leaflet(base_diputados_prov) %>%
 
 
 ```{r}
+
+
+
 leaflet(base_diputados) %>%
   addTiles() %>%
   addProviderTiles(providers$CartoDB.DarkMatter) %>%
   addPolygons(popup = ~paste("Provincia: ", base_diputados$id,
                              "</br>Departamento: ", nomdepto_censo,
-                             "</br>Promedio histórico de participacion: ", as.character(promedio_participacion),
-                             "</br>Participación 2021: ", as.character(participacion),
-                             "</br>Prom. histórico apatía: ", as.character(promedio_apatia),
+                             "</br>Prom. hist. apatía: ", as.character(promedio_apatia),
                              "</br>Apatía 2021 : ", as.character(apatia)),
-              fillColor = ~paleta_dip(diferencia_apatia),
+              fillColor = ~paleta_dip(apatia),
               weight = 0,
               fillOpacity = 0.9) %>%
-  addPolylines(color = "white", weight = 0.6) %>%
-  addLegend(pal = paleta_dip, values = base_diputados$diferencia_apatia,
-            title = "Diferencia de apatía con respecto al promedio histórico",
-            opacity = 0.1)
+  addPolylines(color = "white", weight = 0.6)
+
+
 ```

@@ -37,5 +37,5 @@ tags: []
 
 
 ```{=html }
-<div class="flourish-embed flourish-table" data-src="visualisation/7244821"><script src="https://public.flourish.studio/resources/embed.js"></script>style = "height: 1280px; width: 720px"></div>
+<div class="flourish-embed flourish-table" data-src="visualisation/7244821" style = "height: 860px; width: 790px; justify-content: center;"><script src="https://public.flourish.studio/resources/embed.js" ></script></div>
 ```

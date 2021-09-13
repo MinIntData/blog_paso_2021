@@ -55,7 +55,7 @@ paleta_dip <- colorFactor('Blues',base_diputados$apatia)
 ### -   **Índice por provincia**
 
 
-```{r fig.width=7.5, fig.height=8, fig.align='center'}
+```{r fig.width=11, fig.height=8, fig.align='center'}
 
 leaflet(base_diputados_prov) %>%
   addTiles() %>%
@@ -88,7 +88,7 @@ leaflet(base_diputados_prov) %>%
 ### -   **Índice por departamento**
 
 
-```{r fig.width=7.5, fig.height=8, fig.align='center'}
+```{r fig.width=11, fig.height=8, fig.align='center'}
 leaflet(base_diputados) %>%
   addTiles() %>%
   addProviderTiles(providers$CartoDB.DarkMatter) %>%

@@ -35,7 +35,6 @@ tags: []
 
 ### **y proyecciones por distrito **
 
-
 ```{=html }
 <div class="flourish-embed flourish-table" data-src="visualisation/7244821" style = "height: 860px; width: 790px; justify-content: center;"><script src="https://public.flourish.studio/resources/embed.js" ></script></div>
 ```

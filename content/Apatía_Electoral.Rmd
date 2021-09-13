@@ -30,7 +30,7 @@ base_diputados <- read_sf("../content/data/apatia/base_diputados_apatia.geojson"
   print()
 
 paleta_dip <- colorFactor('Blues',base_diputados$apatia)
-
+ 
 ```
 
 #### **Las siguientes visualizaciones captan, a partir de las categorías de voto blanco, voto nulo y participación electoral un índice promedio histórico de "apatía" o descontento en el sufragio.**

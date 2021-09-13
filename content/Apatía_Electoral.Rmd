@@ -32,9 +32,12 @@ paleta_dip_prov <- colorNumeric(palette = "viridis", domain = base_diputados_pro
 
 ```
 
-**Las siguientes visualizaciones captan, a partir de las categorías de voto blanco, voto nulo y participación electoral un índice promedio histórico de "apatía" o descontento en el sufragio.**
+#### **Las siguientes visualizaciones captan, a partir de las categorías de voto blanco, voto nulo y participación electoral un índice promedio histórico de "apatía" o descontento en el sufragio.**
 
--   **Índice por provincia**
+------------
+
+### -   **Índice por provincia**
+
 
 ```{r}
 leaflet(base_diputados_prov) %>%
@@ -58,9 +61,10 @@ leaflet(base_diputados_prov) %>%
 
 
 
-
+---------
 
 -   **Índice por departamento**
+
 
 ```{r}
 leaflet(base_diputados) %>%

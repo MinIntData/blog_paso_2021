@@ -50,7 +50,7 @@ menu:
     - name: Resultados Totales
       url: /totales/
       weight: 3
-    - name: Tendecia
+    - name: Tendencia
       url: /Tendencia/
       weight: 4
     - name: Proyección de Bancas

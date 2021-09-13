@@ -18,17 +18,18 @@ library(sf)
 library(leaflet)
 
 # Diputados x depto ####
-base_diputados <- read_sf("../content/data/apatia/base_diputados_apatia.geojson") %>%
+base_diputados <- read_sf("data/apatia/base_diputados_apatia.geojson") %>%
   print()
 
 paleta_dip <- colorNumeric(palette = "viridis", domain = base_diputados$diferencia_apatia, reverse = T)
 
 
-#Diputados x prov ####
-base_diputados_prov <- read_sf("../content/data/apatia/base_diputados_apatiaProv.geojson") %>%
+#Diputados x pcia ####
+base_diputados_prov <- read_sf("data/apatia/base_diputados_apatiaProv.geojson") %>%
   print()
 
 paleta_dip_prov <- colorNumeric(palette = "viridis", domain = base_diputados_prov$diferencia_apatia, reverse = T)
+
 ```
 
 **Las siguientes visualizaciones captan, a partir de las categorías de voto blanco, voto nulo y participación electoral un índice promedio histórico de "apatía" o descontento en el sufragio.**
@@ -51,6 +52,7 @@ leaflet(base_diputados_prov) %>%
   addLegend(pal = paleta_dip_prov, values = base_diputados_prov$diferencia_apatia,
             title = "Diferencia de apatía con respecto al promedio histórico",
             opacity = 0.1)
+
 
 ```
 

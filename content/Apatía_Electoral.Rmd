@@ -55,11 +55,11 @@ paleta_dip <- colorFactor('Blues',base_diputados$apatia)
 ### -   **Índice por provincia**
 
 
-```{r fig.width=11, fig.height=8, fig.align='center'}
+```{r fig.width=10.5, fig.height=8, fig.align='center'}
 
 leaflet(base_diputados_prov) %>%
   addTiles() %>%
-  addProviderTiles(providers$CartoDB.DarkMatter) %>%
+  addProviderTiles(providers$CartoDB.DarkMatterNoLabels) %>%
   addPolygons(popup = ~paste("Provincia: ", base_diputados_prov$id,
                              "</br>Promedio histórico de participacion: ", as.character(promedio_participacion),
                              "</br>Participación 2021: ", as.character(participacion),
@@ -88,10 +88,10 @@ leaflet(base_diputados_prov) %>%
 ### -   **Índice por departamento**
 
 
-```{r fig.width=11, fig.height=8, fig.align='center'}
+```{r fig.width=10.5, fig.height=8, fig.align='center'}
 leaflet(base_diputados) %>%
   addTiles() %>%
-  addProviderTiles(providers$CartoDB.DarkMatter) %>%
+  addProviderTiles(providers$CartoDB.DarkMatterNoLabels) %>%
   addPolygons(popup = ~paste("Provincia: ", base_diputados$id,
                              "</br>Departamento: ", nomdepto_censo,
                              "</br>Prom. hist. apatía: ", as.character(promedio_apatia),

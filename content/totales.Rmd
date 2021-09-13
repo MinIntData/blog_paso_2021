@@ -7,21 +7,9 @@ categories: []
 tags: []
 description: ''
 ---
-```{r, setup, include=FALSE, echo=FALSE}
-library(stringr)
-library(bsselectR)
-
-resultados <- paste0(list.files("totalespng", full.names = TRUE))
-names(resultados) <- str_replace_all(resultados, 
-                                      c("\\.png" = "", 
-                                        "totalespng/" = ""))
-
-bsselect(resultados, type = "img", selected = "CABA", 
-         live_search = TRUE, show_tick = TRUE)
-```
 
 
- ![CABA](/CABA.png)
+  | ![CABA](/CABA.png)
 
 ![Catamarca](/Catamarca.png)
 

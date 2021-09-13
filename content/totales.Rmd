@@ -7,19 +7,23 @@ categories: []
 tags: []
 description: ''
 ---
-Site under construction
-
-
 ```{r}
 library(stringr)
 library(bsselectR)
 
-resultados <- paste0(list.files("static/totalespng/", full.names = TRUE))
+resultados <- paste0(list.files("totalespng", full.names = TRUE))
 names(resultados) <- str_replace_all(resultados, 
                                       c("\\.png" = "", 
-                                        "static/totalespng/" = ""))
+                                        "totalespng/" = ""))
 
 bsselect(resultados, type = "img", selected = "CABA", 
          live_search = TRUE, show_tick = TRUE)
+
 ```
+
+
+```{=html}
+<iframe height="800" width="100%" frameborder="no" src="https://paso2021.netlify.app/static/index.html"> </iframe>
+```
+
 

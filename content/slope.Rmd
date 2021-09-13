@@ -52,8 +52,8 @@ argentina_grid <-  data.frame(
 
 
 
+**El gráfico a continuación toma el porcentaje de votos válidos a nivel provincial que el Frente de Todos y Juntos por el Cambio obtuvieron en la categoría a diputados provinciales en las últimas tres elecciones primarias (2017, 2019 y 2021)**
 
--   **Provincia de Buenos Aires**
 
 
 ```{r fig1, fig.height = 15, fig.width = 15}
@@ -63,8 +63,8 @@ slope_actualizado %>%
   ggplot(aes(x = as.character(year), y = porc_FDT, group = id_distrito))+
   geom_line(size = 1, colour = "blue") +
   geom_point(aes(alpha = .1), size = 1.2, colour = "blue") +
-  geom_line(aes(x = as.character(year), y = porc_CAMBIEMOS, group = id_distrito),size = 1, colour = "yellow2") +
-  geom_point(aes(x = as.character(year), y = porc_CAMBIEMOS, group = id_distrito,alpha = .1), size = 1.2, colour = "yellow2") +
+  geom_line(aes(x = as.character(year), y = porc_CAMBIEMOS, group = id_distrito),size = 1, colour = "gold2") +
+  geom_point(aes(x = as.character(year), y = porc_CAMBIEMOS, group = id_distrito,alpha = .1), size = 1.2, colour = "gold2") +
   geofacet::facet_geo(~ name_es, grid = argentina_grid) +
   hrbrthemes::theme_ipsum_rc(base_family = "Encode Sans Normal" ) +
   theme_minimal() +

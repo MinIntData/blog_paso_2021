@@ -1,0 +1,70 @@
+---
+title: "Informe de Participación Femenina - PASO 2021"
+author: 'Guadalupe Dadamio'
+date: '2021-09-12'
+slug: []
+categories: []
+tags: []
+---
+
+#### **En el presente apartado se podrá observar si mejoró la participación de las mujeres en el armado de listas, siendo éstas las elecciones en las que la totalidad del Congreso habrá sido electo bajo la ley de paridad.**
+
+#### Es fundamental tener en consideración el orden que ocupan las mujeres en el armado de listas, en tanto tiene un impacto directo en su representación en el Congreso 
+#### **La ley de paridad no alcanza sin un armado de listas que acompañe**.
+
+-------------
+
+## **1.  [Diferencias Partidarias:]{.ul}**
+
+
+```{=html}
+<div class="flourish-embed flourish-chart" data-src="visualisation/7254965"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
+
+-----------
+
+#### -    En el 50% de las provincias el FdT tiene mujeres encabezando listas (12/24)
+#### -    En el 17% de las provincias JxC tiene mujeres encabezando listas (4/24)
+
+------------
+
+## 2.  **[Mujeres cabeza de lista en 2021:]{.ul}**
+
+
+```{=html}
+<div class="flourish-embed flourish-map" data-src="visualisation/7254617"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
+
+--------
+
+#### **El orden de las mujeres en las listas cobra mayor relevancia cuando están en juego pocas bancas, como es el caso de *la mayoría de las provincias del país*.**
+
+#### -    Hay 20 provincias que no llegan a la paridad en cantidad de listas encabezadas por mujeres. 
+#### -    En 8 provincias, ninguna de las dos fuerzas principales tiene de candidata a una mujer (salvo Misiones, los partidos principales son FdT y JxC): Chaco, Corrientes, Entre Ríos, Formosa, Mendoza, Misiones, Salta y Santa Fe.
+#### -    Solo en Chubut tanto el FdT como JxC tiene como cabeza de lista una mujer. 
+
+----------
+
+## **3. [Cantidad total de mujeres cabeza de lista]{.ul}**
+
+
+```{=html }
+<div class="flourish-embed" data-src="visualisation/7254743"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
+
+-----------
+
+#### -    Solo un 32% de las listas en las PASO estuvieron encabezadas por mujeres. Este número asciende a 35% de cara a las elecciones generales, muy lejos de alcanzar la paridad. 
+#### -    Este dato debe leerse en conjunto con el punto anterior, ya que si miramos solamente las listas competitivas, el número sería aún más bajo. 
+
+----------
+
+### 4. [Evolución 2019-2021 de mujeres cabeza de lista PASO a diputadas/os nacionales:]{.ul}
+
+![mujeres encabezando listas paso 2019-2021](/mujerescl.jpg)
+
+--------------
+
+#### En 20 distritos creció la cantidad de mujeres encabezando listas para diputadas/os nacionales. Sin embargo, queda determinar si éstas efectivamente son parte de listas competitivas o si, por el contrario, encabezan listas que no consiguen representación en el HCDN.
+
+--------------

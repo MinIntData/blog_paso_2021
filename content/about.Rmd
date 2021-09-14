@@ -14,7 +14,11 @@ title: ¿Cómo usar el sitio?
 
 ------------
 
-#### -    En **proyecciones** habrán dos visualizaciones: Un conteo actualizado de la distribución de bancas en ambas cámaras del Congreso según los resultados obtenidos. Una tabla interactiva para observar la proyección de bancas por provincia.
+#### -    En **proyeccion de bancas** habrán dos visualizaciones: Un conteo actualizado de la distribución de bancas en ambas cámaras del Congreso según los resultados obtenidos. Y una tabla interactiva para observar la proyección de bancas por provincia.
+
+------------
+
+#### -    En **Transferencias** se visualiza el flujo de votos entre fuerzas políticas en elecciones subsiguientes.
 
 ------------
 

@@ -13,10 +13,10 @@ tags: []
 
 ### **Cámara de Diputados**
 
-
 ```{=html}
 <div class="flourish-embed flourish-parliament" data-src="visualisation/7244617"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ```
+
 
 ------------
 

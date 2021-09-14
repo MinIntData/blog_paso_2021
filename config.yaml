@@ -56,9 +56,9 @@ menu:
     - name: Proyección de Bancas
       url: /Proyecciones/
       weight: 5
-#    - name: Transferencias
-#      url: /Transferencias/
-#      weight: 6
+    - name: Transferencias
+      url: /Transferencias/
+      weight: 6
     - name: Apatía Electoral
       url: /Apatía_Electoral/
       weight: 7

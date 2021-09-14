@@ -25,3 +25,5 @@ title: ¿Cómo usar el sitio?
 #### -    En el **mapa de apatía** se construye un "índice de apatía" a partir del nivel histórico de ausentismo y de votos no afirmativos válidos (voto blanco y votos nulos) en PASO (2011, 2013, 2015, 2017 y 2019). Los resultados se presentan a nivel provincial y a nivel departamental.
 
 ------------
+
+#### -    En **Participación femenina** se podrá observar si mejoró la participación de las mujeres en el armado de listas, siendo éstas *las elecciones en las que la totalidad del Congreso habrá sido electo bajo la ley de paridad.*

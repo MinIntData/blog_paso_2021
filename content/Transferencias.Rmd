@@ -6,16 +6,28 @@ slug: []
 categories: []
 tags: []
 ---
+<style type="text/css">
+.main-container {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
 
-
-#### El primer diagrama muestra la transferencia de votos entre fuerzas políticas para las **PASO 2019** (izquierda) y **2021** (derecha) en la **Provincia de Buenos Aires**. 
-#### El segundo contrasta las **PASO 2017** y **2019**.
-
-#### Los siguientes diagramas muestran la transferencia de votos entre fuerzas políticas contrastando resultados las elecciones primarias de **2017 vs 2021** y **2019 vs 2021** respectivamente.  
+#### El siguiente diagrama muestran la transferencia de votos entre fuerzas políticas contrastando resultados las elecciones primarias de **2019 vs 2021**.  
 
 ------------
 
+
 ### -  PASO 2019 vs 2021
+
+
+
+```{=html }
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7254661" style="margin-left:50px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
+
+
 
 ------------
 
@@ -24,6 +36,12 @@ tags: []
 -----------
 
 ### -   PASO 2017 vs 2021
+
+
+
+```{=html }
+
+```
 
 -------------
 

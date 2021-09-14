@@ -6,8 +6,15 @@ slug: []
 categories: []
 tags: []
 ---
+<style type="text/css">
+.main-container {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
 
-#### **En el presente apartado se podrá observar si mejoró la participación de las mujeres en el armado de listas, siendo éstas las elecciones en las que la totalidad del Congreso habrá sido electo bajo la ley de paridad.**
+#### ¿Cómo impacta el armado de listas en las perspectivas de representación paritaria después de las paso?
 
 #### Es fundamental tener en consideración el orden que ocupan las mujeres en el armado de listas, en tanto tiene un impacto directo en su representación en el Congreso 
 #### **La ley de paridad no alcanza sin un armado de listas que acompañe**.
@@ -15,6 +22,7 @@ tags: []
 -------------
 
 ## **1.  [Diferencias Partidarias:]{.ul}**
+
 
 
 ```{=html}
@@ -29,6 +37,7 @@ tags: []
 ------------
 
 ## 2.  **[Mujeres cabeza de lista en 2021:]{.ul}**
+
 
 
 ```{=html}
@@ -48,6 +57,7 @@ tags: []
 ## **3. [Cantidad total de mujeres cabeza de lista]{.ul}**
 
 
+
 ```{=html }
 <div class="flourish-embed" data-src="visualisation/7254743"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ```
@@ -60,6 +70,7 @@ tags: []
 ----------
 
 ### 4. [Evolución 2019-2021 de mujeres cabeza de lista PASO a diputadas/os nacionales:]{.ul}
+
 
 ![mujeres encabezando listas paso 2019-2021](/mujerescl.jpg)
 

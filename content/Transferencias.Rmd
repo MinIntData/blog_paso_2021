@@ -24,11 +24,14 @@ tags: []
 
 
 ```{=html }
-<div class="flourish-embed flourish-sankey" data-src="visualisation/7254661"style = "height: 860px; width: 1079px; justify-content: center;:"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7254661"style = "height: 860px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ```
-
-
 
 ------------
 
 
+### - PASO 2017 vs 2019
+
+```{=html }
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7261676" style = "height: 860px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```

@@ -15,9 +15,9 @@ description: ''
 }
 </style>
 
-### Diagrama de transferencia para la Provincia de bs as
 
-""<!--more-->""
+"Diagrama de transferencia para la Provincia de bs as
+"<!--more-->""
 
 
 #### El siguiente diagrama muestra la transfere

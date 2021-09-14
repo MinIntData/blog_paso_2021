@@ -41,7 +41,7 @@ tags: []
 
 
 ```{=html}
-<div class="flourish-embed flourish-map" data-src="visualisation/7254617"style = "width: 720px; content-align: center"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-map" data-src="visualisation/7254617"style = "width: 720px; content-align: center;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ```
 
 --------

@@ -14,7 +14,7 @@ tags: []
 }
 </style>
 
-#### El siguiente diagrama muestran la transferencia de votos entre fuerzas políticas contrastando resultados las elecciones primarias de **2019 vs 2021**.  
+#### Los siguientes diagrama muestran la transferencia de votos entre fuerzas políticas contrastando resultados las elecciones primarias de **2019 vs 2021** y **2017 vs 2021** respectivamente.  
 
 ------------
 

@@ -41,7 +41,7 @@ menu:
     - name: Guía
       url: /about/
       weight: 2
-    - name: Resultados Totales
+    - name: Resultados
       url: /totales/
       weight: 3
     - name: Tendencia

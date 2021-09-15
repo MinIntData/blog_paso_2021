@@ -56,15 +56,19 @@ menu:
     - name: Proyección de Bancas
       url: /Proyecciones/
       weight: 5
-    - name: Transferencias
-      url: /Transferencias/
-      weight: 6
     - name: Apatía Electoral
       url: /Apatía_Electoral/
-      weight: 7
+      weight: 6
     - name: Participación Femenina
       url: /Género/
+      weight: 7
+    - name: Transferencias
+      url: /Transferencias/
       weight: 8
+    - name: Transferencias Provinciales
+      url: /transferencia_prov/
+      weight: 9
+
 
 
 

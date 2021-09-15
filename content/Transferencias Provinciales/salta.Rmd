@@ -1,7 +1,6 @@
 ---
-title: "Transferencia de votos - Salta"
+title: "SALTA"
 author: "Datos.MInt"
-date: '2021-09-09'
 slug: []
 categories: []
 tags: []

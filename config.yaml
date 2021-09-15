@@ -60,7 +60,7 @@ menu:
       url: /Transferencias/
       weight: 8
     - name: Transferencias Provinciales
-      url: /transferencia_prov/
+      url: /Transferencias Provinciales/
       weight: 9
 
 

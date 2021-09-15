@@ -1,0 +1,37 @@
+---
+title: "Transferencia de votos - Salta"
+author: "Datos.MInt"
+date: '2021-09-09'
+slug: []
+categories: []
+tags: []
+description: ''
+---
+<style type="text/css">
+.main-container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+
+#### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia de Salta**
+
+
+----------
+
+### -  PASO 2019 vs 2021
+
+```{=html }
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7264496" style = "height: 860px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
+
+
+------------
+
+### - PASO 2017 vs 2019
+
+```{=html }
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7264182" style = "height: 860px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```

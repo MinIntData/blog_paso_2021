@@ -31,15 +31,9 @@ params:
   showBorder: yes
 menu:
   icon:
-    - name: fas fa-envelope
-      url: mailto:me@example.com
-      weight: 1
     - name: fab fa-github
       url: https://github.com/MinIntData/blog_paso_2021
-      weight: 2
-    - name: fab fa-twitter
-      url: https://twitter.com/username/
-      weight: 3
+      weight: 4
   main:
     - name: Portada
       url: /

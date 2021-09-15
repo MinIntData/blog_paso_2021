@@ -16,118 +16,137 @@ description: ''
 </style>
 
 
-#### **Elecciones Primarias de 2017 vs 2019 por agrupación política (%)**
+#### **Elecciones Primarias de 2017, 2019 y 2021 por agrupación política (en % de votos)**
 
 ----------
 
-Buenos Aires
-![PBA.png](/PBA.png)
 
---------------
-
-CABA
-![CABA](/CABA.png)
-
---------------
-
-Catamarca
-![Catamarca](/Catamarca.png)
-
---------------
-
-Chaco
-![Chaco](/Chaco.png)
-
---------------
-
-Chubut
-![Chubut](/Chubut.png)
+![PBA.png](/pba.png)
 
 --------------
 
 
-Córdoba
-![Córdoba](/Cordoba.png)
+![CABA](/caba.png)
 
 --------------
 
 
-Corrientes
-![Corrientes](/Corrientes.png)
+![Catamarca](/catamarca.png)
 
 --------------
 
 
-Entre Rios
-![Entre Rios](/Entre_Rios.png)
+![Chaco](/chaco.png)
 
 --------------
 
 
-Formosa
-![Formosa](/Formosa.png)
+![Chubut](/chubut.png)
 
 --------------
 
 
-Jujuy
-![Jujuy](/Jujuy.png)
+
+![Córdoba](/cordoba.png)
 
 --------------
 
 
-La Pampa
-![La Pampa](/La_Pampa.png)
+
+![Corrientes](/corrientes.png)
 
 --------------
 
 
-La Rioja
-![La Rioja](/La_Rioja.png)
+
+![Entre Rios](/erios.png)
 
 --------------
 
 
-Mendoza
-![Mendoza](/Mendoza.png)
+
+![Formosa](/formosa.png)
 
 --------------
 
 
-Misiones
-![Misiones](/Misiones.png)
+
+![Jujuy](/jujuy.png)
 
 --------------
 
 
-Neuquen
-![Neuquen](/Neuquen.png)
+
+![La Pampa](/lpampa.png)
 
 --------------
 
 
-Rio Negro
-![Rio_Negro](/Rio_Negro.png)
+
+![La Rioja](/lrioja.png)
 
 --------------
 
-Salta
-![Salta](/Salta.png)
+
+
+![Mendoza](/mendoza.png)
 
 --------------
 
-San Juan
-![San_Juan](/San_Juan.png)
+
+
+![Misiones](/misiones.png)
 
 --------------
 
-San Luis
-![San Luis](/San_Luis.png)
+
+
+![Neuquen](/neuquen.png)
 
 --------------
 
-Santa Cruz
-![Santa Cruz](/Santa_Cruz.png)
+
+
+![Rio_Negro](/regro.png)
 
 --------------
+
+
+![Salta](/salta.png)
+
+--------------
+
+
+![Santiago](/santiago.png)
+
+--------------
+
+
+![Santa Cruz](/scruz.png)
+
+
+--------------
+
+
+![Santa Fe](/sfe.png)
+
+--------------
+
+
+![San Juan](/sjuan.png)
+
+--------------
+
+
+![San Luis](/sluis.png)
+
+--------------
+
+
+![Tierra del Fuego](/tdf.png)
+
+--------------
+
+
+![Tucuman](/tucuman.png)
 

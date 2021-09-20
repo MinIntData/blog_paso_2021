@@ -13,7 +13,7 @@ tags: []
   margin-right: auto;
 }
 </style>
-
+ 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, error = FALSE)
 
@@ -22,6 +22,8 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, error = FA
 library(tidyverse)
 library(geofacet)
 library(stringi)
+library(ggrepel)
+library(extrafont)
 
 slope_diputados <- read_csv("data/slope/base_slopeDip_201719.csv") %>%
   print()
@@ -34,16 +36,16 @@ solo_electores <- slope_diputados %>% filter(year == 2019) %>%
   mutate(size_linea = electores /1000000 )
 
 slope21 <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1bbpIRD3HR8tZ6OyVRwtyz4L62pt7EJXVWpy9KYt6F-0/edit?usp=sharing",
-                                     sheet = "slope") %>%
-  left_join(solo_electores) %>%
-  mutate(year = 2021) %>%
+                          sheet = "slope") %>%
   print()
 
 slope_actualizado <- bind_rows(slope_diputados, slope21) %>%
-  select(-electores, -size_linea) %>%
+  select(-electores) %>%
   left_join(solo_electores) %>%
   rename(name_es = name_prov) %>%
   print()
+
+slope_actualizado <- slope21
 
 #GEOFACET
 argentina_grid <-  data.frame(
@@ -57,9 +59,38 @@ argentina_grid <-  data.frame(
   mutate(name_es = stri_trans_general(str = name_es, id = "Latin-ASCII")) %>%
   print()
 
+
+slope_geofacet <- slope_actualizado  %>%
+  rename(name_es = name_prov) %>%
+  print()
+
 ```
 
+```{r , echo=FALSE}
+# PBA
 
+lista1 <- c("JUJUY", "SALTA", "TUCUMAN", "CATAMARCA", "SANTIAGO DEL ESTERO", "LA RIOJA", "FORMOSA", "CHACO", "MISIONES",
+            "CORRIENTES")
+
+
+lista_sur <- c("TIERRA DEL FUEGO", "SANTA CRUZ", "CHUBUT", "RIO NEGRO", "NEUQUEN", "LA PAMPA")
+
+
+centro <- c("BUENOS AIRES", "CABA", "SAN LUIS", "SAN JUAN", "SANTA FE", "CORDOBA", "MENDOZA", "ENTRE RIOS")
+
+norte_slope <- slope_actualizado %>% filter(name_prov %in% lista1) %>%
+  rename(name_es = name_prov) %>%
+  print()
+
+centro_slope <- slope_actualizado %>% filter(name_prov %in% centro) %>%
+  rename(name_es = name_prov) %>%
+  print()
+
+sur_slope <- slope_actualizado %>% filter(name_prov %in% lista_sur) %>%
+  rename(name_es = name_prov) %>%
+  print()
+
+```
 
 
 #### **El gráfico a continuación toma el porcentaje de votos válidos a nivel provincial que el Frente de Todos y Juntos por el Cambio obtuvieron en la categoría a diputados nacionales en las últimas tres elecciones primarias (2017, 2019 y 2021)**
@@ -67,22 +98,68 @@ argentina_grid <-  data.frame(
 
 ---------------------
 
-```{r fig1, fig.height = 15, fig.width = 15}
-# PBA
-
-slope_actualizado %>%
+```{r fig1, fig.height = 15, fig.width = 15, echo=FALSE}
+slope_geofacet %>%
   ggplot(aes(x = as.character(year), y = porc_FDT, group = id_distrito))+
   geom_line(size = 1, colour = "blue") +
   geom_point(aes(alpha = .1), size = 1.2, colour = "blue") +
   geom_line(aes(x = as.character(year), y = porc_CAMBIEMOS, group = id_distrito),size = 1, colour = "gold2") +
   geom_point(aes(x = as.character(year), y = porc_CAMBIEMOS, group = id_distrito,alpha = .1), size = 1.2, colour = "gold2") +
+  geom_label_repel(aes(label = porc_FDT),
+                   size = 3,
+                   label.padding = unit(0.05, "lines"),
+                   label.size = 0.0) +
+  geom_text_repel(aes(label=porc_CAMBIEMOS, y = porc_CAMBIEMOS), size = 3) +
   geofacet::facet_geo(~ name_es, grid = argentina_grid) +
   hrbrthemes::theme_ipsum_rc(base_family = "Encode Sans Normal" ) +
   theme_minimal() +
   theme(legend.position = "none",
-        text = element_text(family =  "Encode Sans Normal", size = 20)) +
-  labs(title = paste0("Evolución del voto por provincia en PASO - Diputados Nacionales"),
-       y = "Porcentaje de votos",
-       x = "") 
+        text = element_text(family =  "Encode Sans"),
+        strip.text.x = element_text(size = 8),
+        axis.text.x = element_text(size = 5),
+        axis.text.y = element_text(size = 5),
+        axis.title.y = element_text(size = 5)) +
+  labs(title = paste0(""),
+       y = "Votos (%)",
+       x = "")
 ```
 
+------------
+
+
+```{r fig2, fig.height = 15, fig.width = 15, echo=FALSE}
+
+# norte_slope %>%
+#   ggplot(aes(x = as.character(year), y = porc_FDT, group = id_distrito))+
+#   geom_line(size = 1, colour = "blue") +
+#   geom_point(aes(alpha = .1), size = 1.2, colour = "blue") +
+#   geom_line(aes(x = as.character(year), y = porc_CAMBIEMOS, group = id_distrito),size = 1, colour = "gold2") +
+#   geom_point(aes(x = as.character(year), y = porc_CAMBIEMOS, group = id_distrito,alpha = .1), size = 1.2, colour = "gold2") +
+#   geom_label_repel(aes(label = porc_FDT),
+#                    size = 6,
+#                    label.padding = unit(0.05, "lines"),
+#                    label.size = 0.0) +
+#   #geom_text(aes(label=porc_FDT, y = porc_FDT), size = 2.5)
+#   geom_text_repel(aes(label=porc_CAMBIEMOS, y = porc_CAMBIEMOS), size = 6) +
+#   facet_wrap(~name_es) +
+#   #geofacet::facet_geo(~ name_es, grid = argentina_grid) +
+#   hrbrthemes::theme_ipsum_rc(base_family = "Encode Sans Normal" ) +
+#   theme_minimal() +
+#   theme(legend.position = "none",
+#         text = element_text(family =  "Encode Sans"),
+#         strip.text.x = element_text(size = 18),
+#         axis.text.x = element_text(size = 15),
+#         axis.text.y = element_text(size = 15),
+#         axis.title.y = element_text(size = 15)) +
+#   labs(title = paste0(""),
+#        y = "Votos (%)",
+#        x = "")
+```
+
+
+```{r fig3, fig.height = 15, fig.width = 15, echo=FALSE}
+
+
+
+
+```

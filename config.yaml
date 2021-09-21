@@ -56,12 +56,12 @@ menu:
     - name: Participación Femenina
       url: /Género/
       weight: 7
-    # - name: Transferencias
-    #   url: /Transferencias/
-    #   weight: 8
     - name: Transferencias Provinciales
       url: /Transferencias Provinciales/
       weight: 8
+    - name: Transferencias
+      url: /Transferencias/
+      weight: 9
 
 
 

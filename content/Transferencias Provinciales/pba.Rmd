@@ -27,7 +27,6 @@ library(leaflegend)
 base_pba1921 <- read_sf("data/pba_2019_2021_dpto2.geojson")
 base_pba1921_circuito <- read_sf("data/pba_2019_2021_circuito.geojson")
 
-
 ```
 
 ----------
@@ -63,7 +62,7 @@ leaflet(base_pba1921) %>%
                                "</br>Diferencia %: ", base_pba1921$dif_FDT),
                 fillColor = ~paldptodif1921(dif_FDT),
                 weight = 0,
-                fillOpacity = 0.9, group = "Diferencia Fdt 2019 vs 2021") %>%
+                fillOpacity = 0.9, group = "Diferencia %") %>%
   addPolylines(color = "white", weight = 0.6) %>% 
   addPolygons(popup = ~paste("Departamento: ", base_pba1921$nombre_seccion,
                                "</br>% FdT 2021: ", base_pba1921$fdt_21,
@@ -90,4 +89,41 @@ leaflet(base_pba1921) %>%
 #### **Mapa comparativo - Diferencia de votos obtenidos por el FdT entre 2019 y 2021 por circuito electoral**.
 
 
+```{r circuito, width= 12.5, fig.height = 6, fig.align= 'center'}
+
+
+
+
+pal19fdt <- colorFactor('Blues',reverse = TRUE ,domain = base_pba1921_circuito$fdt_19)
+pal21fdt <- colorFactor('Blues',reverse = TRUE ,domain = base_pba1921_circuito$fdt_21)
+paldif1921 <- colorFactor('Reds',reverse = TRUE ,domain = base_pba1921_circuito$dif_FDT)
+
+leaflet(base_pba1921_circuito) %>%
+  addProviderTiles(providers$CartoDB.DarkMatter) %>%
+  addPolygons(popup = ~paste("Departamento: ", base_pba1921_circuito$departamen,
+                             "</br>% FdT 2021: ", base_pba1921_circuito$fdt_21,
+                             "</br>% FdT 2019: ", base_pba1921_circuito$fdt_19,
+                             "</br>Diferencia %: ", base_pba1921_circuito$dif_FDT),
+              fillColor = ~paldif1921(dif_FDT),
+              weight = 0,
+              fillOpacity = 0.9, group = "Diferencia %") %>%
+  addPolylines(color = "white", weight = 0.6) %>%
+  addPolygons(popup = ~paste("Departamento: ", base_pba1921_circuito$departamen,
+                             "</br>% FdT 2021: ", base_pba1921_circuito$fdt_21,
+                             "</br>% FdT 2019: ", base_pba1921_circuito$fdt_19,
+                             "</br>Diferencia %: ", base_pba1921_circuito$dif_FDT),
+              fillColor = ~pal21fdt(fdt_21),
+              weight = 0,
+              fillOpacity = 0.9, group = "Votos Fdt 2021") %>%
+  addPolygons(popup = ~paste("Departamento: ", base_pba1921_circuito$departamen,
+                             "</br>% FdT 2021: ", base_pba1921_circuito$fdt_21,
+                             "</br>% FdT 2019: ", base_pba1921_circuito$fdt_19,
+                             "</br>Diferencia %: ", base_pba1921_circuito$dif_FDT),
+              fillColor = ~pal19fdt(fdt_19),
+              weight = 0,
+              fillOpacity = 0.9, group = "Votos Fdt 2019") %>%
+  addLayersControl(overlayGroups =  c("Votos Fdt 2021", "Votos Fdt 2019",
+                                      "Diferencia %"),
+                   options = layersControlOptions(collapsed = F))
+```
 

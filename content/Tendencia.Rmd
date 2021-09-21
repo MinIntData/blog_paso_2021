@@ -93,7 +93,7 @@ sur_slope <- slope_actualizado %>% filter(name_prov %in% lista_sur) %>%
 ```
 
 
-#### **Las gráficas que siguen muestran el porcentaje de votos válidos a nivel provincial que el Frente de Todos y Juntos por el Cambio obtuvieron en la categoría a diputados nacionales en las últimas tres elecciones primarias (2017, 2019 y 2021)**
+#### **Las gráficas que siguen muestran el porcentaje de votos válidos a nivel provincial que el Frente de Todos (azul) y Juntos por el Cambio (amarillo) obtuvieron en la categoría a diputados nacionales en las últimas tres elecciones primarias (2017, 2019 y 2021)**
 
 
 ---------------------

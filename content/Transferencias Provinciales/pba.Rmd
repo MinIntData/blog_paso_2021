@@ -1,0 +1,87 @@
+---
+title: "Buenos Aires"
+slug: []
+categories: []
+date: ""
+output: html_document
+---
+<style type="text/css">
+.main-container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, error = FALSE)
+library(tidyverse)
+library(sf)
+library(leaflet)
+library(leaflegend)
+
+base_pba1921 <- read_sf("data/pba_2019_2021_dpto2.geojson")
+base_pba1921_circuito <- read_sf("data/pba_2019_2021_circuito.geojson")
+
+
+```
+
+----------
+
+### -  PASO 2019 vs 2021
+
+----------
+
+#### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia de Jujuy**
+
+
+```{=html }
+<div class=“flourish-embed flourish-sankey” data-src=“visualisation/7254661" style = "height: 860px; width: 1050px;"><script src=“https://public.flourish.studio/resources/embed.js”></script></div>
+```
+
+---------
+
+#### **Mapa comparativo - Diferencia de votos obtenidos por el FdT entre 2019 y 2021 por departamento**.
+
+```{r dpto, width=10.5, fig.height=8, fig.align='center'}
+  ##MAPA por dpto
+  
+  
+paldpto19fdt <- colorFactor('Blues',reverse = TRUE ,domain = base_pba1921$fdt_19)
+paldpto21fdt <- colorFactor('Blues',reverse = TRUE ,domain = base_pba1921$fdt_21)
+paldptodif1921 <- colorFactor('Reds',reverse = TRUE ,domain = base_pba1921$dif_FDT)
+  
+leaflet(base_pba1921) %>%
+  addProviderTiles(providers$CartoDB.DarkMatter) %>%
+  addPolygons(popup = ~paste("Departamento: ", base_pba1921$nombre_seccion,
+                               "</br>% FdT 2021: ", base_pba1921$fdt_21,
+                               "</br>% FdT 2019: ", base_pba1921$fdt_19,
+                               "</br>Diferencia %: ", base_pba1921$dif_FDT),
+                fillColor = ~paldptodif1921(dif_FDT),
+                weight = 0,
+                fillOpacity = 0.9, group = "Diferencia Fdt 2019 vs 2021") %>%
+  addPolylines(color = "white", weight = 0.6) %>% 
+  addPolygons(popup = ~paste("Departamento: ", base_pba1921$nombre_seccion,
+                               "</br>% FdT 2021: ", base_pba1921$fdt_21,
+                               "</br>% FdT 2019: ", base_pba1921$fdt_19,
+                               "</br>Diferencia %: ", base_pba1921$dif_FDT),
+                fillColor = ~paldpto21fdt(fdt_21),
+                weight = 0,
+                fillOpacity = 0.9, group = "Votos Fdt 2021") %>% 
+    addPolygons(popup = ~paste("Departamento: ", base_pba1921$nombre_seccion,
+                               "</br>% FdT 2021: ", base_pba1921$fdt_21,
+                               "</br>% FdT 2019: ", base_pba1921$fdt_19,
+                               "</br>Diferencia %: ", base_pba1921$dif_FDT),
+                fillColor = ~paldpto19fdt(fdt_19),
+                weight = 0,
+                fillOpacity = 0.9, group = "Votos Fdt 2019") %>% 
+  addLayersControl(overlayGroups =  c("Diferencia Fdt 2019 vs 2021", 
+                                      "Votos Fdt 2021", "Votos Fdt 2019"),
+                    options = layersControlOptions(collapsed = F))
+```
+
+
+------
+
+
+
+

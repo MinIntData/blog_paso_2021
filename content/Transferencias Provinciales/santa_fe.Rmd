@@ -17,7 +17,7 @@ library(leaflet)
 library(leaflegend)
 
 base_stafe1921 <- read_sf("data/base_stafe_2019_2021_dpto.geojson")
-
+base_stafe1921_circuito <- read_sf("data/base_stafe_2019_2021_circ.geojson")
 
 ```
 
@@ -39,7 +39,7 @@ base_stafe1921 <- read_sf("data/base_stafe_2019_2021_dpto.geojson")
 
 #### **Mapa comparativo - Diferencia de votos obtenidos por el FdT entre 2019 y 2021 por departamento**.
 
-```{r dpto, width= 15.5, fig.height = 6, fig.align= 'center'}
+```{r dpto, width= 16, fig.height = 7, fig.align= 'center'}
 
 pal19fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 19:60)
 pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 19:60)
@@ -108,7 +108,66 @@ leaflet(base_stafe1921) %>%
 
 #### **Mapa comparativo - Diferencia de votos obtenidos por el FdT entre 2019 y 2021 por circuito**.
 
-```{r}
+```{r circuito, width= 16, fig.height = 7, fig.align= 'center'}
+
+pal19fdt <- colorNumeric('Blues',
+                         reverse = FALSE,
+                         domain = 0:100)
+pal21fdt <- colorNumeric('Blues',
+                         reverse = FALSE,
+                         domain = 0:100)
+paldif1921 <- colorNumeric("RdYlGn",
+                           reverse = FALSE, 
+                           domain = base_stafe1921_circuito$dif_FDT)
+
+leaflet(base_stafe1921_circuito) %>%
+  addTiles() %>% 
+  #addProviderTiles(providers$CartoDB.DarkMatter) %>%
+  addPolygons(popup = ~paste("Departamento: ", base_stafe1921_circuito$depto,
+                             "</br>% FdT 2021: ", base_stafe1921_circuito$fdt_21,
+                             "</br>% FdT 2019: ", base_stafe1921_circuito$fdt_19,
+                             "</br>Diferencia %: ", base_stafe1921_circuito$dif_FDT),
+              fillColor = ~paldif1921(dif_FDT),
+              weight = 0,
+              fillOpacity = 0.9, group = "Diferencia %") %>%
+  addPolylines(color = "white", weight = 0.6) %>%
+
+  addLegend(title = "Diferencia %", 
+            pal = paldif1921,
+            values = ~base_stafe1921_circuito$dif_FDT,
+            opacity = 0.8,
+            position = "bottomleft", 
+            group = "Diferencia %") %>%
+
+
+  
+  addPolygons(popup = ~paste("Departamento: ", base_stafe1921_circuito$depto,
+                             "</br>% FdT 2021: ", base_stafe1921_circuito$fdt_21,
+                             "</br>% FdT 2019: ", base_stafe1921_circuito$fdt_19,
+                             "</br>Diferencia %: ", base_stafe1921_circuito$dif_FDT),
+              fillColor = ~pal21fdt(fdt_21),
+              weight = 0,
+              fillOpacity = 1, group = "Votos Fdt 2021") %>%
+  
+  addLegend(title = "% Votos Fdt 2021",  pal = pal21fdt, values = ~base_stafe1921_circuito$fdt_21,
+            opacity = 0.8, position = "bottomleft", group = "Votos Fdt 2021", ) %>%
+  
+  
+  addPolygons(popup = ~paste("Departamento: ", base_stafe1921_circuito$depto,
+                             "</br>% FdT 2021: ", base_stafe1921_circuito$fdt_21,
+                             "</br>% FdT 2019: ", base_stafe1921_circuito$fdt_19,
+                             "</br>Diferencia %: ", base_stafe1921_circuito$dif_FDT),
+              fillColor = ~pal19fdt(fdt_19),
+              weight = 0,
+              fillOpacity = 1, group = "Votos Fdt 2019") %>%
+  
+  addLegend(title = "% Votos Fdt 2019",  pal = pal19fdt, values = ~base_stafe1921_circuito$fdt_19,
+            opacity = 0.8, position = "bottomleft", group = "Votos Fdt 2019" ) %>%
+  
+  addLayersControl(overlayGroups =  c("Votos Fdt 2021", "Votos Fdt 2019",
+                                      "Diferencia %"),
+                   options = layersControlOptions(collapsed = FALSE)) %>%
+  hideGroup(c("Votos Fdt 2021", "Votos Fdt 2019"))
 
 ```
 

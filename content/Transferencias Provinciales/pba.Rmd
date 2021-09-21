@@ -30,29 +30,32 @@ base_pba1921_circuito <- read_sf("data/pba_2019_2021_circuito_norm.geojson")
 
 #### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia de Buenos Aires**
 
+
 ```{=html }
 <div class="flourish-embed flourish-sankey" data-src="visualisation/7254661"style = "height: 860px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ```
 
+---------
+
+#### **Mapa comparativo - Nivel Partido**
+
+#### **Diferencia de votos obtenidos por el FdT entre 2019 y 2021 por partido**
 
 ---------
 
-#### **Mapa comparativo - Diferencia de votos obtenidos por el FdT entre 2019 y 2021 por departamento**.
-
-```{r dpto, width= 12.5, fig.height = 8, fig.align= 'center'}
+```{r dpto, width= 15.5, fig.height = 6, fig.align= 'center'}
   ##MAPA por dpto
 pal19fdt <- colorQuantile('Blues',
                           reverse = FALSE ,
-                          domain = base_pba1921_circuito$fdt_19, 
+                          domain = base_pba1921$fdt_19, 
                           n = 8)
 pal21fdt <- colorQuantile('Blues',
                           reverse = FALSE ,
-                          domain = base_pba1921_circuito$fdt_21, 
+                          domain = base_pba1921$fdt_21, 
                           n = 8)
-paldif1921 <- colorQuantile('Reds',
-                            reverse = TRUE,
-                            domain = base_pba1921_circuito$dif_FDT, 
-                            n = 8)
+paldif1921 <- colorNumeric("RdYlGn",
+                           reverse = FALSE,
+                           domain = base_pba1921$dif_FDT)
 
 leaflet(base_pba1921) %>%
   addProviderTiles(providers$CartoDB.DarkMatter) %>%
@@ -109,15 +112,29 @@ leaflet(base_pba1921) %>%
 
 ---------
 
-#### **Mapa comparativo - Diferencia de votos obtenidos por el FdT entre 2019 y 2021 por circuito electoral**.
+#### **Mapa comparativo - Nivel circuito electoral**
 
 
-```{r circuito, width= 12.5, fig.height = 6, fig.align= 'center'}
+#### **Diferencia de votos obtenidos por el FdT entre 2019 y 2021 por circuito electoral**.
+
+---------
 
 
-pal19fdt <- colorQuantile('Blues',reverse = FALSE ,domain = base_pba1921_circuito$fdt_19, n = 8)
-pal21fdt <- colorQuantile('Blues',reverse = FALSE ,domain = base_pba1921_circuito$fdt_21, n = 8)
-paldif1921 <- colorQuantile('Reds',reverse = TRUE ,domain = base_pba1921_circuito$dif_FDT, n = 8)
+```{r circuito, width= 15.5, fig.height = 6, fig.align= 'center'}
+
+
+pal19fdt <- colorQuantile('Blues',
+                          reverse = FALSE,
+                          domain = base_pba1921_circuito$fdt_19,
+                          n = 8)
+pal21fdt <- colorQuantile('Blues',
+                          reverse = FALSE,
+                          domain = base_pba1921_circuito$fdt_21, 
+                          n = 8)
+
+paldif1921 <- colorNumeric("RdYlGn",
+                           reverse = FALSE,
+                           domain = base_pba1921_circuito$dif_FDT)
 
 leaflet(base_pba1921_circuito) %>%
   addProviderTiles(providers$CartoDB.DarkMatter) %>%

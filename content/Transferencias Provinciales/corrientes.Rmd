@@ -1,0 +1,19 @@
+---
+title: "Corrientes"
+author: ''
+date: '2021-09-21'
+slug: []
+categories: []
+tags: []
+description: ''
+---
+
+```{=html}
+<div class=“flourish-embed flourish-sankey” data-src=“visualisation/7295043"><script src=“https://public.flourish.studio/resources/embed.js”></script></div>
+```
+
+
+```{=html }
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7295043"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
+

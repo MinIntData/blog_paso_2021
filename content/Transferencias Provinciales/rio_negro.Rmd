@@ -32,7 +32,7 @@ library(leaflegend)
 
 
 ```{=html }
-<div class="flourish-embed flourish-sankey" data-src="visualisation/7254661"style = "height: 860px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7313226"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ```
 
 

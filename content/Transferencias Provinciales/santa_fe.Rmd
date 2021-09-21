@@ -16,7 +16,7 @@ library(sf)
 library(leaflet)
 library(leaflegend)
 
-read_sf("data/base_stafe_2019-2021_dpto.geojson")
+base_stafe1921 <- read_sf("data/base_stafe_2019_2021_dpto.geojson")
 
 
 ```
@@ -98,7 +98,7 @@ leaflet(base_stafe1921) %>%
                                       "Diferencia %"),
                    options = layersControlOptions(collapsed = F)) %>%
   hideGroup(c("Votos Fdt 2021", "Votos Fdt 2019"))
-
+ 
 ```
 
 

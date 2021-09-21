@@ -7,13 +7,6 @@ categories: []
 tags: []
 description: ''
 ---
-<style type="text/css">
-.main-container {
-  max-width: 1080px;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
 
 
 ```{r setup, include=FALSE}
@@ -25,7 +18,7 @@ library(leaflet)
 library(leaflegend)
 
 base_pba1921 <- read_sf("data/pba_2019_2021_dpto2.geojson")
-base_pba1921_circuito <- read_sf("data/pba_2019_2021_circuito.geojson")
+base_pba1921_circuito <- read_sf("data/pba_2019_2021_circuito_norm.geojson")
 
 ```
 
@@ -50,8 +43,8 @@ base_pba1921_circuito <- read_sf("data/pba_2019_2021_circuito.geojson")
   ##MAPA por dpto
   
   
-paldpto19fdt <- colorFactor('Blues',reverse = TRUE ,domain = base_pba1921$fdt_19)
-paldpto21fdt <- colorFactor('Blues',reverse = TRUE ,domain = base_pba1921$fdt_21)
+paldpto19fdt <- colorFactor('Blues',reverse = FALSE ,domain = base_pba1921$fdt_19)
+paldpto21fdt <- colorFactor('Blues',reverse = FALSE ,domain = base_pba1921$fdt_21)
 paldptodif1921 <- colorFactor('Reds',reverse = TRUE ,domain = base_pba1921$dif_FDT)
   
 leaflet(base_pba1921) %>%
@@ -70,14 +63,14 @@ leaflet(base_pba1921) %>%
                                "</br>Diferencia %: ", base_pba1921$dif_FDT),
                 fillColor = ~paldpto21fdt(fdt_21),
                 weight = 0,
-                fillOpacity = 0.9, group = "Votos Fdt 2021") %>% 
+                fillOpacity = 1, group = "Votos Fdt 2021") %>% 
     addPolygons(popup = ~paste("Departamento: ", base_pba1921$nombre_seccion,
                                "</br>% FdT 2021: ", base_pba1921$fdt_21,
                                "</br>% FdT 2019: ", base_pba1921$fdt_19,
                                "</br>Diferencia %: ", base_pba1921$dif_FDT),
                 fillColor = ~paldpto19fdt(fdt_19),
                 weight = 0,
-                fillOpacity = 0.9, group = "Votos Fdt 2019") %>% 
+                fillOpacity = 1, group = "Votos Fdt 2019") %>% 
   addLayersControl(overlayGroups =  c("Votos Fdt 2021", "Votos Fdt 2019",
                                       "Diferencia %"),
                     options = layersControlOptions(collapsed = F))
@@ -94,8 +87,8 @@ leaflet(base_pba1921) %>%
 
 
 
-pal19fdt <- colorFactor('Blues',reverse = TRUE ,domain = base_pba1921_circuito$fdt_19)
-pal21fdt <- colorFactor('Blues',reverse = TRUE ,domain = base_pba1921_circuito$fdt_21)
+pal19fdt <- colorFactor('Blues',reverse = FALSE ,domain = base_pba1921_circuito$fdt_19)
+pal21fdt <- colorFactor('Blues',reverse = FALSE ,domain = base_pba1921_circuito$fdt_21)
 paldif1921 <- colorFactor('Reds',reverse = TRUE ,domain = base_pba1921_circuito$dif_FDT)
 
 leaflet(base_pba1921_circuito) %>%
@@ -114,14 +107,14 @@ leaflet(base_pba1921_circuito) %>%
                              "</br>Diferencia %: ", base_pba1921_circuito$dif_FDT),
               fillColor = ~pal21fdt(fdt_21),
               weight = 0,
-              fillOpacity = 0.9, group = "Votos Fdt 2021") %>%
+              fillOpacity = 1, group = "Votos Fdt 2021") %>%
   addPolygons(popup = ~paste("Departamento: ", base_pba1921_circuito$departamen,
                              "</br>% FdT 2021: ", base_pba1921_circuito$fdt_21,
                              "</br>% FdT 2019: ", base_pba1921_circuito$fdt_19,
                              "</br>Diferencia %: ", base_pba1921_circuito$dif_FDT),
               fillColor = ~pal19fdt(fdt_19),
               weight = 0,
-              fillOpacity = 0.9, group = "Votos Fdt 2019") %>%
+              fillOpacity = 1, group = "Votos Fdt 2019") %>%
   addLayersControl(overlayGroups =  c("Votos Fdt 2021", "Votos Fdt 2019",
                                       "Diferencia %"),
                    options = layersControlOptions(collapsed = F))

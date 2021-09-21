@@ -1,13 +1,9 @@
 ---
-title: "Corrientes"
-author: ''
-date: '2021-09-21'
-slug: []
-categories: []
-tags: []
-description: ''
+title: "Santa Fe"
+author: "jc"
+date: "21/9/2021"
+output: html_document
 ---
-
 
 ```{r setup, include=FALSE}
 
@@ -17,6 +13,7 @@ library(sf)
 library(leaflet)
 library(leaflegend)
 
+
 ```
 
 ----------
@@ -25,10 +22,11 @@ library(leaflegend)
 
 ----------
 
-#### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia de Corrientes**
+#### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia de Santa Fe**
+
 
 ```{=html }
-<div class="flourish-embed flourish-sankey" data-src="visualisation/7295043"style = "height: 860px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7291369"style = "height: 860px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ```
 
 

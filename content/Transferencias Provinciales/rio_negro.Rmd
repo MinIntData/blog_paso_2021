@@ -26,13 +26,7 @@ library(leaflegend)
 #### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia de Rio Negro**
 
 ```{=html }
-<div class=“flourish-embed flourish-sankey” data-src=“visualisation/7313226"style = "height: 860px; width: 1050px;"><script src=“https://public.flourish.studio/resources/embed.js”></script></div>
-
-```
-
-
-```{=html }
-<div class="flourish-embed flourish-sankey" data-src="visualisation/7313226"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7313226"style = "height: 860px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ```
 
 

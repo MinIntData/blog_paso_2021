@@ -2,12 +2,11 @@
 title: "Buenos Aires"
 slug: []
 categories: []
-date: ""
-output: html_document
+date: "2021-09-21"
 ---
 <style type="text/css">
 .main-container {
-  max-width: 1800px;
+  max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -15,6 +14,7 @@ output: html_document
 
 
 ```{r setup, include=FALSE}
+
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, error = FALSE)
 library(tidyverse)
 library(sf)
@@ -38,7 +38,7 @@ base_pba1921_circuito <- read_sf("data/pba_2019_2021_circuito.geojson")
 
 ```{=html }
 
-<div class=“flourish-embed flourish-sankey” data-src=“visualisation/7254661" style = "height: 860px; width: 1050px;"><script src=“https://public.flourish.studio/resources/embed.js”></script></div>
+<div class=“flourish-embed flourish-sankey” data-src="visualisation/7254661"><script src=“https://public.flourish.studio/resources/embed.js”></script></div>
 
 ```
 
@@ -46,7 +46,7 @@ base_pba1921_circuito <- read_sf("data/pba_2019_2021_circuito.geojson")
 
 #### **Mapa comparativo - Diferencia de votos obtenidos por el FdT entre 2019 y 2021 por departamento**.
 
-```{r dpto, width=12.5, fig.height=8, fig.align='center'}
+```{r dpto, width= 12.5, fig.height = 8, fig.align= 'center'}
   ##MAPA por dpto
   
   

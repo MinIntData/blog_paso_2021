@@ -41,8 +41,8 @@ base_stafe1921 <- read_sf("data/base_stafe_2019_2021_dpto.geojson")
 
 ```{r dpto, width= 15.5, fig.height = 6, fig.align= 'center'}
 
-pal19fdt <- colorQuantile('Blues',reverse = FALSE ,domain = base_stafe1921$fdt_19)
-pal21fdt <- colorQuantile('Blues',reverse = FALSE ,domain = base_stafe1921$fdt_21)
+pal19fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 19:60)
+pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 19:60)
 paldif1921 <- colorNumeric('Reds',reverse = TRUE ,domain = base_stafe1921$dif_FDT)
 
 
@@ -98,6 +98,7 @@ leaflet(base_stafe1921) %>%
                                       "Diferencia %"),
                    options = layersControlOptions(collapsed = F)) %>%
   hideGroup(c("Votos Fdt 2021", "Votos Fdt 2019"))
+
  
 ```
 

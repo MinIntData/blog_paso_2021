@@ -1,0 +1,42 @@
+---
+title: "Salta"
+author: "Datos.MInt"
+slug: []
+categories: []
+tags: []
+date: "2021-09-21"
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, error = FALSE)
+
+library(tidyverse)
+library(sf)
+library(leaflet)
+library(leaflegend)
+```
+
+----------
+
+### -  PASO 2019 vs 2021
+
+----------
+
+#### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia de Rio Negro**
+
+
+```{=html }
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7264496" style = "height: 860px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
+
+
+------------
+
+### - PASO 2017 vs 2019
+
+-----------
+
+```{=html }
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7264182" style = "height: 860px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```

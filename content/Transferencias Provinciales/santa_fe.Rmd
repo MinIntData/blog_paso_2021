@@ -122,8 +122,9 @@ paldif1921 <- colorNumeric("RdYlGn",
 
 leaflet(base_stafe1921_circuito) %>%
   addTiles() %>% 
-  #addProviderTiles(providers$CartoDB.DarkMatter) %>%
+  addProviderTiles(providers$CartoDB.DarkMatter) %>%
   addPolygons(popup = ~paste("Departamento: ", base_stafe1921_circuito$depto,
+                             "</br>Circuito: ", base_stafe1921_circuito$circuito,
                              "</br>% FdT 2021: ", base_stafe1921_circuito$fdt_21,
                              "</br>% FdT 2019: ", base_stafe1921_circuito$fdt_19,
                              "</br>Diferencia %: ", base_stafe1921_circuito$dif_FDT),
@@ -142,6 +143,7 @@ leaflet(base_stafe1921_circuito) %>%
 
   
   addPolygons(popup = ~paste("Departamento: ", base_stafe1921_circuito$depto,
+                             "</br>Circuito: ", base_stafe1921_circuito$circuito,
                              "</br>% FdT 2021: ", base_stafe1921_circuito$fdt_21,
                              "</br>% FdT 2019: ", base_stafe1921_circuito$fdt_19,
                              "</br>Diferencia %: ", base_stafe1921_circuito$dif_FDT),
@@ -154,6 +156,7 @@ leaflet(base_stafe1921_circuito) %>%
   
   
   addPolygons(popup = ~paste("Departamento: ", base_stafe1921_circuito$depto,
+                             "</br>Circuito: ", base_stafe1921_circuito$circuito,
                              "</br>% FdT 2021: ", base_stafe1921_circuito$fdt_21,
                              "</br>% FdT 2019: ", base_stafe1921_circuito$fdt_19,
                              "</br>Diferencia %: ", base_stafe1921_circuito$dif_FDT),

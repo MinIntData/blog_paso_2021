@@ -42,15 +42,32 @@ paleta_dip <- colorFactor('Blues',base_diputados$apatia)
 ```
 
 
-#### **Las siguientes visualizaciones captan, a partir de las categorías de voto blanco, voto nulo y participación electoral un índice promedio histórico de "apatía" o descontento en el sufragio.**
+#### **Aquí se visualizará a partir de las categorías de voto blanco, voto nulo y participación electoral un índice promedio histórico de "apatía" o descontento en el sufragio.**
+
+
+#### **Las siguientes tablas muestran el promedio histórico de participación y el correspondiente índice de apatía para las PASO, y cómo los valores de 2021 contrastan con aquellos.**
 
 -----------
+
+### -   **Índice por provincia**
+
 
 ```{=html }
 <div class="flourish-embed flourish-table" data-src="visualisation/7252127"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ```
 
-------------
+--------
+
+### -   **Índice por departamento**
+
+
+```{=html }
+<div class="flourish-embed flourish-table" data-src="visualisation/7324336"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+```
+
+
+----------
 
 #### **Los mapas a continuación están coloreados a partir del nivel de apatía 2021. A mayor intensidad del color azul, mayor el nivel de apatía en la elección primaria.**
 
@@ -63,7 +80,7 @@ paleta_dip <- colorFactor('Blues',base_diputados$apatia)
 ### -   **Índice por provincia**
 
 
-```{r fig.width=10.5, fig.height=8, fig.align='center'}
+```{r fig,width=10.5, fig.height=8, fig.align='center'}
 
 leaflet(base_diputados_prov) %>%
   addTiles() %>%
@@ -88,7 +105,6 @@ leaflet(base_diputados_prov) %>%
 ```
 
  ***Al clickear en cada distrito podrá visualizar información detallada sobre el mismo** 
-
 
 
 ---------

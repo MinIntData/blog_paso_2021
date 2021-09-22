@@ -3,7 +3,7 @@ languageCode: es-AR
 title: Elecciones 2021
 theme: minimal
 disqusShortname: username
-googleAnalytics: ''
+googleAnalytics: "UA-106334854-2"
 params:
   accent: black
   author: Calin Tataru

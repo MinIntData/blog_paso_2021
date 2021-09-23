@@ -29,6 +29,20 @@ base_1921_circuito <- read_sf("data/base_scruz_2019_2021_circuito.geojson")
 
 ---------
 
+
+#### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia Chaco**
+
+```{=html }
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7344923"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
+
+
+---------
+
+
+
+
+
 #### **Mapa comparativo - Diferencia de votos obtenidos por el FdT entre 2019 y 2021 por departamento**.
 
 ```{r dpto, width= 16, fig.height = 7, fig.align= 'center'}

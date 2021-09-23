@@ -1,5 +1,5 @@
 ---
-title: "Chaco"
+title: "Córdoba"
 author: ''
 date: '2021-09-23'
 slug: []
@@ -17,9 +17,9 @@ library(leaflet)
 library(leaflegend)
 
 
-base_1921_dpto <- read_sf("data/base_chaco_2019_2021_depto.geojson")
+base_1921_dpto <- read_sf("data/base_cordoba_2019_2021_depto.geojson")
 
-base_1921_circuito <- read_sf("data/base_chaco_2019_2021_circuito.geojson") 
+base_1921_circuito <- read_sf("data/base_cordoba_2019_2021_circuito.geojson") 
 
 ```
 
@@ -28,17 +28,6 @@ base_1921_circuito <- read_sf("data/base_chaco_2019_2021_circuito.geojson")
 ### -  PASO 2019 vs 2021
 
 --------
-
-
-
-#### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia Chaco**
-
-```{=html }
-<div class="flourish-embed flourish-sankey" data-src="visualisation/7313226"style = "height: 860px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-```
-
-
----------
 
 #### **Mapa comparativo - Nivel departamento**
 
@@ -51,9 +40,8 @@ base_1921_circuito <- read_sf("data/base_chaco_2019_2021_circuito.geojson")
 ##dpto con 3 capas
 
 
-
-pal19fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)
-pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)
+pal19fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:50)
+pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:50)
 paldif1921 <- colorNumeric('Reds',reverse = TRUE ,domain = base_1921_dpto$dif_FDT)
 
 
@@ -125,7 +113,6 @@ leaflet(base_1921_dpto) %>%
 
 ```{r circuito, width= 16, fig.height = 7, fig.align= 'center'}
 
-
 pal19fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)
 pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)
 paldif1921 <- colorNumeric("Reds",reverse = TRUE ,domain = base_1921_circuito$dif_FDT)
@@ -176,3 +163,5 @@ leaflet(base_1921_circuito) %>%
   hideGroup(c("Votos Fdt 2021", "Votos Fdt 2019"))
 
 ```
+
+--------

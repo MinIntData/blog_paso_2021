@@ -1,5 +1,5 @@
 ---
-title: "La Pampa"
+title: "Chaco"
 author: ''
 date: '2021-09-23'
 slug: []
@@ -17,10 +17,9 @@ library(leaflet)
 library(leaflegend)
 
 
-base_1921_dpto <- read_sf("data/base_lapampa_2019_2021_depto.geojson")
+base_1921_dpto <- read_sf("data/base_chaco_2019_2021_depto.geojson")
 
-base_1921_circuito <- read_sf("data/base_lapampa_2019_2021_circuito.geojson") %>% 
-  rename(depto = departamen) 
+base_1921_circuito <- read_sf("data/base_chaco_2019_2021_circuito.geojson") 
 
 ```
 
@@ -28,18 +27,7 @@ base_1921_circuito <- read_sf("data/base_lapampa_2019_2021_circuito.geojson") %>
 
 ### -  PASO 2019 vs 2021
 
-----------
-
-
-#### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia Chaco**
-
-```{=html }
-<div class="flourish-embed flourish-sankey" data-src="visualisation/7313226"style = "height: 860px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
-```
-
-
----------
-
+--------
 
 #### **Mapa comparativo - Nivel departamento**
 
@@ -47,15 +35,14 @@ base_1921_circuito <- read_sf("data/base_lapampa_2019_2021_circuito.geojson") %>
 
 #### **Diferencia de votos obtenidos por el FdT entre 2019 y 2021 por departamento**.
 
-
 ```{r dpto, width= 16, fig.height = 7, fig.align= 'center'}
 ##MAPAS
 ##dpto con 3 capas
 
 
 
-pal19fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 19:70)
-pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 19:70)
+pal19fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)
+pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)
 paldif1921 <- colorNumeric('RdYlGn',reverse = FALSE ,domain = base_1921_dpto$dif_FDT)
 
 

@@ -134,3 +134,7 @@ leaflet(base_diputados) %>%
   addPolylines(color = "white", weight = 0.6)
 
 ```
+
+##### ***Los datos surgen del recuento provisional de votos, por lo que podrían estar sujetos a variaciones.
+
+----------

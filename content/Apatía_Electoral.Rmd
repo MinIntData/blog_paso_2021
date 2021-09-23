@@ -20,7 +20,6 @@ description: ''
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, error = FALSE)
 
-library(flexdashboard)
 library(tidyverse)
 library(sf)
 library(leaflet)
@@ -34,10 +33,10 @@ base_diputados_prov <- read_sf("data/apatia/base_diputados_apatiaProv.geojson") 
 paleta_dip_prov <- colorFactor('Blues',base_diputados_prov$apatia)
 
 # Diputados x depto ####
-base_diputados <- read_sf("../content/data/apatia/base_diputados_apatia.geojson") %>%
+base_diputados <- read_sf("../content/data/apatia/base_nueva_apatia.geojson") %>%
   print()
 
-paleta_dip <- colorFactor('Blues',base_diputados$apatia)
+paleta_dip <- colorFactor('Blues', base_diputados$apatia)
  
 ```
 
@@ -80,26 +79,35 @@ paleta_dip <- colorFactor('Blues',base_diputados$apatia)
 ### -   **Índice por provincia**
 
 
-```{r fig,width=10.5, fig.height=8, fig.align='center'}
+```{=html }
+<div class="flourish-embed flourish-map" data-src="visualisation/7342214"style = "width: 720px; float: center;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-leaflet(base_diputados_prov) %>%
-  addTiles() %>%
-  addProviderTiles(providers$CartoDB.DarkMatterNoLabels) %>%
-  addPolygons(popup = ~paste("Provincia: ", base_diputados_prov$id,
-                             "</br>Promedio histórico de participacion: ", as.character(promedio_participacion),
-                             "</br>Participación 2021: ", as.character(participacion),
-                             "</br>Prom. histórico apatía: ", as.character(promedio_apatia),
-                             "</br>Apatía 2021 : ", as.character(apatia)),
-              fillColor = ~paleta_dip_prov(apatia),
-              weight = 0,
-              fillOpacity = 0.9) %>%
-  addPolylines(color = "white", weight = 0.6) %>%
-  addLegendFactor(pal = paleta_dip_prov,
-                  values = base_diputados_prov$apatia,
-                  title = "Apatía 2021 por provincia",
-                  opacity = 0.4,
-                  position = "bottomright",
-                  orientation = "horizontal")
+```
+
+
+
+
+
+```{r fig,width=10.5, fig.height=8, fig.align='center'}
+# 
+# leaflet(base_diputados_prov) %>%
+#   addTiles() %>%
+#   addProviderTiles(providers$CartoDB.DarkMatterNoLabels) %>%
+#   addPolygons(popup = ~paste("Provincia: ", base_diputados_prov$id,
+#                              "</br>Promedio histórico de participacion: ", as.character(promedio_participacion),
+#                              "</br>Participación 2021: ", as.character(participacion),
+#                              "</br>Prom. histórico apatía: ", as.character(promedio_apatia),
+#                              "</br>Apatía 2021 : ", as.character(apatia)),
+#               fillColor = ~paleta_dip_prov(apatia),
+#               weight = 0,
+#               fillOpacity = 0.9) %>%
+#   addPolylines(color = "white", weight = 0.6) %>%
+#   addLegendFactor(pal = paleta_dip_prov,
+#                   values = base_diputados_prov$apatia,
+#                   title = "Apatía 2021 por provincia",
+#                   opacity = 0.4,
+#                   position = "bottomright",
+#                   orientation = "horizontal")
 
 
 ```
@@ -116,10 +124,10 @@ leaflet(base_diputados_prov) %>%
 leaflet(base_diputados) %>%
   addTiles() %>%
   addProviderTiles(providers$CartoDB.DarkMatterNoLabels) %>%
-  addPolygons(popup = ~paste("Provincia: ", base_diputados$id,
-                             "</br>Departamento: ", nomdepto_censo,
-                             "</br>Prom. hist. apatía: ", as.character(promedio_apatia),
-                             "</br>Apatía 2021 : ", as.character(apatia)),
+  addPolygons(popup = ~paste("Provincia: ", base_diputados$provincia,
+                             "</br>Departamento: ", base_diputados$departamento,
+                             "</br>Prom. hist. apatía: ", as.character(base_diputados$promedio_apatia),
+                             "</br>Apatía 2021 : ", as.character(base_diputados$apatia)),
               fillColor = ~paleta_dip(apatia),
               weight = 0,
               fillOpacity = 0.9) %>%

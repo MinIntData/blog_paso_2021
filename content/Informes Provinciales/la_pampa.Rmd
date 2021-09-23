@@ -19,7 +19,7 @@ library(leaflegend)
 
 base_1921_dpto <- read_sf("data/base_lapampa_2019_2021_depto.geojson")
 
-read_sf("data/base_lapampa_2019_2021_circuito.geojson") %>% 
+base_1921_circuito <- read_sf("data/base_lapampa_2019_2021_circuito.geojson") %>% 
   rename(depto = departamen) 
 
 ```
@@ -116,11 +116,6 @@ leaflet(base_1921_dpto) %>%
 
 ```{r circuito, width= 16, fig.height = 7, fig.align= 'center'}
 
-base_1921_circuito <- read_sf("data/base_lapampa_2019_2021_circuito.geojson") %>% 
-  rename(depto = departamen) %>%
-  print()
-
-head(base_1921_circuito)
 
 pal19fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)
 pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)

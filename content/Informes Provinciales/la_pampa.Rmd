@@ -31,10 +31,10 @@ base_1921_circuito <- read_sf("data/base_lapampa_2019_2021_circuito.geojson") %>
 ----------
 
 
-#### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia Chaco**
+#### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia La Pampa**
 
 ```{=html }
-<div class="flourish-embed flourish-sankey" data-src="visualisation/7313226"style = "height: 860px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7343799"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ```
 
 

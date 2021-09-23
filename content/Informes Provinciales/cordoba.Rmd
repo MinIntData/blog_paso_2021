@@ -40,8 +40,8 @@ base_1921_circuito <- read_sf("data/base_cordoba_2019_2021_circuito.geojson")
 ##dpto con 3 capas
 
 
-pal19fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:50)
-pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:50)
+pal19fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:45)
+pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:35)
 paldif1921 <- colorNumeric('Reds',reverse = TRUE ,domain = base_1921_dpto$dif_FDT)
 
 

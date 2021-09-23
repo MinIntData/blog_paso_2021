@@ -43,7 +43,7 @@ base_1921_circuito <- read_sf("data/base_chaco_2019_2021_circuito.geojson")
 
 pal19fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)
 pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)
-paldif1921 <- colorNumeric('RdYlGn',reverse = FALSE ,domain = base_1921_dpto$dif_FDT)
+paldif1921 <- colorNumeric('Reds',reverse = TRUE ,domain = base_1921_dpto$dif_FDT)
 
 
 leaflet(base_1921_dpto) %>%
@@ -117,7 +117,7 @@ leaflet(base_1921_dpto) %>%
 
 pal19fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)
 pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)
-paldif1921 <- colorNumeric("RdYlGn",reverse = FALSE ,domain = base_1921_circuito$dif_FDT)
+paldif1921 <- colorNumeric("Reds",reverse = TRUE ,domain = base_1921_circuito$dif_FDT)
 
 leaflet(base_1921_circuito) %>%
   addProviderTiles(providers$CartoDB.DarkMatterNoLabels) %>%

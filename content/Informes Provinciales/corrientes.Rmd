@@ -36,8 +36,8 @@ base_1921_circuito <- read_sf("data/base_ctes_2019_2021_circuito.geojson")
 ```
 
 ---------
-#### **Voto al FdT y Nivel Socioeconómico**
 
+#### **Voto al FdT y Nivel Socioeconómico**
 
 
 #### -    En la provincia de Corrientes, se observa un patrón similar al de la provincia de Buenos Aires, existe una relación inversa entre nivel socioeconómico y voto al Frente de Todos (a mayor nivel socioeconómico, menor voto al FdT) .

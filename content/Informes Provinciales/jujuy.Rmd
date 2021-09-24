@@ -39,6 +39,67 @@ base_1921_circuito <- read_sf("data/base_jujuy_2019_2021_circuito.geojson")
 
 ---------
 
+#### **Voto al FdT y Nivel Socioeconómico**
+
+
+#### -    Existe una relación inversa entre voto al Frente de Todos y nivel socioeconómico: a mayor proporción de hogares con NBI (menor nivel socioeconómico), mayor el voto esperado al FdT.
+
+---------
+
+```{=html }
+<div class="flourish-embed flourish-scatter" data-src="visualisation/7334824"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+```
+
+---------
+
+#### **Voto a JxC y Nivel Socioeconómico**
+
+
+#### -    Se observa cierta transversalidad del electorado de JxC, lo que respaldaría una transferencia de votos por parte del FdT. Jujuy es una de las pocas provincias donde JxC obtiene un apoyo electoral transversal (pensando en términos de nivel socioeconómico).
+
+
+----------
+
+```{=html }
+<div class="flourish-embed flourish-scatter" data-src="visualisation/7334804"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+```
+
+---------
+
+#### **Frente de Izquierda (FIT) y Nivel Socioeconómico**
+
+
+#### -   Existe una marcada relación entre nivel socioeconómico y voto a la izquierda, algo opuesto a lo esperado (mayor apoyo en departamentos más ricos). 
+
+
+----------
+
+```{=html }
+
+<div class="flourish-embed flourish-scatter" data-src="visualisation/7334791"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
+
+
+---------
+
+#### **Participación y Nivel Socioeconómico**
+
+
+#### -    Existe una fuerte relación entre proporción de hogares con NBI (menor nivel socioeconómico) y participación electoral.
+
+
+----------
+
+```{=html }
+<div class="flourish-embed flourish-scatter" data-src="visualisation/7334782"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+```
+
+
+---------
+
 #### **Mapa comparativo - Diferencia de votos obtenidos por el FdT entre 2019 y 2021 por departamento**.
 
 ```{r dpto, width= 16, fig.height = 7, fig.align= 'center'}

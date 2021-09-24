@@ -40,6 +40,54 @@ base_1921_circuito <- read_sf("data/base_lapampa_2019_2021_circuito.geojson") %>
 
 ---------
 
+#### **Voto al FdT y Nivel Socioeconómico**
+
+
+#### -   Existe una relación inversa entre voto al Frente de Todos y nivel socioeconómico: a mayor proporción de hogares con NBI (menor nivel socioeconómico), mayor el voto esperado al FdT.
+
+---------
+
+```{=html }
+<div class="flourish-embed flourish-scatter" data-src="visualisation/7343315"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+```
+
+---------
+
+#### **Voto a JxC y Nivel Socioeconómico**
+
+
+#### -    Existe una relación positiva entre voto al Frente de Todos y nivel socioeconómico: a mayor proporción de hogares con NBI (menor nivel socioeconómico), menor el voto esperado a JxC.
+
+
+----------
+
+```{=html }
+<div class="flourish-embed flourish-scatter" data-src="visualisation/7343366"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+```
+
+---------
+
+#### **Participación y Nivel Socioeconómico**
+
+
+#### -    A menor proporción de hogares con NBI, mayor la participación esperada.
+
+#### -    La diferencia en la participación esperada entre los departamentos de mayor y menor nivel socioeconómico es de 20 puntos porcentuales.
+
+
+
+----------
+
+```{=html }
+<div class="flourish-embed flourish-scatter" data-src="visualisation/7343389"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+```
+
+---------
+
+
 
 #### **Mapa comparativo - Nivel departamento**
 

@@ -36,7 +36,70 @@ base_1921_dpto <- read_sf("data/base_rnegro_2019_2021_depto.geojson")
 
 ---------
 
+#### **Voto al FdT y Nivel Socioeconómico**
+
+
+#### -    Existe una asociación entre voto al Frente de Todos y nivel socioeconómico.
+
+---------
+
+```{=html }
+<div class="flourish-embed flourish-scatter" data-src="visualisation/7334616"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+```
+
+---------
+
+#### **Voto a JxC y Nivel Socioeconómico**
+
+
+#### -   Existe una marcada relación positiva entre nivel socioeconómico y voto a Juntos por el Cambio.
+
+
+----------
+
+```{=html }
+<div class="flourish-embed flourish-scatter" data-src="visualisation/7334745"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+```
+
+---------
+
+#### **Juntos Somos Rio Negro y Nivel Socioeconómico**
+
+
+#### -    El electorado de Juntos Somos Río Negro, parece ser de una extracción similar al del Frente de Todos, compartiendo cierta relación con nivel socioeconómico
+
+
+----------
+
+```{=html }
+
+<div class="flourish-embed flourish-scatter" data-src="visualisation/7334721"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
+
+
+---------
+
+#### **Participación y Nivel Socioeconómico**
+
+
+#### -    No existe una clara relación entre proporción de hogares con NBI (menor nivel socioeconómico) y participación electoral.
+
+
+----------
+
+```{=html }
+<div class="flourish-embed flourish-scatter" data-src="visualisation/7334761"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+```
+
+
+---------
+
 #### **Mapa comparativo - Diferencia de votos obtenidos por el FdT entre 2019 y 2021 por departamento**.
+
+
 
 ```{r dpto, width= 16, fig.height = 7, fig.align= 'center'}
 ##MAPAS

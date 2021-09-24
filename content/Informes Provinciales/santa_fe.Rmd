@@ -31,9 +31,38 @@ base_stafe1921_circuito <- read_sf("data/base_stafe_2019_2021_circ.geojson")
 
 
 ```{=html }
-<div class="flourish-embed flourish-sankey" data-src="visualisation/7291369"style = "height: 860px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7291369"style = "height: 720px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ```
 
+---------
+
+#### **Voto al FdT y Nivel Socioeconómico**
+
+
+
+#### -    A mayor proporción de hogares con NBI (menor nivel socioeconómico), mayor apoyo electoral al Frente de Todos.
+
+---------
+
+```{=html }
+<div class="flourish-embed flourish-scatter" data-src="visualisation/7323684"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+```
+
+---------
+
+#### **Participación y Nivel Socioeconómico**
+
+
+#### -    A diferencia de lo hallado en la Provincia de Buenos Aires, no existe aparente relación entre proporción de hogares con NBI (menor nivel socioeconómico) y participación electoral.
+
+
+----------
+
+```{=html }
+<div class="flourish-embed flourish-scatter" data-src="visualisation/7323685"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+```
 
 ---------
 

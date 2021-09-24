@@ -32,9 +32,53 @@ base_1921_circuito <- read_sf("data/base_ctes_2019_2021_circuito.geojson")
 #### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia de Corrientes**
 
 ```{=html }
-<div class="flourish-embed flourish-sankey" data-src="visualisation/7295043"style = "height: 860px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7295043"style = "height: 720px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ```
 
+---------
+#### **Voto al FdT y Nivel Socioeconómico**
+
+
+
+#### -    En la provincia de Corrientes, se observa un patrón similar al de la provincia de Buenos Aires, existe una relación inversa entre nivel socioeconómico y voto al Frente de Todos (a mayor nivel socioeconómico, menor voto al FdT) .
+
+---------
+
+```{=html }
+<div class="flourish-embed flourish-scatter" data-src="visualisation/7333325"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+```
+
+---------
+
+#### **Voto a JxC y Nivel Socioeconómico**
+
+
+#### -    La principal coalición opositora ha mejorado su desempeño electoral en circuitos de bajos ingresos en Corrientes, aunque se mantiene la relación positiva entre ingresos y mayor apoyo electoral a JxC. 
+#### -    Un caso destacable es el circuito 106 del departamento Concepción, uno de los más pobres de la provincia, donde JxC saca 35 puntos porcentuales más que el Frente de Todos.
+
+
+----------
+
+```{=html }
+<div class="flourish-embed flourish-scatter" data-src="visualisation/7333418"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+```
+
+---------
+
+#### **Participación y Nivel Socioeconómico**
+
+
+#### -    No se observa una clara relación entre participación electoral y nivel socioeconómico, esto indicaría que los niveles de apatía no necesariamente están relacionados con el nivel de ingresos.
+
+
+----------
+
+```{=html }
+<div class="flourish-embed flourish-scatter" data-src="visualisation/7333449"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+```
 
 ---------
 

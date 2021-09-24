@@ -25,9 +25,6 @@ title: ¿Cómo usar el sitio?
 
 #### -    En **proyeccion de bancas** habrán dos visualizaciones: Un conteo actualizado de la distribución de bancas en ambas cámaras del Congreso según los resultados obtenidos. Y una tabla interactiva para observar la proyección de bancas por provincia.
 
-------------
-
-#### -    En **Transferencias** se visualiza el flujo de votos entre fuerzas políticas en elecciones subsiguientes.
 
 ------------
 
@@ -36,3 +33,7 @@ title: ¿Cómo usar el sitio?
 ------------
 
 #### -    En **Participación femenina** se podrá observar si mejoró la participación de las mujeres en el armado de listas, siendo éstas *las elecciones en las que la totalidad del Congreso habrá sido electo bajo la ley de paridad.*
+
+------------
+
+#### -    En **Informes provinciales** se visualiza para cada provincia del país, la **transferencia de votos** entre fuerzas políticas entre las paso 2019 y 2021. También se presentan **mapas interactivos** con la diferencia de votos obtenidos por el FdT respecto a 2019, desagregado a nivel departamento y circuito electoral.  

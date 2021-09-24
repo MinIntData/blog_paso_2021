@@ -15,6 +15,7 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, error = FA
 library(tidyverse)
 library(sf)
 library(leaflet)
+library(leaflet.extras2)
 library(leaflegend)
 
 base_pba1921 <- read_sf("data/pba_2019_2021_dpto2.geojson")
@@ -33,6 +34,37 @@ base_pba1921_circuito <- read_sf("data/pba_2019_2021_circuito_norm.geojson")
 
 ```{=html }
 <div class="flourish-embed flourish-sankey" data-src="visualisation/7254661"style = "height: 860px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
+
+---------
+
+#### **Voto al FdT y Nivel Socioeconómico**
+
+
+
+#### -    A mayor proporción de hogares con NBI (menor nivel socioeconómico), mayor apoyo electoral al Frente de Todos.
+#### -    Esta tendencia se observa en elecciones anteriores, pero en la PASO 2021 se redujo la intensidad de esa tendencia (en los circuitos con más NBI disminuyó más el apoyo electoral al FdT)
+
+---------
+
+```{=html }
+<div class="flourish-embed flourish-scatter" data-src="visualisation/7322783"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+```
+
+---------
+
+#### **Participación y Nivel Socioeconómico**
+
+
+#### -    A mayor proporción de hogares con NBI (menor nivel socioeconómico), menor participación electoral.
+
+
+----------
+
+```{=html }
+<div class="flourish-embed flourish-scatter" data-src="visualisation/7322901"style = "height: 860px; width: 1050px;"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
 ```
 
 ---------
@@ -106,7 +138,13 @@ leaflet(base_pba1921) %>%
   addLayersControl(overlayGroups =  c("Votos Fdt 2021", "Votos Fdt 2019",
                                       "Diferencia %"),
                     options = layersControlOptions(collapsed = F)) %>% 
-  hideGroup(c("Votos Fdt 2021", "Votos Fdt 2019"))
+  hideGroup(c("Votos Fdt 2021", "Votos Fdt 2019")) %>%
+  addEasyprint(options = easyprintOptions(
+                                          title = 'Imprimir Mapa',
+                                          position = 'bottomright',
+                                          exportOnly = TRUE))
+
+
 ```
 
 
@@ -190,7 +228,11 @@ leaflet(base_pba1921_circuito) %>%
   addLayersControl(overlayGroups =  c("Votos Fdt 2021", "Votos Fdt 2019",
                                       "Diferencia %"),
                    options = layersControlOptions(collapsed = FALSE)) %>% 
-  hideGroup(c("Votos Fdt 2021", "Votos Fdt 2019"))
+  hideGroup(c("Votos Fdt 2021", "Votos Fdt 2019")) %>%
+  addEasyprint(options = easyprintOptions(
+                                          title = 'Imprimir Mapa',
+                                          position = 'bottomright',
+                                          exportOnly = TRUE))
 
 ```
 

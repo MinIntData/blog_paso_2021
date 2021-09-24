@@ -29,6 +29,19 @@ base_1921_circuito <- read_sf("data/base_cordoba_2019_2021_circuito.geojson")
 
 --------
 
+
+#### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia Córdoba**
+
+```{=html }
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7345437"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+```
+
+
+---------
+
+
+
 #### **Mapa comparativo - Nivel departamento**
 
 ---------

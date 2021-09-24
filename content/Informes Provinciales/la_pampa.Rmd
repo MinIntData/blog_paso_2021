@@ -14,6 +14,7 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, error = FA
 library(tidyverse)
 library(sf)
 library(leaflet)
+library(leaflet.extras2)
 library(leaflegend)
 
 
@@ -158,7 +159,11 @@ leaflet(base_1921_dpto) %>%
   addLayersControl(overlayGroups =  c("Votos Fdt 2021", "Votos Fdt 2019",
                                       "Diferencia %"),
                    options = layersControlOptions(collapsed = F)) %>%
-  hideGroup(c("Votos Fdt 2021", "Votos Fdt 2019"))
+  hideGroup(c("Votos Fdt 2021", "Votos Fdt 2019"))%>%
+  addEasyprint(options = easyprintOptions(
+                                          title = 'Imprimir Mapa',
+                                          position = 'bottomright',
+                                          exportOnly = TRUE))
 
 ```
 
@@ -223,6 +228,10 @@ leaflet(base_1921_circuito) %>%
   addLayersControl(overlayGroups =  c("Votos Fdt 2021", "Votos Fdt 2019",
                                       "Diferencia %"),
                    options = layersControlOptions(collapsed = FALSE)) %>%
-  hideGroup(c("Votos Fdt 2021", "Votos Fdt 2019"))
+  hideGroup(c("Votos Fdt 2021", "Votos Fdt 2019"))%>%
+  addEasyprint(options = easyprintOptions(
+                                          title = 'Imprimir Mapa',
+                                          position = 'bottomright',
+                                          exportOnly = TRUE))
 
 ```

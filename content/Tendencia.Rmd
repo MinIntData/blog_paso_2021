@@ -38,7 +38,7 @@ googlesheets4::gs4_deauth()
 slope21 <- googlesheets4::read_sheet("https://docs.google.com/spreadsheets/d/1bbpIRD3HR8tZ6OyVRwtyz4L62pt7EJXVWpy9KYt6F-0/edit?usp=sharing",
                           sheet = "slope") %>%
   print()
-
+ 
 # slope_actualizado <- bind_rows(slope_diputados, slope21) %>%
 #   select(-electores) %>%
 #   left_join(solo_electores) %>%

@@ -25,6 +25,20 @@ base_1921_circuito <- read_sf("data/base_neuquen_2019_2021_circuito.geojson")
 
 ----------
 
+### -  PASO 2019 vs 2021
+
+----------
+
+#### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia de Jujuy**
+
+
+```{=html }
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7355743"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+```
+
+
+----------
+
 #### **Mapa comparativo - Nivel departamento**
 
 ---------

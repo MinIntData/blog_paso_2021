@@ -1,5 +1,5 @@
 ---
-title: "Neuquén"
+title: "Entre Rios"
 author: ''
 date: '2021-09-21'
 slug: []
@@ -13,13 +13,14 @@ description: ''
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, error = FALSE)
 library(tidyverse)
 library(sf)
-library(leaflet)
 library(leaflet.extras2)
+library(leaflet)
 library(leaflegend)
 
-base_1921_dpto <- read_sf("data/base_neuquen_2019_2021_depto.geojson")
+base_1921_dpto <- read_sf("data/base_erios_2019_2021_depto.geojson")
 
-base_1921_circuito <- read_sf("data/base_neuquen_2019_2021_circuito.geojson")
+base_1921_circuito <- read_sf("data/base_erios_2019_2021_circuito.geojson") 
+
 
 ```
 
@@ -29,15 +30,16 @@ base_1921_circuito <- read_sf("data/base_neuquen_2019_2021_circuito.geojson")
 
 ----------
 
-#### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia de Neuquén**
 
+#### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia de Entre Ríos**
  
+
 ```{=html }
-<div class="flourish-embed flourish-sankey" data-src="visualisation/7355743"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7387660"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ```
 
 
-----------
+---------
 
 #### **Mapa comparativo - Nivel departamento**
 
@@ -45,15 +47,15 @@ base_1921_circuito <- read_sf("data/base_neuquen_2019_2021_circuito.geojson")
 
 #### **Diferencia de votos obtenidos por el FdT entre 2019 y 2021 por departamento**.
 
-
 ```{r dpto, width= 16, fig.height = 7, fig.align= 'center'}
 ##MAPAS
 ##dpto con 3 capas
 
 
-pal19fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 10:80)
-pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 10:80)
-paldif1921 <- colorNumeric('Reds',reverse = FALSE ,domain = base_1921_dpto$dif_FDT)
+
+pal19fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 20:70)
+pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 20:70)
+paldif1921 <- colorNumeric('Reds',reverse = TRUE ,domain = base_1921_dpto$dif_FDT)
 
 
 leaflet(base_1921_dpto) %>%
@@ -128,10 +130,10 @@ leaflet(base_1921_dpto) %>%
 
 ```{r circuito, width= 16, fig.height = 7, fig.align= 'center'}
 
+
 pal19fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)
 pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)
 paldif1921 <- colorNumeric("Reds",reverse = TRUE ,domain = base_1921_circuito$dif_FDT)
-
 
 leaflet(base_1921_circuito) %>%
   addProviderTiles(providers$CartoDB.DarkMatterNoLabels) %>%

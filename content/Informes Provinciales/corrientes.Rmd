@@ -18,9 +18,9 @@ library(leaflet)
 library(leaflet.extras2)
 library(leaflegend)
 
-base_1921_dpto <- read_sf("data/base_ctes_2019_2021_depto.geojson")
+base_1921_dpto <- read_sf("data/base_corrientes2_2019_2021_depto.geojson")
 
-base_1921_circuito <- read_sf("data/base_ctes_2019_2021_circuito.geojson")
+base_1921_circuito <- read_sf("data/base_corrientes2_2019_2021_circuito.geojson")
 
 ```
 

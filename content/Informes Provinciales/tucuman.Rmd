@@ -1,5 +1,5 @@
 ---
-title: "San Luis"
+title: "Tucumán"
 author: ''
 date: '2021-09-21'
 slug: []
@@ -17,9 +17,9 @@ library(leaflet.extras2)
 library(leaflet)
 library(leaflegend)
 
-base_1921_dpto <- read_sf("data/base_sanluis_2019_2021_depto.geojson")
+base_1921_dpto <- read_sf("data/base_tucuman_2019_2021_depto.geojson")
 
-base_1921_circuito <- read_sf("data/base_sanluis_2019_2021_circuito.geojson") 
+base_1921_circuito <- read_sf("data/base_tucuman_2019_2021_circuito.geojson") 
 
 
 ```
@@ -28,25 +28,24 @@ base_1921_circuito <- read_sf("data/base_sanluis_2019_2021_circuito.geojson")
 
 ### -  PASO 2019 vs 2021
 
-
 ---------
 
-#### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia de San Luis**
+
+#### **Diagrama de transferencia de votos entre agrupaciones políticas y voto blanco para la Provincia de Neuquén**
 
  
 ```{=html }
-<div class="flourish-embed flourish-sankey" data-src="visualisation/7400225"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-sankey" data-src="visualisation/7407712"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 ```
 
 
 ----------
 
-
 #### **Mapa comparativo - Nivel departamento**
 
 ---------
 
-#### **Diferencia de votos obtenidos por el FdT entre 2019 y 2021 por departamento**.
+#### **Diferencia de votos obtenidos por el FdT entre 2019 y 2021**.
 
 ```{r dpto, width= 16, fig.height = 7, fig.align= 'center'}
 ##MAPAS
@@ -54,8 +53,8 @@ base_1921_circuito <- read_sf("data/base_sanluis_2019_2021_circuito.geojson")
 
 
 
-pal19fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 20:90)
-pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 20:90)
+pal19fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)
+pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)
 paldif1921 <- colorNumeric('Reds',reverse = TRUE ,domain = base_1921_dpto$dif_FDT)
 
 
@@ -134,7 +133,7 @@ leaflet(base_1921_dpto) %>%
 
 pal19fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)
 pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)
-paldif1921 <- colorNumeric("RdYlGn",reverse = FALSE ,domain = base_1921_circuito$dif_FDT)
+paldif1921 <- colorNumeric("Reds",reverse = TRUE ,domain = base_1921_circuito$dif_FDT)
 
 leaflet(base_1921_circuito) %>%
   addProviderTiles(providers$CartoDB.DarkMatterNoLabels) %>%

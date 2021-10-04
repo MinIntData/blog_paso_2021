@@ -27,17 +27,16 @@ library(leaflet.extras2)
 library(leaflegend)
 
 #Diputados x pcia ####
-base_diputados_prov <- read_sf("data/apatia/base_diputados_apatiaProv.geojson") %>%
-  print(n=24)
-
-
-paleta_dip_prov <- colorFactor('Blues',base_diputados_prov$apatia)
+# base_diputados_prov <- read_sf("data/apatia/base_diputados_apatiaProv.geojson") %>%
+#   print(n=24)
+# 
+# 
+# paleta_dip_prov <- colorFactor('Blues',base_diputados_prov$apatia)
 
 # Diputados x depto ####
-base_diputados <- read_sf("../content/data/apatia/base_nueva_apatia.geojson") %>%
+base_diputados <- read_sf("../content/data/apatia/base_nuevalp.geojson") %>%
   print()
-
-paleta_dip <- colorFactor('Blues', base_diputados$apatia)
+paleta_dip <- colorNumeric('Blues', base_diputados$apatia)
  
 ```
 

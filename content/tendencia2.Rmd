@@ -11,26 +11,26 @@ library(tidyverse)
 library(sf)
 library(leaflet)
 library(leaflet.extras2)
+library(leaflet.extras)
 
 #genero centroides de poligonos dptos y extraigo coords lat long.
 swing_dpto <- read_sf("dif_depto_arg.geojson") %>%
   janitor::clean_names() %>%
+  unique() %>% 
+  #mutate(!duplicated(geometry,)) %>% 
   mutate(centroide = st_point_on_surface(geometry)) %>%
-  extract(centroide, c("lon","lat"), "\\((.*), (.*)\\)", convert = TRUE) %>%
-  print()
+  extract(centroide, c("lon","lat"), "\\((.*), (.*)\\)", convert = TRUE)
 
-summary(swing_dpto)
 
 #clasificacion y icon size
 deptoneg <- swing_dpto %>%
   filter(dif_fdt < 0) %>%
   mutate(q = ifelse(dif_fdt < -20, 30,
                     ifelse(dif_fdt > -20 & dif_fdt < -10, 20,
-                           ifelse(dif_fdt > -10 & dif_fdt < -5, 10,
-                                  ifelse(dif_fdt > -5 & dif_fdt < 0, 5,
+                           ifelse(dif_fdt > -10 & dif_fdt < -5, 12,
+                                  ifelse(dif_fdt > -5 & dif_fdt < -0.1, 7,
                                   "positivo"))))
-         ) %>%
-  print()
+         ) 
 
 
 deptopos <- swing_dpto %>%
@@ -40,9 +40,7 @@ deptopos <- swing_dpto %>%
                            ifelse(dif_fdt < 10 & dif_fdt > 5, 15,
                                   ifelse(dif_fdt < 5 & dif_fdt > 0, 10,
                                   "negativo"))))
-         ) %>%
-  print()
-
+         )
 ```
 
 
@@ -63,8 +61,19 @@ labneg <- sprintf(
 
 leaflet()  %>%
   setView(lng = -66.85067, lat = -29.41105, zoom = 6) %>% 
-  addTiles() %>%
-  addPolylines(data = swing_dpto$geometry, weight = 0.2, color = "black") %>% 
+  addProviderTiles(provider = providers$Stamen.TonerBackground, 
+                   group = "Background"
+                   ) %>%
+  # addPolygons(data = swing_dpto$geometry, 
+  #             weight = 0.2,  
+  #             fillColor = "#F2F3F4",
+  #             opacity = 0.1, 
+  #             fillOpacity = 0.8
+  #             ) %>% 
+  addPolylines(data = swing_dpto$geometry, weight = 0.4, color = "black",
+               highlightOptions = highlightOptions(stroke = TRUE, 
+                                                   color = "black",
+                                                   bringToFront = TRUE)) %>% 
   addMapkeyMarkers(data = deptoneg, lng = deptoneg$lon, lat = deptoneg$lat,
                    icon = makeMapkeyIcon(icon = "arrow_down",
                                          color = "red",
@@ -72,7 +81,7 @@ leaflet()  %>%
                                          boxShadow = FALSE,
                                          background = "transparent",
                                          htmlCode = ),
-                   group = "mapkey",
+                   group = "Negativo",
                    label = labneg
 
   ) %>%
@@ -83,10 +92,14 @@ leaflet()  %>%
                                          iconSize = ~q,
                                          boxShadow = FALSE,
                                          background = "transparent"),
-                   group = "mapkey",
+                   group = "Positivo",
                    label = labpos
                    #popup = ~village
   ) %>% 
+  addLayersControl(
+                   overlayGroups = c("Background","Positivo", "Negativo"),
+                   options = layersControlOptions(collapsed = F)) %>% 
+  addFullscreenControl(position = "bottomright", pseudoFullscreen = TRUE) %>% 
   addEasyprint()
 
 ```

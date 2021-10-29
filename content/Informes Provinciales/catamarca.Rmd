@@ -16,7 +16,7 @@ library(sf)
 library(leaflet)
 library(leaflegend)
 library(leaflet.extras2)
-
+library(mapview)
 
 base_1921_dpto <- read_sf("data/base_catamarca_2019_2021_depto.geojson")
 
@@ -58,7 +58,7 @@ pal21fdt <- colorNumeric('Blues',reverse = FALSE ,domain = 0:100)
 paldif1921 <- colorNumeric('RdYlGn',reverse = FALSE ,domain = base_1921_dpto$dif_FDT)
 
 
-leaflet(base_1921_dpto) %>%
+m <- leaflet(base_1921_dpto) %>%
   addProviderTiles(providers$CartoDB.DarkMatterNoLabels) %>%
   addPolygons(popup = ~paste("Departamento: ", base_1921_dpto$nomdepto,
                              "</br>% FdT 2021: ", base_1921_dpto$fdt_21,
@@ -113,7 +113,8 @@ leaflet(base_1921_dpto) %>%
   addEasyprint(options = easyprintOptions(
                                           title = 'Imprimir Mapa',
                                           position = 'bottomright',
-                                          exportOnly = TRUE))
+                                          exportOnly = TRUE)) 
+
 
 ```
 

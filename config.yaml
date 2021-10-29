@@ -59,6 +59,9 @@ menu:
     - name: Informes Provinciales
       url: /Informes Provinciales/
       weight: 8
+    - name: tendencia21
+      url: /tendencia2/
+      weight: 9
     # - name: Transferencias
     #   url: /Transferencias/
     #   weight: 9

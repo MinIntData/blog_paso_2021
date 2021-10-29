@@ -1,0 +1,92 @@
+---
+title: "Tendencia"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, error = FALSE)
+#depto mapa para diputadxs interactivo ####
+
+library(tidyverse)
+library(sf)
+library(leaflet)
+library(leaflet.extras2)
+
+#genero centroides de poligonos dptos y extraigo coords lat long.
+swing_dpto <- read_sf("dif_depto_arg.geojson") %>%
+  janitor::clean_names() %>%
+  mutate(centroide = st_point_on_surface(geometry)) %>%
+  extract(centroide, c("lon","lat"), "\\((.*), (.*)\\)", convert = TRUE) %>%
+  print()
+
+summary(swing_dpto)
+
+#clasificacion y icon size
+deptoneg <- swing_dpto %>%
+  filter(dif_fdt < 0) %>%
+  mutate(q = ifelse(dif_fdt < -20, 30,
+                    ifelse(dif_fdt > -20 & dif_fdt < -10, 20,
+                           ifelse(dif_fdt > -10 & dif_fdt < -5, 10,
+                                  ifelse(dif_fdt > -5 & dif_fdt < 0, 5,
+                                  "positivo"))))
+         ) %>%
+  print()
+
+
+deptopos <- swing_dpto %>%
+  filter(dif_fdt > 0) %>%
+  mutate(q = ifelse(dif_fdt > 20, 40,
+                    ifelse(dif_fdt < 20 & dif_fdt > 10, 25,
+                           ifelse(dif_fdt < 10 & dif_fdt > 5, 15,
+                                  ifelse(dif_fdt < 5 & dif_fdt > 0, 10,
+                                  "negativo"))))
+         ) %>%
+  print()
+
+```
+
+
+```{r}
+#etiquetas up y dwn
+labpos <- sprintf(
+  "<strong>%s</strong><br/>Dif FdT: %s",
+  deptopos$nomdepto, deptopos$dif_fdt) %>%
+  lapply(htmltools::HTML)
+
+labneg <- sprintf(
+  "<strong>%s</strong><br/>Dif FdT: %s",
+  deptoneg$nomdepto, deptoneg$dif_fdt) %>%
+  lapply(htmltools::HTML)
+
+
+#mapa
+
+leaflet()  %>%
+  setView(lng = -66.85067, lat = -29.41105, zoom = 6) %>% 
+  addTiles() %>%
+  addPolylines(data = swing_dpto$geometry, weight = 0.2, color = "black") %>% 
+  addMapkeyMarkers(data = deptoneg, lng = deptoneg$lon, lat = deptoneg$lat,
+                   icon = makeMapkeyIcon(icon = "arrow_down",
+                                         color = "red",
+                                         iconSize = ~q,
+                                         boxShadow = FALSE,
+                                         background = "transparent",
+                                         htmlCode = ),
+                   group = "mapkey",
+                   label = labneg
+
+  ) %>%
+  addMapkeyMarkers(data = deptopos, lng = deptopos$lon, lat = deptopos$lat,
+
+                   icon = makeMapkeyIcon(icon = "arrow_up",
+                                         color = "green",
+                                         iconSize = ~q,
+                                         boxShadow = FALSE,
+                                         background = "transparent"),
+                   group = "mapkey",
+                   label = labpos
+                   #popup = ~village
+  ) %>% 
+  addEasyprint()
+
+```
